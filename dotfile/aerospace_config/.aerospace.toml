@@ -47,7 +47,7 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 [gaps]
 inner.horizontal = [{ monitor."built-in" = 9 }, 9]
 inner.vertical = [{ monitor."built-in" = 9 }, 9]
-outer.top = [{ monitor."built-in" = 15 }, 50]
+outer.top = [{ monitor."built-in" = 15 }, 52]
 outer.left = [{ monitor."built-in" = 9 }, 9]
 outer.bottom = [{ monitor."built-in" = 9 }, 9]
 outer.right = [{ monitor."built-in" = 9 }, 6]
@@ -93,18 +93,18 @@ alt-shift-l = 'move right'
 alt-shift-minus = 'resize smart -100'
 alt-shift-equal = 'resize smart +100'
 
-alt-b = 'workspace Browse'
+alt-b = 'workspace Brow'
 alt-c = 'workspace Chat'
 alt-d = 'workspace Dev'
 alt-r = 'workspace Read'
-alt-w = 'workspace Write'
+alt-w = 'workspace Wri'
 alt-z = 'workspace Zen'
 
-alt-shift-b = 'move-node-to-workspace Browse'
+alt-shift-b = 'move-node-to-workspace Brow'
 alt-shift-c = 'move-node-to-workspace Chat'
 alt-shift-d = 'move-node-to-workspace Dev'
 alt-shift-r = 'move-node-to-workspace Read'
-alt-shift-w = 'move-node-to-workspace Write'
+alt-shift-w = 'move-node-to-workspace Wri'
 alt-shift-z = 'move-node-to-workspace Zen'
 
 alt-tab = 'workspace-back-and-forth'
@@ -164,11 +164,11 @@ run = 'move-node-to-workspace Chat'
 
 [[on-window-detected]]
 if.app-id = 'company.thebrowser.Browser'
-run = 'move-node-to-workspace Browse'
+run = 'move-node-to-workspace Brow'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.Safari'
-run = 'move-node-to-workspace Browse'
+run = 'move-node-to-workspace Brow'
 
 [[on-window-detected]]
 if.app-id = 'org.mozilla.com.zen.browser'
@@ -178,31 +178,30 @@ check-further-callbacks = true
 
 [[on-window-detected]]
 if.window-title-regex-substring = '(浏览器|browser|edge|chrome|vivaldi|zen|firefox|tor|librewolf|waterfox|brave|opera)'
-run = 'move-node-to-workspace Browse'
+run = 'move-node-to-workspace Brow'
 check-further-callbacks = true
 
 [[on-window-detected]]
 if.app-id = 'org.mozilla.com.zen.browser'
-run = 'move-node-to-workspace Browse'
+run = 'move-node-to-workspace Brow'
 
 ## Write
 
 [[on-window-detected]]
 if.app-id = 'com.electron.logseq'
-run = 'move-node-to-workspace Write'
+run = 'move-node-to-workspace Wri'
 
 [[on-window-detected]]
 if.app-id = 'abnerworks.Typora'
-run = 'move-node-to-workspace Write'
-
+run = 'move-node-to-workspace Wri'
 
 [[on-window-detected]]
 if.app-id = 'net.xmind.vana.app'
-run = 'move-node-to-workspace Write'
+run = 'move-node-to-workspace Wri'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.mobilenotes'
-run = 'move-node-to-workspace Write'
+run = 'move-node-to-workspace Wri'
 
 ## Dev
 
