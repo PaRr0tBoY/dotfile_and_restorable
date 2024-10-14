@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "scanf(\"%d\", );",
+    "uid" : "C42E27E5-973E-4DC3-B59E-85E700CEFFB7",
+    "name" : "Scanf",
+    "keyword" : "scan"
+  }
+}

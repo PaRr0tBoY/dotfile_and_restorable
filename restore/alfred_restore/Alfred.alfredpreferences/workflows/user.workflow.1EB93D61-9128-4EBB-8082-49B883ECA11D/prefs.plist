@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>deepseek_apikey</key>
+	<string>sk-8086deb9ace74884be4be2304a7391cf</string>
+	<key>perplexity_gpt_model</key>
+	<string>llama-3.1-8b-instruct</string>
+	<key>primary_endpoint</key>
+	<string>Local LM</string>
+</dict>
+</plist>

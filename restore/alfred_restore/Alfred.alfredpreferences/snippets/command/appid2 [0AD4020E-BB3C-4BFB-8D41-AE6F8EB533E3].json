@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "osascript -e 'id of app \"zen\"'",
+    "uid" : "0AD4020E-BB3C-4BFB-8D41-AE6F8EB533E3",
+    "name" : "appid2",
+    "keyword" : "appID"
+  }
+}

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.vitor.applescriptdictionaries</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>0C34FB83-CBAA-41E0-B482-47270F6ABB19</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7307CF18-FA86-41AF-BDC7-AB66D75667E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2304F28F-1CCF-4DE4-B47C-14A637B2551D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F720020-3637-4681-926C-B434F10BCF70</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7307CF18-FA86-41AF-BDC7-AB66D75667E9</key>
+		<array/>
+		<key>7A58F92F-50C1-456F-90EA-BE0F47F2C5A4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D912659A-805F-410F-A602-8BA6AC894BEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7D4ED081-C6A3-4262-9578-229B307CE081</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>99D694BC-7C8B-4735-A22C-21F9CAAE5A54</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8F720020-3637-4681-926C-B434F10BCF70</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27798F6D-1A31-4878-B7F9-CCB14F11A67F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99D694BC-7C8B-4735-A22C-21F9CAAE5A54</key>
+		<array/>
+		<key>D912659A-805F-410F-A602-8BA6AC894BEF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C34FB83-CBAA-41E0-B482-47270F6ABB19</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vítor Galvão</string>
+	<key>description</key>
+	<string>Find and open Mac automation dictionaries</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>AppleScript Dictionaries</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open -a 'Script Editor' "${1}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>99D694BC-7C8B-4735-A22C-21F9CAAE5A54</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:search_keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for AppleScript dictionaries…</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>find-dicts</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>AppleScript Dictionaries</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7D4ED081-C6A3-4262-9578-229B307CE081</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application id "com.runningwithcrayons.Alfred" to reload workflow (system attribute "alfred_workflow_bundleid")</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7307CF18-FA86-41AF-BDC7-AB66D75667E9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Please ensure the app has an AppleScript dictionary</string>
+				<key>title</key>
+				<string>Failed to Generate Dictionary</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8F720020-3637-4681-926C-B434F10BCF70</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Sosumi</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>27798F6D-1A31-4878-B7F9-CCB14F11A67F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array>
+					<string>com.apple.application-bundle</string>
+				</array>
+				<key>name</key>
+				<string>Generate AppleScript Dictionary</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>7A58F92F-50C1-456F-90EA-BE0F47F2C5A4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>ObjC.import("AppKit")
+
+// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function writeFile(path, text) {
+  $(text).writeToFileAtomicallyEncodingError(path, true, $.NSUTF8StringEncoding, undefined)
+}
+
+function mkdir(path) {
+  $.NSFileManager
+    .defaultManager
+    .createDirectoryAtPathWithIntermediateDirectoriesAttributesError(path, true, undefined, undefined)
+}
+
+function runCommand(...arguments) {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/env")
+  task.arguments = arguments
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return stringOut
+}
+
+// Main
+function run(argv) {
+  // Get info
+  const appPath = argv[0]
+  const appName = Application(appPath).name()
+  const appDict = runCommand("/usr/bin/sdef", appPath)
+
+  // Exit if failed to generate dictionary
+  if (appDict.length === 0) return false
+
+  // Store dictionary in custom directory tree
+  const shimDir = `${envVar("alfred_workflow_data")}/${appName}`
+  const dictDir = `${shimDir}/Contents/Resources`
+  mkdir(dictDir)
+  writeFile(`${dictDir}/${appName}.sdef`, appDict)
+
+  // Change folder icon to match app
+  const workspace = $.NSWorkspace.sharedWorkspace
+  const icon = workspace.iconForFile(appPath)
+  workspace.setIconForFileOptions(icon, shimDir, 0)
+
+  // Exit with success
+  return true
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D912659A-805F-410F-A602-8BA6AC894BEF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Success</string>
+						<key>uid</key>
+						<string>2304F28F-1CCF-4DE4-B47C-14A637B2551D</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Failure</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>0C34FB83-CBAA-41E0-B482-47270F6ABB19</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+
+Search through installed AppleScript dictionaries via the `asdic` keyword. &lt;kbd&gt;↩&lt;/kbd&gt; to open.
+
+![Alfred results for asdic m](images/about/asdicm.png)
+
+A minority of apps use an older dictionary format which can be converted with the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/).
+
+![Universal Action for generating dictionary](images/about/newdict.png)</string>
+	<key>uidata</key>
+	<dict>
+		<key>0C34FB83-CBAA-41E0-B482-47270F6ABB19</key>
+		<dict>
+			<key>xpos</key>
+			<real>455</real>
+			<key>ypos</key>
+			<real>315</real>
+		</dict>
+		<key>27798F6D-1A31-4878-B7F9-CCB14F11A67F</key>
+		<dict>
+			<key>xpos</key>
+			<real>750</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>7307CF18-FA86-41AF-BDC7-AB66D75667E9</key>
+		<dict>
+			<key>note</key>
+			<string>Flush cache</string>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>115</real>
+		</dict>
+		<key>7A58F92F-50C1-456F-90EA-BE0F47F2C5A4</key>
+		<dict>
+			<key>note</key>
+			<string>Generate sdef for app with older scriptSuite</string>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>7D4ED081-C6A3-4262-9578-229B307CE081</key>
+		<dict>
+			<key>note</key>
+			<string>List AppleScript dictionaries</string>
+			<key>xpos</key>
+			<real>45</real>
+			<key>ypos</key>
+			<real>115</real>
+		</dict>
+		<key>8F720020-3637-4681-926C-B434F10BCF70</key>
+		<dict>
+			<key>xpos</key>
+			<real>575</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>99D694BC-7C8B-4735-A22C-21F9CAAE5A54</key>
+		<dict>
+			<key>note</key>
+			<string>Open dictionary</string>
+			<key>xpos</key>
+			<real>265</real>
+			<key>ypos</key>
+			<real>115</real>
+		</dict>
+		<key>D912659A-805F-410F-A602-8BA6AC894BEF</key>
+		<dict>
+			<key>note</key>
+			<string>Build sdef for app</string>
+			<key>xpos</key>
+			<real>265</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>asdic</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Search Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>search_keyword</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>2024.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/alfredapp/applescript-dictionaries-workflow/</string>
+</dict>
+</plist>

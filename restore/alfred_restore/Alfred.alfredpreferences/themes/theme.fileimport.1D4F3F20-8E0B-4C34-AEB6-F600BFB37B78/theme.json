@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 9,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#FF6E3FFF",
+        "font" : "FZYanSongS-R-GB",
+        "color" : "#707D93FF"
+      },
+      "shortcut" : {
+        "size" : 13,
+        "colorSelected" : "#969BA0FF",
+        "font" : "FZYanSongS-DB-GB",
+        "color" : "#707D937E"
+      },
+      "backgroundSelected" : "#FDFFFDF2",
+      "text" : {
+        "size" : 14,
+        "colorSelected" : "#F45826FF",
+        "font" : "FZYanSongS-DB-GB",
+        "color" : "#5E6B7FFF"
+      },
+      "iconPaddingHorizontal" : 9,
+      "roundness" : 12,
+      "paddingVertical" : 9,
+      "iconSize" : 32
+    },
+    "search" : {
+      "backgroundSelected" : "#A9D8FFFF",
+      "paddingHorizontal" : 9,
+      "spacing" : 0,
+      "text" : {
+        "size" : 41,
+        "colorSelected" : "#F45826FF",
+        "font" : "FZYanSongS-B-GB",
+        "color" : "#707D93FF"
+      },
+      "background" : "#FEFFFE00",
+      "roundness" : 10,
+      "paddingVertical" : 6
+    },
+    "window" : {
+      "color" : "#F8F9F8E5",
+      "paddingHorizontal" : 13,
+      "width" : 795,
+      "borderPadding" : 0,
+      "borderColor" : "#FF4264FF",
+      "blur" : 0,
+      "roundness" : 20,
+      "paddingVertical" : 5
+    },
+    "credit" : "akharrou",
+    "separator" : {
+      "color" : "#2F313500",
+      "thickness" : 2
+    },
+    "scrollbar" : {
+      "color" : "#D3D3D3FF",
+      "thickness" : 0
+    },
+    "name" : "Product (Light)"
+  }
+}

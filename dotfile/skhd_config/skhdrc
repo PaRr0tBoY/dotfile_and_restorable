@@ -1,0 +1,34 @@
+# M O D E S
+:: default : $HOME/.config/bin/helpers -n
+:: window @ : $HOME/.config/bin/helpers -w
+:: scripts @ : $HOME/.config/bin/helpers -s
+# Mode Shortcuts
+default, scripts < lcmd - escape ; window
+window, scripts < escape ; default
+default, window < lctrl - escape ; scripts
+
+# reload aerospace config
+cmd + shift - r : aerospace reload-config
+# system control
+cmd + shift - s : osascript -e 'tell application "System Events" to sleep'
+
+cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+
+#cmd + shift - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~ joshuto
+
+alt - 1 : aerospace workspace Browse
+alt - 2 : aerospace workspace Chat
+alt - 3 : aerospace workspace Dev
+alt - 4 : aerospace workspace Read
+alt - 5 : aerospace workspace Write
+alt - 6 : aerospace workspace Zen
+
+cmd + shift - l : aerospace layout floating tiling; sketchybar --trigger windows_focus
+cmd + shift - f : aerospace fullscreen; sketchybar --trigger windows_focus
+cmd + shift - m : aerospace macos-native-minimize; aerospace fullscreen
+cmd + shift - b : aerospace balance-sizes
+cmd + shift - e : open -a 'bbedit' /Users/acid/.aerospace.toml /Users/acid/.config/sketchybar/sketchybarrc /Users/acid/.config/skhd/skhdrc
+
+# open qutebrowser
+cmd + shift - q : open -a 'qutebrowser'
+cmd + shift - v : open -a 'Zen Browser' 'https://www.bilibili.com/'

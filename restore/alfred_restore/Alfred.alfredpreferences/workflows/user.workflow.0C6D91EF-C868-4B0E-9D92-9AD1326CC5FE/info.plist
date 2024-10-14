@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.yinanchen.alfred-github-star</string>
+	<key>connections</key>
+	<dict>
+		<key>3D0D2645-4CAE-4B86-9676-C3953FA844F2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>29D42A92-C63E-48DD-88EF-51F971691178</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy URL to clipboard.</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>41CCB96E-8804-4939-ACEF-BE00D2DC015F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CADE2763-4D04-4346-9C84-A43437C25E77</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Copy git clone command to clipboard.</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CADE2763-4D04-4346-9C84-A43437C25E77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FE20F637-87D5-43EE-880A-C6C7A7AD1DA5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>6DB1411A-19FF-42A9-A3F6-1929B6B523D7</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>80858294-752D-488D-8E60-C72131DC9210</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>67DAC7A1-C68F-42E6-9FE8-46DD5AC6DDD8</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>56B403A7-E741-4CC6-9E9C-7464C2E6E70B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yinan Chen</string>
+	<key>description</key>
+	<string>Search your starred repositories in Github</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>GitHub Star</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>https://github.com/{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>29D42A92-C63E-48DD-88EF-51F971691178</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>41CCB96E-8804-4939-ACEF-BE00D2DC015F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ghs</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>fetching…</string>
+				<key>script</key>
+				<string>export PYTHONPATH='./dependency/'
+
+python3 github-stars.py</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Browse starred repositories</string>
+				<key>title</key>
+				<string>GitHub Star</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3D0D2645-4CAE-4B86-9676-C3953FA844F2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>clone_url="git clone https://github.com/{query}.git"
+osascript -e "set the clipboard to \"$clone_url\""</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FE20F637-87D5-43EE-880A-C6C7A7AD1DA5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>clone_url="git clone git@github.com:{query}.git"
+osascript -e "set the clipboard to \"$clone_url\""</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>80858294-752D-488D-8E60-C72131DC9210</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:clone_protocal}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>https</string>
+						<key>outputlabel</key>
+						<string>https</string>
+						<key>uid</key>
+						<string>6DB1411A-19FF-42A9-A3F6-1929B6B523D7</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:clone_protocal}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>ssh</string>
+						<key>outputlabel</key>
+						<string>ssh</string>
+						<key>uid</key>
+						<string>67DAC7A1-C68F-42E6-9FE8-46DD5AC6DDD8</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>gh cli</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>CADE2763-4D04-4346-9C84-A43437C25E77</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>clone_url="gh repo clone {query}"
+osascript -e "set the clipboard to \"$clone_url\""</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>56B403A7-E741-4CC6-9E9C-7464C2E6E70B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># GitHub Star
+List and search your starred repositories.
+Tested with Alfred 5.
+
+## Variable Configurations
+
+- `username` should be set to your GitHub username. This workflow retrieves your starred repositories using 'https://api.github.com/users/{username}/starred'.
+
+- `max_pages` sets the limit for pages retrieved from [GitHub's paginated API](https://docs.github.com/en/rest/guides/using-pagination-in-the-rest-api), your results will include `max_pages` * 30 recent starred repos. Default (empty) fetches all starred repos.
+
+- `cache_ttl` is the interval that the workflow uses to check if the last cache has expired. If expired, the workflow will refetch data from GitHub on your next request. The default value is set at 60 minutes.
+
+- `github_api_token` is your GitHub personal access token to authenticate with GitHub when fetching data (optional). Authenticated requests have a much higher rate-limiting threshold. Recommended if you consistently get rate-limit errors.
+
+- `search_repo_description` allows filtering of results within the repository description. The default value is no.
+
+## Usage
+
+- type `ghs` to list and search
+- `enter` to open url for the selected repo
+- `command` + `enter` to copy the url
+- `control` + `enter` to copy `git clone` command to clipboard</string>
+	<key>uidata</key>
+	<dict>
+		<key>29D42A92-C63E-48DD-88EF-51F971691178</key>
+		<dict>
+			<key>xpos</key>
+			<real>260</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>3D0D2645-4CAE-4B86-9676-C3953FA844F2</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>41CCB96E-8804-4939-ACEF-BE00D2DC015F</key>
+		<dict>
+			<key>xpos</key>
+			<real>260</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>56B403A7-E741-4CC6-9E9C-7464C2E6E70B</key>
+		<dict>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>455</real>
+		</dict>
+		<key>80858294-752D-488D-8E60-C72131DC9210</key>
+		<dict>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>CADE2763-4D04-4346-9C84-A43437C25E77</key>
+		<dict>
+			<key>xpos</key>
+			<real>290</real>
+			<key>ypos</key>
+			<real>325</real>
+		</dict>
+		<key>FE20F637-87D5-43EE-880A-C6C7A7AD1DA5</key>
+		<dict>
+			<key>xpos</key>
+			<real>435</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Please enter your GitHub username</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Your GitHub user name</string>
+			<key>label</key>
+			<string>Username</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>username</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Please enter an integer, leaving empty will fetch all pages</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Maximum number of Github API pages to read, your search results will include n*30 of recent starred repos.</string>
+			<key>label</key>
+			<string>Maximum Pages</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>max_pages</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>60</string>
+				<key>placeholder</key>
+				<string>Please set an expire time for caches in minutes</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Cache time-to-live in minutes, to check if last cache expires or not</string>
+			<key>label</key>
+			<string>Cache TTL (minutes)</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>cache_ttl</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Please enter your personel access token, leaving empty makes anonymous requests to GitHub</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>(Optional) Access token to make authenticated calls to the GitHub API. Calls made to GitHub with tokens have higher thresholds for rate-limiting.</string>
+			<key>label</key>
+			<string>GitHub API Personal Access Token</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>github_api_token</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Search in repo description</string>
+			</dict>
+			<key>description</key>
+			<string>When filtering result, search in repository description as well.</string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>search_repo_description</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>https</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>HTTPS</string>
+						<string>https</string>
+					</array>
+					<array>
+						<string>SSH</string>
+						<string>ssh</string>
+					</array>
+					<array>
+						<string>GitHub CLI</string>
+						<string>gh</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Git Clone Protocal</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>clone_protocal</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.4</string>
+	<key>webaddress</key>
+	<string>https://github.com/yinan-c/alfred-github-star</string>
+</dict>
+</plist>
