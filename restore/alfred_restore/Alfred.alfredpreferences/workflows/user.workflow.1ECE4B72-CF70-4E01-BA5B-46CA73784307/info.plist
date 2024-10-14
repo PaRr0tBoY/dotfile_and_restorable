@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.zeitlings.favs</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>11637475-35B7-4D49-816F-07F9F3895C6C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2E1211D9-FE98-4FC2-817B-2B1F9114C381</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2E1211D9-FE98-4FC2-817B-2B1F9114C381</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96B06C5D-0AA2-426C-9E6C-FE56DE1437C7</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>Move Up</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB5F3204-5E7F-4A6C-81F5-680C97E99063</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A5B04144-4EA9-4D5F-974E-B69967B9918C</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Browse in Alfred</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6BD03D2D-C3DD-4095-9A54-C12A580DF9EB</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Reveal in Finder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>47E9E33D-8AB6-4CDA-88DF-7FEBE7C6438A</string>
+				<key>modifiers</key>
+				<integer>8388608</integer>
+				<key>modifiersubtext</key>
+				<string>Remove from Favorites</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9970BC82-36F7-49C4-B12D-92120317935A</string>
+				<key>modifiers</key>
+				<integer>655360</integer>
+				<key>modifiersubtext</key>
+				<string>Move down</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>47E9E33D-8AB6-4CDA-88DF-7FEBE7C6438A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ACA05D71-8A86-4FE0-B220-39A92BEA6B91</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>888FC938-CEE7-4B36-AE76-743C7CC48B03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D402EEA-D562-48BD-A9E8-F1B3BEF6411F</string>
+				<key>disabled</key>
+				<true/>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A6ECC617-56B8-464C-AB2D-EEED7C6F6608</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>96B06C5D-0AA2-426C-9E6C-FE56DE1437C7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F032001F-127E-406F-AA25-D2AD79CF4319</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9970BC82-36F7-49C4-B12D-92120317935A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F032001F-127E-406F-AA25-D2AD79CF4319</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CD164854-5F99-4000-B365-040FDDA07A9D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2E1211D9-FE98-4FC2-817B-2B1F9114C381</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FE1728C3-6984-4326-B38B-06986223704B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>888FC938-CEE7-4B36-AE76-743C7CC48B03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Patrick Sy</string>
+	<key>description</key>
+	<string>Access your favorite files and folders</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Favorites</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+if [[ $nomove != "1" ]]; then
+	readonly file="${alfred_workflow_data}/list.txt"
+	favs=("${(f)$(cat $file)}")
+	typeset -i up=$line
+	typeset -i dn=up-1
+	if [[ $up -eq 1 ]]; then
+		exit 0
+	fi
+	local bak=$favs[$dn]
+	favs[dn]="$favs[$up]"
+	favs[up]="$bak"
+	local flat=$(printf "%s\n" "${favs[@]}")
+	printf "%s" "$flat" &gt; $file
+	if [[ $up -eq "${#favs[@]}" ]]; then
+		printf "\n" &gt;&gt; $file
+	fi
+
+	open -b "com.runningwithcrayons.Alfred" alfred://runtrigger/com.zeitlings.favs/init
+else
+	echo -n "★ Hint"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>96B06C5D-0AA2-426C-9E6C-FE56DE1437C7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>EB5F3204-5E7F-4A6C-81F5-680C97E99063</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<true/>
+				<key>triggerid</key>
+				<string>init</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>11637475-35B7-4D49-816F-07F9F3895C6C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+				<key>sortBy</key>
+				<integer>0</integer>
+				<key>sortDirection</key>
+				<integer>0</integer>
+				<key>sortFoldersAtTop</key>
+				<false/>
+				<key>sortOverride</key>
+				<false/>
+				<key>stackBrowserView</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinalfred</string>
+			<key>uid</key>
+			<string>A5B04144-4EA9-4D5F-974E-B69967B9918C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>You can move Items when 
+the list is not filtered</string>
+				<key>title</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F032001F-127E-406F-AA25-D2AD79CF4319</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:key}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+readonly data="${alfred_workflow_data}"
+readonly file="$data/list.txt"
+[[ -d $data ]] || mkdir -p $data
+[[ -f $file ]] || touch -r $file
+[[ $1 == ":fav" ]] &amp;&amp; { open $file ; exit 0 }
+
+sed -i '' '/./!d' $file
+local favs=("${(f)$(cat $file)}")
+
+if [[ -n $1 ]]; then
+    set -A filtered
+    for fav in "${favs[@]}"; do
+		local n="$fav:t"
+		[[ -f $fav ]] || n=$fav:t
+		if echo "$n" | tr -d ' ' | grep -qi "$1"; then
+			filtered+=("$fav")
+		fi
+    done
+    favs=($filtered)
+fi
+
+if [[ -z $favs ]]; then
+    echo -n "{\"items\":[{\"title\":\"Add some Favorites!\"}]}"
+else 
+    items="{\"skipknowledge\":true,\"items\":["
+    for ((i = 1; i &lt;= ${#favs[@]}; i += 1 )); do
+		local p=$favs[$i] # fav path
+		local n=$p:t:r    # displayname
+		local icon="\"icon\":{\"type\":\"fileicon\",\"path\":\"$p\"}"
+		local vars="\"variables\":{\"line\":\"$i\"}"
+
+		[[ -z $1   ]] || vars="\"variables\":{\"line\":\"$i\",\"nomove\":\"1\"}"
+		[[ -f "$p" ]] || n=$p:t # dirname
+		[[ "$p:t:e" =~ "[pP][dD][fF]" ]] &amp;&amp; icon="\"icon\":{\"path\":\"pdf.png\"}"
+
+		items+="{\"title\":\"$n\",\"arg\":\"$p\",\"uid\":\"$n\","$vars",\"type\":\"file:skipcheck\",$icon,\"mods\":{\"ctrl\":{\"subtitle\":\"${p/$HOME/~}\",\"valid\":false}}},"
+    done
+    items=${items[1,-2]}
+    items+="]}"
+    echo -n $items
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Access your favorited files and folders</string>
+				<key>title</key>
+				<string>Favorites</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>2E1211D9-FE98-4FC2-817B-2B1F9114C381</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>CD164854-5F99-4000-B365-040FDDA07A9D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>6BD03D2D-C3DD-4095-9A54-C12A580DF9EB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+readonly file="${alfred_workflow_data}/list.txt"
+#sed -i '' '/./!d' $file
+sed -i '' "${line}d" $file
+open -b "com.runningwithcrayons.Alfred" alfred://runtrigger/com.zeitlings.favs/init</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>47E9E33D-8AB6-4CDA-88DF-7FEBE7C6438A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+if [[ $nomove != "1" ]]; then
+	readonly file="${alfred_workflow_data}/list.txt"
+	favs=("${(f)$(cat $file)}")
+	typeset -i dn=$line
+	typeset -i up=dn+1
+	if [[ $dn -eq "${#favs[@]}" ]]; then
+		exit 0
+	fi
+	local bak=$favs[$up]
+	favs[up]="$favs[$dn]"
+	favs[dn]="$bak"
+	readonly flat=$(printf "%s\n" "${favs[@]}")
+	printf "%s" "$flat" &gt; $file
+	printf "\n" &gt;&gt; $file
+	open -b "com.runningwithcrayons.Alfred" alfred://runtrigger/com.zeitlings.favs/init
+else
+	echo -n "★ Hint"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9970BC82-36F7-49C4-B12D-92120317935A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Frog</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>ACA05D71-8A86-4FE0-B220-39A92BEA6B91</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>'{query}'</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>3D402EEA-D562-48BD-A9E8-F1B3BEF6411F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/zsh
+
+readonly data="${alfred_workflow_data}"
+readonly file="$data/list.txt"
+[[ -d $data ]] || mkdir -p $data
+[[ -f $file ]] || touch -r $file
+readonly favs=("${(f)$(cat $file)}")
+readonly paths=("$@")
+
+printf "\n" &gt;&gt; $file
+
+typeset -i addc
+local addc=0
+for path in "${paths[@]}"; do
+	## add iff not in list
+	if [[ "${favs[(ie)$path]}" -gt ${#favs} ]]; then
+		addc+=1
+		echo "$path" &gt;&gt; $file 
+	fi
+done
+
+printf "\n" &gt;&gt; $file
+
+if [[ $addc -eq 0 &amp;&amp; ${#paths[@]} -eq 1 ]]; then
+	print "Favorite '${paths[1]:t:r}' is already on the List"
+elif [[ ${#paths[@]} -eq 1 ]]; then
+	print "Added '${paths[1]:t:r}' to Favorites"
+else 
+	print "Added $addc items to Favorites"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>888FC938-CEE7-4B36-AE76-743C7CC48B03</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>A6ECC617-56B8-464C-AB2D-EEED7C6F6608</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>1</integer>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Add to Favorites</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>FE1728C3-6984-4326-B38B-06986223704B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>![](icon_.png)
+
+# Favorites
+
+Add files and folders to your list of favorites by using the workflow's [Universal Action](https://www.alfredapp.com/help/features/universal-actions/). Quickly find them again by activating the workflow with the `Keyword` (default: `fav`) or by setting a hotkey of your choice.
+
+[‣ Visit on Github](https://github.com/zeitlings/alfred-workflows) || [Visit on Alfred Forum ◂](https://alfredforum.com/topic/20220-favorites/)
+
+---
+
+## Usage Hints
+
+- Press `cmd+O` or `enter` to open a file or folder.
+- Add items with the workflow’s [Universal Action](https://www.alfredapp.com/help/features/universal-actions/).
+- **Modifiers:**
+	- `ctrl`: Show full Path
+	- `cmd`: Reveal in Finder
+	- `opt`: Browse in Alfred
+	- `cmd+shift`: Move up
+	- `opt+shift`: Move down
+	- `fn`: Remove from Favorites
+	- `shift` or `cmd+Y`: Quicklook Preview
+
+
+## Special Inputs
+
+- Type `:fav` to open your list of favorites in the default text editor
+
+
+## Change Log
+
+**v1.1.0**
+- Fixed the displayname of folders containing a dot being cut off
+- Added generic icon for PDF documents
+- Improved fuzzy search
+- Disabled the option to move items if the list is filtered</string>
+	<key>uidata</key>
+	<dict>
+		<key>11637475-35B7-4D49-816F-07F9F3895C6C</key>
+		<dict>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>2E1211D9-FE98-4FC2-817B-2B1F9114C381</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>3D402EEA-D562-48BD-A9E8-F1B3BEF6411F</key>
+		<dict>
+			<key>xpos</key>
+			<real>600</real>
+			<key>ypos</key>
+			<real>555</real>
+		</dict>
+		<key>47E9E33D-8AB6-4CDA-88DF-7FEBE7C6438A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Remove Favorite</string>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>410</real>
+		</dict>
+		<key>6BD03D2D-C3DD-4095-9A54-C12A580DF9EB</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>888FC938-CEE7-4B36-AE76-743C7CC48B03</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>605</real>
+		</dict>
+		<key>96B06C5D-0AA2-426C-9E6C-FE56DE1437C7</key>
+		<dict>
+			<key>note</key>
+			<string>Move up</string>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>40</real>
+		</dict>
+		<key>9970BC82-36F7-49C4-B12D-92120317935A</key>
+		<dict>
+			<key>note</key>
+			<string>Move down</string>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>410</real>
+		</dict>
+		<key>A5B04144-4EA9-4D5F-974E-B69967B9918C</key>
+		<dict>
+			<key>xpos</key>
+			<real>665</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>A6ECC617-56B8-464C-AB2D-EEED7C6F6608</key>
+		<dict>
+			<key>xpos</key>
+			<real>530</real>
+			<key>ypos</key>
+			<real>605</real>
+		</dict>
+		<key>ACA05D71-8A86-4FE0-B220-39A92BEA6B91</key>
+		<dict>
+			<key>xpos</key>
+			<real>530</real>
+			<key>ypos</key>
+			<real>410</real>
+		</dict>
+		<key>CD164854-5F99-4000-B365-040FDDA07A9D</key>
+		<dict>
+			<key>xpos</key>
+			<real>40</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>EB5F3204-5E7F-4A6C-81F5-680C97E99063</key>
+		<dict>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>F032001F-127E-406F-AA25-D2AD79CF4319</key>
+		<dict>
+			<key>xpos</key>
+			<real>850</real>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>FE1728C3-6984-4326-B38B-06986223704B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Add to favs</string>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>605</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>fav</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>key</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/zeitlings/alfred-workflows</string>
+</dict>
+</plist>

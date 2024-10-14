@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>05523FCF-7FA2-4FEE-BAA3-5DB7A861EEEE</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>git</string>
+			<key>text</key>
+			<string>用github搜索{query}</string>
+			<key>url</key>
+			<string>https://github.com/search?q={query}&amp;type=repositories</string>
+		</dict>
+		<key>35782BF5-35BD-4405-9A70-EA9C4A95E71D</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>kagi</string>
+			<key>text</key>
+			<string>用 Kagi 搜索 {query}</string>
+			<key>url</key>
+			<string>https://kagi.com/search?q={query}</string>
+		</dict>
+		<key>5A398973-1040-4A70-9542-B32DEA53C6BE</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>howto</string>
+			<key>text</key>
+			<string>怎样才能 '{query}'</string>
+			<key>url</key>
+			<string>https://stackoverflow.com/search?q=how+to+{query}</string>
+		</dict>
+		<key>6A506EC0-9C3E-4BEC-A318-55BB8A7AD50E</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jd</string>
+			<key>text</key>
+			<string>用京东搜索{query}</string>
+			<key>url</key>
+			<string>https://search.jd.com/Search?keyword={query}</string>
+		</dict>
+		<key>9DFCA5E1-A4DC-4C0E-ADE5-9448CD0A736D</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>meta</string>
+			<key>text</key>
+			<string>用 Meta 搜索 {query}</string>
+			<key>url</key>
+			<string>https://metaso.cn/?q={query}</string>
+		</dict>
+	</dict>
+	<key>onlyShowEnabledInPrefs</key>
+	<true/>
+</dict>
+</plist>

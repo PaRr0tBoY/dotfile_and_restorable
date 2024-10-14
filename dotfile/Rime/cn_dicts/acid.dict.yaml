@@ -1,0 +1,43 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
+#
+#
+---
+name: acid
+version: "2024-09-29"
+sort: by_weight
+...
+##### 补充
+# 一些人名
+徐致杰	xu zhi jie	1000
+徐星焱	xu xing yan	1000
+陈烨君	chen yue jun	1000
+林俊任	lin jun ren	1000
+莫翠怡  mo cui yi	1000
+翁政强	weng zheng qiang	1000
+庄润玲	zhuang run ling	1000
+李家奎	li jia kui	1000
+
+# 常用语
+蚌埠住了	beng bu zhu le	1000
+难蚌	nan beng	1000
+不是哥们	bu shi ge men	1000
+
+# mygo
+立石凛	li shi lin	1000
+千早爱音	qian zao ai yin	1000
+长崎素世	chang qi su shi	1000
+高松灯	gao song deng	1000
+椎名立希	zhui ming li xi	1000
+要乐奈	yao le nai	1000
+
+# 动物园
+炫狗	xuan gou	1000
+炫神	xuan shen	1000
+电棍	dian gun	1000
+古神	gu shen	1000
+阿米诺斯	a mi nuo si	1000

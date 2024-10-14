@@ -1,0 +1,232 @@
+{
+  "name" : "ocrWithShortcut",
+  "data" : {
+    "items" : [
+      {
+        "workflowobjecttype" : "alfred.workflow.action.openfile",
+        "uid" : "D1CABD85-A795-45F0-B22D-BE7AB8B76884",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "openwith" : "",
+          "sourcefile" : "OCR-v3.shortcut"
+        },
+        "colorindex" : 9,
+        "ypos" : 5,
+        "xpos" : 775
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.input.keyword",
+        "uid" : "763B39BE-E24D-4449-A0E3-C2E2021623EC",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "withspace" : false,
+          "argumenttype" : 2,
+          "text" : "OCR",
+          "subtext" : "Get the text in the screenshot to the clipboard",
+          "keyword" : "ocr"
+        },
+        "colorindex" : 0,
+        "ypos" : 10,
+        "xpos" : 20
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.automation.task",
+        "uid" : "85F97DB5-3EC6-4AE2-BD8A-E53075B998BF",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "taskuid" : "com.alfredapp.automation.core\/shortcuts\/shortcut.installed",
+          "tasksettings" : {
+            "target_shortcut" : "OCR-v3"
+          }
+        },
+        "colorindex" : 9,
+        "ypos" : 10,
+        "xpos" : 200
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.utility.conditional",
+        "uid" : "D5973360-B453-4F19-BEC6-695832FF1756",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "elselabel" : "",
+          "conditions" : [
+            {
+              "matchstring" : "",
+              "outputlabel" : "Missing Shortcut",
+              "uid" : "10800F7B-3F08-4143-BE36-26AA026B629D",
+              "matchcasesensitive" : false,
+              "matchmode" : 6,
+              "inputstring" : ""
+            },
+            {
+              "matchstring" : "",
+              "outputlabel" : "Has install",
+              "uid" : "33C8F2C3-5022-45E1-9BCE-BB018EB24E5C",
+              "matchcasesensitive" : false,
+              "matchmode" : 5,
+              "inputstring" : ""
+            }
+          ],
+          "hideelse" : true
+        },
+        "colorindex" : 9,
+        "ypos" : 35,
+        "xpos" : 445
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.automation.task",
+        "uid" : "A2E6CA5F-BA54-489F-A6E2-A97F223F3F72",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "taskuid" : "com.alfredapp.automation.core\/screen-capture\/screenshot.interactive",
+          "tasksettings" : {
+
+          }
+        },
+        "colorindex" : 0,
+        "ypos" : 135,
+        "xpos" : 580
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.action.script",
+        "uid" : "4048A283-459F-41D6-8536-FB4A566BA632",
+        "note" : "move screenshot",
+        "workflowobjectconfig" : {
+          "script" : "[[ -d \"${alfred_workflow_cache}\" ]] || mkdir \"${alfred_workflow_cache}\"\n\ntempFile=\"$alfred_workflow_cache\/temp.png\"\n\nmv \"$1\" \"$tempFile\"\n\necho -n \"$tempFile\"",
+          "scriptfile" : "",
+          "escaping" : 102,
+          "scriptargtype" : 1,
+          "type" : 0,
+          "concurrently" : false
+        },
+        "colorindex" : 0,
+        "ypos" : 155,
+        "xpos" : 770
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.trigger.hotkey",
+        "uid" : "DE89967F-43E5-4EEC-8F93-059E5BA1FB96",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "action" : 0,
+          "relatedAppsMode" : 0,
+          "hotmod" : 0,
+          "hotkey" : 0,
+          "argument" : 0,
+          "focusedappvariable" : false,
+          "focusedappvariablename" : "",
+          "leftcursor" : false,
+          "modsmode" : 0
+        },
+        "colorindex" : 0,
+        "ypos" : 220,
+        "xpos" : 25
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.output.notification",
+        "uid" : "C0F55B7B-E2B9-4FF2-972C-E1E1FEC24322",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "onlyshowifquerypopulated" : true,
+          "title" : "OCR to clipboard",
+          "lastpathcomponent" : false,
+          "removeextension" : false,
+          "text" : "{query}"
+        },
+        "colorindex" : 0,
+        "ypos" : 295,
+        "xpos" : 1205
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.automation.runshortcut",
+        "uid" : "E9A9E33F-4D94-4AF5-BC40-38C018B27927",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "outputmode" : 1,
+          "shortcut" : "OCR-v3",
+          "inputmode" : 1
+        },
+        "colorindex" : 0,
+        "ypos" : 305,
+        "xpos" : 980
+      }
+    ],
+    "connections" : [
+      {
+        "sourceuid" : "D5973360-B453-4F19-BEC6-695832FF1756",
+        "config" : {
+          "destinationuid" : "A2E6CA5F-BA54-489F-A6E2-A97F223F3F72",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false,
+          "sourceoutputuid" : "33C8F2C3-5022-45E1-9BCE-BB018EB24E5C"
+        }
+      },
+      {
+        "sourceuid" : "D5973360-B453-4F19-BEC6-695832FF1756",
+        "config" : {
+          "destinationuid" : "D1CABD85-A795-45F0-B22D-BE7AB8B76884",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false,
+          "sourceoutputuid" : "10800F7B-3F08-4143-BE36-26AA026B629D"
+        }
+      },
+      {
+        "sourceuid" : "85F97DB5-3EC6-4AE2-BD8A-E53075B998BF",
+        "config" : {
+          "destinationuid" : "D5973360-B453-4F19-BEC6-695832FF1756",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "A2E6CA5F-BA54-489F-A6E2-A97F223F3F72",
+        "config" : {
+          "destinationuid" : "4048A283-459F-41D6-8536-FB4A566BA632",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "DE89967F-43E5-4EEC-8F93-059E5BA1FB96",
+        "config" : {
+          "destinationuid" : "85F97DB5-3EC6-4AE2-BD8A-E53075B998BF",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "763B39BE-E24D-4449-A0E3-C2E2021623EC",
+        "config" : {
+          "destinationuid" : "85F97DB5-3EC6-4AE2-BD8A-E53075B998BF",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "4048A283-459F-41D6-8536-FB4A566BA632",
+        "config" : {
+          "destinationuid" : "E9A9E33F-4D94-4AF5-BC40-38C018B27927",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "E9A9E33F-4D94-4AF5-BC40-38C018B27927",
+        "config" : {
+          "destinationuid" : "C0F55B7B-E2B9-4FF2-972C-E1E1FEC24322",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      }
+    ]
+  },
+  "description" : ""
+}

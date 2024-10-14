@@ -1,0 +1,4463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.zeitlings.gpt.nexus</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>089D84C7-5C32-4DA9-94FB-C6129F34E7CC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>50B677CA-DBFE-445B-A54E-1262D2A20A7E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0DAA57DE-284A-40EA-9E1C-AD9B92BFFC2A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>62DE42B0-9620-4926-8A49-8E77B1F766BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0E1F78CA-3BC8-4059-852E-266A63C9E302</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D20A08DE-4D38-4817-950C-A08566CDF9AC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0E259C2F-0D42-4D9D-9DAD-B909A3FF5E8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0DAA57DE-284A-40EA-9E1C-AD9B92BFFC2A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3B7D6C5A-57B3-4548-AA9D-177A554EA073</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>147133EF-CBEB-4B54-A36D-4D0FF1A4AF61</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C56469BF-2E28-4030-9288-954F67D07899</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>17795C7B-B492-4775-BE7A-4335A136FBA0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4B8AFA6C-0288-4CCA-8D59-708E92B6B002</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>193A7178-50B7-4803-ADB2-F4C7CB12622C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA719CCE-39AC-4C66-8975-8CA7A81454D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1A6E8005-C5E7-4592-AAC9-212566AA526F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0392681-01B8-4466-8703-589E802F58FB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1FD1522C-5846-4C92-9560-93E9DE192147</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3675B542-81DE-419E-8038-E8BC0343ACFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2488D1FF-67CB-4C8F-B1E2-E0C84987FF43</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA719CCE-39AC-4C66-8975-8CA7A81454D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>26A54A2E-DA90-48CC-B225-23F4E598BB13</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>850A0EF7-406C-4468-8BEA-2C0472ED3158</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>42B5F116-9B04-4E94-8F1F-D61CF4D15637</string>
+				<key>disabled</key>
+				<true/>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>27364F03-FD83-4934-802E-A6B4C7B2D1A1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>31FA52AC-018A-4F30-A4C2-FCBC637F4707</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2B6151BC-EF9E-4F69-A335-27E25FB90DFA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>50B677CA-DBFE-445B-A54E-1262D2A20A7E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2F1F9909-A7AD-464D-B0D9-EF6BA49EE1BF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF4D8102-6821-4A92-94DD-E5BCEB57D307</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>398EC620-2BB2-4F3C-A365-12F0798C92C4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>58A508A1-E62D-40D0-83E0-B2C32BB9AF3B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3B7D6C5A-57B3-4548-AA9D-177A554EA073</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>62DE42B0-9620-4926-8A49-8E77B1F766BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3DA87F71-D125-41E9-BFEF-49CFF967E506</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9ACBF3C3-8BA7-4938-B049-B9CF33A49942</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>44EED82E-72A4-4A76-8245-858F6241EA87</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9851E23B-A570-4959-8D2E-15A088AEDD07</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Edit multi-line prompt in separate window</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>79B3846A-D1C6-49EA-8AE0-DEFAEA0115AA</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Start new conversation</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>59CC3B66-BEFC-4E0D-9C50-9846A7D52C05</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Cancel response generation</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A33A56F6-4CF0-452D-9F1C-877FEDF71B40</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Copy last answer</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2B6151BC-EF9E-4F69-A335-27E25FB90DFA</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Copy entire conversation</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>089D84C7-5C32-4DA9-94FB-C6129F34E7CC</string>
+				<key>modifiers</key>
+				<integer>393216</integer>
+				<key>modifiersubtext</key>
+				<string>􀊨 Speak / Stop</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A6E8005-C5E7-4592-AAC9-212566AA526F</string>
+				<key>modifiers</key>
+				<integer>655360</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Display configuration details</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9901D433-1F42-4B14-8142-26B2094C650C</string>
+				<key>modifiers</key>
+				<integer>1310720</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Show archived conversations</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4523F2F2-BB6B-470B-9475-8EF4CE758457</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FF4D8102-6821-4A92-94DD-E5BCEB57D307</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>49C08720-D40E-48B9-AA17-0061D835B99B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA719CCE-39AC-4C66-8975-8CA7A81454D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4B8AFA6C-0288-4CCA-8D59-708E92B6B002</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F759188-E34C-4576-80E9-2E0954B98B46</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>7091E071-5808-45C5-A9FF-E324389CF6BB</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4B8BE85D-D638-413D-920A-29BC8DABD3B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CA127E33-F076-44F9-94C3-B47DB988BA53</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>50B677CA-DBFE-445B-A54E-1262D2A20A7E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AF2D2F0E-2FDA-40E9-B192-A3E332F11F26</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>563AB6D0-32FA-4453-A27C-5EB5AC8C119F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA719CCE-39AC-4C66-8975-8CA7A81454D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>58A508A1-E62D-40D0-83E0-B2C32BB9AF3B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB1A5D08-9459-4C71-81C6-B0815E89D1AC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>59CC3B66-BEFC-4E0D-9C50-9846A7D52C05</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6E6B9AF-D319-4D4E-B460-3AA4FBFCD98C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5E4EEBF1-A743-458D-B196-0E9B27899E21</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>31FA52AC-018A-4F30-A4C2-FCBC637F4707</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>63140911-7499-46EA-BC6E-A3222039525E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>58A508A1-E62D-40D0-83E0-B2C32BB9AF3B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>68FAB48B-44B4-4131-8C5C-5993AD5A247F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C011E563-61E9-456F-823C-3B116A7B1B4D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C55C3A8-C10A-4A1B-844A-B7D4E267847E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Continue with existing conversation</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6B7B78B6-7600-4376-BF92-14F063C32DB9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C011E563-61E9-456F-823C-3B116A7B1B4D</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Start new chat '{query}'</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7C55C3A8-C10A-4A1B-844A-B7D4E267847E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9C2BBDCC-3085-4483-95CA-63A35A2A8409</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>Open configuration</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C56469BF-2E28-4030-9288-954F67D07899</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>View chat history</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7113234A-832D-471F-A3E5-167802C86774</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5E4EEBF1-A743-458D-B196-0E9B27899E21</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>27364F03-FD83-4934-802E-A6B4C7B2D1A1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>78FCFED5-8833-4E81-8989-5EC1569C6BF3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D44AA87C-D6B5-417C-994A-641BE653DDB0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>79B3846A-D1C6-49EA-8AE0-DEFAEA0115AA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6E6B9AF-D319-4D4E-B460-3AA4FBFCD98C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>79DBA4D5-5E20-4FEE-96B2-853DA60BB40B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F759188-E34C-4576-80E9-2E0954B98B46</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7C272766-985E-4316-AA9C-88B5C35877B2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>193A7178-50B7-4803-ADB2-F4C7CB12622C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7C55C3A8-C10A-4A1B-844A-B7D4E267847E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA719CCE-39AC-4C66-8975-8CA7A81454D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7DEB157F-2231-4736-9B67-B2CB1E5DF772</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8F160E1-3A1E-4DC0-95F7-21E3D58C8D3C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>908E1503-C0B2-410C-B3AA-0CBBDD1C4E9F</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2599B1FD-DC62-4380-B8E6-BA888CA83952</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>80EBB87B-C18D-48B1-80E0-AC464CEAF70F</key>
+		<array/>
+		<key>8F759188-E34C-4576-80E9-2E0954B98B46</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>26A54A2E-DA90-48CC-B225-23F4E598BB13</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>91D3361F-2008-4DC6-B1CB-2654FFED534D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7113234A-832D-471F-A3E5-167802C86774</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9851E23B-A570-4959-8D2E-15A088AEDD07</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D44AA87C-D6B5-417C-994A-641BE653DDB0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9901D433-1F42-4B14-8142-26B2094C650C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0AA7EA40-5C9C-4A27-9452-7F9B7AEB23C5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9ACBF3C3-8BA7-4938-B049-B9CF33A49942</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ACF23CC4-E3AA-4839-8787-ACB95760A3B3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1FD1522C-5846-4C92-9560-93E9DE192147</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A33A56F6-4CF0-452D-9F1C-877FEDF71B40</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>50B677CA-DBFE-445B-A54E-1262D2A20A7E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ACF23CC4-E3AA-4839-8787-ACB95760A3B3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3675B542-81DE-419E-8038-E8BC0343ACFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AF2D2F0E-2FDA-40E9-B192-A3E332F11F26</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80EBB87B-C18D-48B1-80E0-AC464CEAF70F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A8E03A48-AC88-439A-9DA7-26C048917D43</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AD893F74-F647-4429-900E-BB1CA95365B2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B8F550AF-FF20-4FA4-8AB2-42D32F13D268</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E1F78CA-3BC8-4059-852E-266A63C9E302</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C011E563-61E9-456F-823C-3B116A7B1B4D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>563AB6D0-32FA-4453-A27C-5EB5AC8C119F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C11119FB-73C2-44F8-98C7-B956A75EAF24</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E259C2F-0D42-4D9D-9DAD-B909A3FF5E8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C56469BF-2E28-4030-9288-954F67D07899</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2488D1FF-67CB-4C8F-B1E2-E0C84987FF43</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4B8BE85D-D638-413D-920A-29BC8DABD3B0</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>🔴 Move conversation to Bin</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
+		<key>C786B1FF-256D-4536-B924-0392511CA454</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>63140911-7499-46EA-BC6E-A3222039525E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>398EC620-2BB2-4F3C-A365-12F0798C92C4</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Continue with existing chat   🟢🟢🟢🟢</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C9E0E3E8-9B97-4777-BCA5-81E5CBDE2F79</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>58CE5512-A5D3-4B4A-900E-51CD37633E75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4B899F7C-CB34-4E9F-96F1-A01E134347F4</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C60A7190-4D07-4649-8A86-0863AC9CB804</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D8856138-618C-48F7-9DC6-EAD760F9CA04</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D44AA87C-D6B5-417C-994A-641BE653DDB0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2F1F9909-A7AD-464D-B0D9-EF6BA49EE1BF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4523F2F2-BB6B-470B-9475-8EF4CE758457</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D538DF05-F7F1-450A-9720-8BB078209292</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>563AB6D0-32FA-4453-A27C-5EB5AC8C119F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D5FE5D7C-1658-4C85-B12B-8C363E17A54F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DEB157F-2231-4736-9B67-B2CB1E5DF772</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6E6B9AF-D319-4D4E-B460-3AA4FBFCD98C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D5FE5D7C-1658-4C85-B12B-8C363E17A54F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DA719CCE-39AC-4C66-8975-8CA7A81454D5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>44EED82E-72A4-4A76-8245-858F6241EA87</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EB1A5D08-9459-4C71-81C6-B0815E89D1AC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C9E0E3E8-9B97-4777-BCA5-81E5CBDE2F79</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FA1FD985-D73B-4F59-8A0F-89E30166C169</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C56469BF-2E28-4030-9288-954F67D07899</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FF4D8102-6821-4A92-94DD-E5BCEB57D307</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91D3361F-2008-4DC6-B1CB-2654FFED534D</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Switch to Editor / Markdown preview</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3DA87F71-D125-41E9-BFEF-49CFF967E506</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Ask question</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C11119FB-73C2-44F8-98C7-B956A75EAF24</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>⏎ Ask question in a new chat</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Patrick Sy</string>
+	<key>description</key>
+	<string>OpenAI, Anthropic, and Gemini integrations with support for local LLMs</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Ayai · GPT Nexus</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.preview.swap</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>31FA52AC-018A-4F30-A4C2-FCBC637F4707</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>prompt_editor_text</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5E4EEBF1-A743-458D-B196-0E9B27899E21</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_editor</string>
+						<key>outputlabel</key>
+						<string>Save prompt</string>
+						<key>uid</key>
+						<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_markdown</string>
+						<key>outputlabel</key>
+						<string>Load prompt</string>
+						<key>uid</key>
+						<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7113234A-832D-471F-A3E5-167802C86774</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>91D3361F-2008-4DC6-B1CB-2654FFED534D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:prompt_editor_text}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>27364F03-FD83-4934-802E-A6B4C7B2D1A1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>chat.new</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>D538DF05-F7F1-450A-9720-8BB078209292</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>behaviour</key>
+				<integer>1</integer>
+				<key>fontmode</key>
+				<integer>0</integer>
+				<key>fontsizing</key>
+				<integer>0</integer>
+				<key>footertext</key>
+				<string>⇧⏎ Preview prompt  ·  ⌘⏎ Ask question  ·  ⌘⇧⏎ New chat  ·  ⎋ Back</string>
+				<key>inputfile</key>
+				<string></string>
+				<key>inputtype</key>
+				<integer>0</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>scriptinput</key>
+				<integer>0</integer>
+				<key>spellchecking</key>
+				<integer>1</integer>
+				<key>stackview</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.text</string>
+			<key>uid</key>
+			<string>FF4D8102-6821-4A92-94DD-E5BCEB57D307</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>chat.preview.swap</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>78FCFED5-8833-4E81-8989-5EC1569C6BF3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly timestamp=$(date +"%Y%m%d-%H%M-")
+readonly uuid=${"$(uuidgen)":l:gs/\-/}
+readonly archive="${alfred_workflow_data}/archive"
+readonly archived_chat_file="${archive}/${timestamp}${uuid}.json"
+readonly chat_file="${alfred_workflow_cache}/chat.json"
+
+[[ -d "$archive" ]] || mkdir -p "$archive"
+
+# case: keep starting new conversations
+if [[ -a "$chat_file" ]]; then
+	if [[ $enable_archiving -eq 1 ]]; then
+		mv "$chat_file" "$archived_chat_file"
+	else 
+		rm "$chat_file"
+	fi
+fi
+
+echo -n "$1" # pass through query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>563AB6D0-32FA-4453-A27C-5EB5AC8C119F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.view</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>3675B542-81DE-419E-8038-E8BC0343ACFB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "behaviour" : 2,
+      "footertext" : "⇧⏎ Edit prompt  ·  ⌘⏎ Ask question  ·  ⌘⇧⏎ New chat  ·  ⎋ Back",
+      "fontsizing" : "{var:text_view_font_size}"
+    },
+    "variables" : {
+      "prompt_editor_origin": "from_markdown"
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>2F1F9909-A7AD-464D-B0D9-EF6BA49EE1BF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_editor</string>
+						<key>outputlabel</key>
+						<string>Enter Preview</string>
+						<key>uid</key>
+						<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_markdown</string>
+						<key>outputlabel</key>
+						<string>Enter Editor</string>
+						<key>uid</key>
+						<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>D44AA87C-D6B5-417C-994A-641BE653DDB0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>ACF23CC4-E3AA-4839-8787-ACB95760A3B3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_editor</string>
+						<key>outputlabel</key>
+						<string>Pass through</string>
+						<key>uid</key>
+						<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_markdown</string>
+						<key>outputlabel</key>
+						<string>Load prompt</string>
+						<key>uid</key>
+						<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>9ACBF3C3-8BA7-4938-B049-B9CF33A49942</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>3DA87F71-D125-41E9-BFEF-49CFF967E506</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "fontsizing" : "{var:text_view_font_size}"
+     },
+    "variables" : {
+      "prompt_editor_origin": "from_editor"
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>4523F2F2-BB6B-470B-9475-8EF4CE758457</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:prompt_editor_text}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>1FD1522C-5846-4C92-9560-93E9DE192147</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>prompt_editor_origin</key>
+					<string>from_markdown</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9851E23B-A570-4959-8D2E-15A088AEDD07</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.new</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>62DE42B0-9620-4926-8A49-8E77B1F766BF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0DAA57DE-284A-40EA-9E1C-AD9B92BFFC2A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_editor</string>
+						<key>outputlabel</key>
+						<string>Pass through</string>
+						<key>uid</key>
+						<string>21C64249-6219-4EBE-80F0-96F3E49C8113</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:prompt_editor_origin}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>from_markdown</string>
+						<key>outputlabel</key>
+						<string>Load prompt</string>
+						<key>uid</key>
+						<string>D6EBE0E9-E3D6-48AB-A40F-E7F09A68890C</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>0E259C2F-0D42-4D9D-9DAD-B909A3FF5E8A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>C11119FB-73C2-44F8-98C7-B956A75EAF24</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:prompt_editor_text}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3B7D6C5A-57B3-4548-AA9D-177A554EA073</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>new_chat</key>
+					<string>true</string>
+					<key>residuum</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>79B3846A-D1C6-49EA-8AE0-DEFAEA0115AA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>text</key>
+				<string>Ask Ayai '{query}'</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.fallback</string>
+			<key>uid</key>
+			<string>68FAB48B-44B4-4131-8C5C-5993AD5A247F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.new</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>C8F160E1-3A1E-4DC0-95F7-21E3D58C8D3C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>C011E563-61E9-456F-823C-3B116A7B1B4D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>stream_file="${alfred_workflow_cache}/stream.txt"
+pid_file="${alfred_workflow_cache}/pid.txt"
+
+
+if [[ -a "$pid_file" ]]; then
+	pid="$(&lt; "${pid_file}")"
+	kill $pid
+	rm "${pid_file}"
+fi
+
+if [[ -a "$stream_file" ]]; then
+	stream_file_contents="$(&lt; ${stream_file})"
+	rm "${stream_file}"
+
+	if [[ ! -z "$stream_file_contents" ]]; then
+		echo -n "$stream_file_contents"
+	else 
+		# remove extraneous user message from chat if necessary
+		swift ./src/Message+Utils.swift "remove_last"
+	fi 
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D6E6B9AF-D319-4D4E-B460-3AA4FBFCD98C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:new_chat}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>New Conversation</string>
+						<key>uid</key>
+						<string>908E1503-C0B2-410C-B3AA-0CBBDD1C4E9F</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Continue Previous</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7DEB157F-2231-4736-9B67-B2CB1E5DF772</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:residuum}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>answer_before_canceled</key>
+					<string>{query}</string>
+					<key>is_streaming</key>
+					<string>false</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D5FE5D7C-1658-4C85-B12B-8C363E17A54F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>was_canceled</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>59CC3B66-BEFC-4E0D-9C50-9846A7D52C05</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>behaviour</key>
+				<integer>2</integer>
+				<key>fontmode</key>
+				<integer>0</integer>
+				<key>fontsizing</key>
+				<integer>0</integer>
+				<key>footertext</key>
+				<string>⏎ Ask question  ·  ⌘⏎ New chat  ·  ⌥⏎ Copy last  ·  ⌃⏎ Copy all  ·  ⇧⏎ Stop  ·  ⌘ ⌃⏎ History</string>
+				<key>inputfile</key>
+				<string>src/nexus.sh</string>
+				<key>inputtype</key>
+				<integer>1</integer>
+				<key>loadingtext</key>
+				<string>Listening...</string>
+				<key>outputmode</key>
+				<integer>1</integer>
+				<key>scriptinput</key>
+				<integer>2</integer>
+				<key>spellchecking</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.text</string>
+			<key>uid</key>
+			<string>44EED82E-72A4-4A76-8245-858F6241EA87</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>7C55C3A8-C10A-4A1B-844A-B7D4E267847E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "fontsizing" : "{var:text_view_font_size}"
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>DA719CCE-39AC-4C66-8975-8CA7A81454D5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>copy_last</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A33A56F6-4CF0-452D-9F1C-877FEDF71B40</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.view</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>2599B1FD-DC62-4380-B8E6-BA888CA83952</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>pid=$(pgrep say)
+if [[ ! -z "$pid" ]]; then
+    kill $pid
+else
+	say "$1" --rate=${speech_rate}
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>80EBB87B-C18D-48B1-80E0-AC464CEAF70F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>src/Message+Utils.swift</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>50B677CA-DBFE-445B-A54E-1262D2A20A7E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>{var:key}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>⏎ Continue chat · ⌘⏎ New chat · ⌥⏎ Chat history</string>
+				<key>text</key>
+				<string>Ask {var:primary_endpoint}</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6B7B78B6-7600-4376-BF92-14F063C32DB9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open "alfredpreferences://navigateto/workflows&gt;workflow&gt;$alfred_workflow_uid&gt;userconfig&gt;primary_endpoint"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9C2BBDCC-3085-4483-95CA-63A35A2A8409</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:tts}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Speak / Stop</string>
+						<key>uid</key>
+						<string>A8E03A48-AC88-439A-9DA7-26C048917D43</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Copy</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>AF2D2F0E-2FDA-40E9-B192-A3E332F11F26</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>chat.view</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>49C08720-D40E-48B9-AA17-0061D835B99B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>2B6151BC-EF9E-4F69-A335-27E25FB90DFA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>AD893F74-F647-4429-900E-BB1CA95365B2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>copy_last</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>tts</key>
+					<string>true</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>089D84C7-5C32-4DA9-94FB-C6129F34E7CC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>src/HUD.swift</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A0392681-01B8-4466-8703-589E802F58FB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>7C272766-985E-4316-AA9C-88B5C35877B2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>1A6E8005-C5E7-4592-AAC9-212566AA526F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>193A7178-50B7-4803-ADB2-F4C7CB12622C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.view.archive</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>0AA7EA40-5C9C-4A27-9452-7F9B7AEB23C5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>9901D433-1F42-4B14-8142-26B2094C650C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading previous conversations...</string>
+				<key>script</key>
+				<string>#[[ -a ./src/Archive ]] || swiftc -O ./src/Archive.swift -o ./src/Archive
+#./src/Archive "$1"
+
+# For the alpha version I'm including a compiled executable of the script
+# TODO: Dependency Handling
+xattr -d com.apple.quarantine ./src/Archive &gt;/dev/null 2&gt;&amp;1
+./src/Archive "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Chat History</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C56469BF-2E28-4030-9288-954F67D07899</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>readonly timestamp=$(date +"%Y%m%d-%H%M-")
+readonly uuid=${"$(uuidgen)":l:gs/\-/}
+readonly archive="${alfred_workflow_data}/archive"
+readonly archive_chat="${archive}/${timestamp}${uuid}.json"
+readonly chat_file_current="${alfred_workflow_cache}/chat.json"
+readonly chat_file_from_archive="$1"
+
+
+# case: 
+#   Return to the archived chat selection script filter
+#   from the chat text view after pressing escape (stacked view).
+#   The desired archived chat already is the current chat,
+#   the script filter just has not been updated to reflect that.
+#
+# WARNING
+#   Correction, stacking has to be disabled for now as it may
+#   lead to data loss. I.e. disallow the window behaviour:
+#   `Don't close the Alfred Window on actioning result`.
+#   Needs further testing. However, the  results are at least 
+#   inconsistent with stacking enabled.
+#
+
+if [[ ! -a "$chat_file_from_archive" ]]; then
+	exit 0
+fi
+
+# case: keep starting new conversations
+if [[ -a "$chat_file_current" ]]; then
+	mv "$chat_file_current" "$archive_chat"
+fi
+
+mv "$chat_file_from_archive" "$chat_file_current"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2488D1FF-67CB-4C8F-B1E2-E0C84987FF43</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.apple.dt.Xcode</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FA1FD985-D73B-4F59-8A0F-89E30166C169</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.view.archive</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>CA127E33-F076-44F9-94C3-B47DB988BA53</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>4B8BE85D-D638-413D-920A-29BC8DABD3B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<true/>
+				<key>triggerid</key>
+				<string>chat.view.archive</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>147133EF-CBEB-4B54-A36D-4D0FF1A4AF61</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.view</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>58CE5512-A5D3-4B4A-900E-51CD37633E75</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Optionally, add an instruction that precedes the text.</string>
+				<key>text</key>
+				<string>Add Instruction</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>58A508A1-E62D-40D0-83E0-B2C32BB9AF3B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>runtime_chat_ua_new_chat</key>
+					<string>true</string>
+					<key>runtime_chat_ua_selected_text</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>63140911-7499-46EA-BC6E-A3222039525E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<false/>
+				<key>name</key>
+				<string>Ask Ayai · GPT Nexus</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>C786B1FF-256D-4536-B924-0392511CA454</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>chat.new</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>C60A7190-4D07-4649-8A86-0863AC9CB804</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:runtime_chat_ua_new_chat}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>continue</string>
+						<key>uid</key>
+						<string>4B899F7C-CB34-4E9F-96F1-A01E134347F4</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:runtime_chat_ua_new_chat}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>new chat</string>
+						<key>uid</key>
+						<string>D8856138-618C-48F7-9DC6-EAD760F9CA04</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>C9E0E3E8-9B97-4777-BCA5-81E5CBDE2F79</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query.trim}
+{var:runtime_chat_ua_selected_text.trim}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>EB1A5D08-9459-4C71-81C6-B0815E89D1AC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>runtime_chat_ua_new_chat</key>
+					<string>false</string>
+					<key>runtime_chat_ua_selected_text</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>398EC620-2BB2-4F3C-A365-12F0798C92C4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>src/nexus.sh</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>26A54A2E-DA90-48CC-B225-23F4E598BB13</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Added '{query}'</string>
+				<key>title</key>
+				<string>Inference Action Override</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>D20A08DE-4D38-4817-950C-A08566CDF9AC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>new_bundle_id=$(mdls -name kMDItemCFBundleIdentifier -r "$1")
+all_bundle_ids="$inference_actions_behaviour_disable_safety_check_for_application_with_bundleID"
+all_bundle_ids+=", $new_bundle_id"
+
+cat &lt;&lt;EOF | osascript
+	tell application id "com.runningwithcrayons.Alfred"
+	 	set theWorkflow to "${alfred_workflow_bundleid}"
+	 	set bundleIDVar to "inference_actions_behaviour_disable_safety_check_for_application_with_bundleID"
+ 		set newBundleIDs to "$all_bundle_ids"
+	 	set configuration bundleIDVar to value newBundleIDs in workflow theWorkflow
+	 	-- reload workflow theWorkflow	 end tell
+EOF
+
+echo -n "$new_bundle_id"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0E1F78CA-3BC8-4059-852E-266A63C9E302</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>filetypes</key>
+				<array>
+					<string>com.apple.application-bundle</string>
+				</array>
+				<key>name</key>
+				<string>Add as Exception</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>B8F550AF-FF20-4FA4-8AB2-42D32F13D268</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<false/>
+				<key>name</key>
+				<string>Ayai · All Inference Actions</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>79DBA4D5-5E20-4FEE-96B2-853DA60BB40B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>src/nexus.sh</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>850A0EF7-406C-4468-8BEA-2C0472ED3158</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>action_payload</key>
+					<string>{query}</string>
+					<key>workflow_program_state</key>
+					<string>actions</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8F759188-E34C-4576-80E9-2E0954B98B46</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>
+Query {
+	'{query}'
+}
+
+
+Variables:
+
+{variables}</string>
+				<key>cleardebuggertext</key>
+				<false/>
+				<key>processoutputs</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.debug</string>
+			<key>uid</key>
+			<string>42B5F116-9B04-4E94-8F1F-D61CF4D15637</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>17795C7B-B492-4775-BE7A-4335A136FBA0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>\w</string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>7091E071-5808-45C5-A9FF-E324389CF6BB</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4B8AFA6C-0288-4CCA-8D59-708E92B6B002</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>![](images/ayai-header.png)
+
+__ChatGPT__, __Claude__, __Perplexity__, and __Gemini__ integrations for chat, real-time information retrieval, and text processing tasks, such as paraphrasing, simplifying, or summarizing. 
+With support for third-party __proxies__ and __local language models__.
+
+---
+__⍺__ | Created by [Patrick Sy](https://github.com/zeitlings) | [Github](https://github.com/zeitlings/ayai-gpt-nexus) | [Alfred Forum](https://www.alfredforum.com/topic/21910-ayai-%C2%B7-gpt-nexus-chatgpt-claude-gemini-perplexity-local-llms) | [Buy me a Coffee](https://ko-fi.com/zeitlings) ☕  
+---
+
+## 1 / Setup
+
+1. Configure [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to quickly view the current chat, archive, and inference actions.
+* For instance &lt;kbd&gt;⌥⇧A&lt;/kbd&gt;, &lt;kbd&gt;⌘⇧A&lt;/kbd&gt;, and &lt;kbd&gt;⌥⇧I&lt;/kbd&gt; (optional).
+2. Install the [SF Pro](https://developer.apple.com/fonts/) font from Apple to display icons.
+3. Enter your API keys for the services you want to use.
+4. Configure your proxy or local host settings in the [Environment Variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment) (optional).
+
+
+## 2 / Usage
+
+### Ayai Chat
+
+Converse with your __Primary__ via the `ask` keyword, [Universal Action](https://www.alfredapp.com/help/features/universal-actions/), or [Fallback Search](https://www.alfredapp.com/help/features/default-results/fallback-searches/). 
+
+![GPT Nexus keyword preview](images/preview/keyword.png)
+
+- &lt;kbd&gt;↩&lt;/kbd&gt; Continue the ongoing chat.
+- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Start a new conversation.
+- &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; View the chat history.
+* __Hidden Option__
+	- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Open the workflow configuration.
+
+
+#### Chat Window
+
+![GPT Nexus chat and websearch preview](images/preview/chat+websearch.png)
+
+- &lt;kbd&gt;↩&lt;/kbd&gt; Ask a question.
+- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Start a new conversation.
+- &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy the last answer.
+- &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy the full conversation.
+- &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Stop generating an answer.
+- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; View the chat history.
+
+* __Hidden Options__
+	- &lt;kbd&gt;⇧⌥⏎&lt;/kbd&gt; Show configuration info in HUD
+	- &lt;kbd&gt;⇧⌃⏎&lt;/kbd&gt; __Speak__ the last answer out loud
+	- &lt;kbd&gt;⇧⌘⏎&lt;/kbd&gt; Edit __multi-line prompt__ in separate window
+		* &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Switch to Editor / Markdown preview
+		* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Ask the question.
+		* &lt;kbd&gt;⇧⌘⏎&lt;/kbd&gt; Start a new conversation.
+
+
+#### Chat History
+
+![Chat history preview](images/preview/history.png)
+
+- Type to filter archived chats based on your query.
+- &lt;kbd&gt;↩&lt;/kbd&gt; Continue archived chat.
+- &lt;kbd&gt;⌥&lt;/kbd&gt; View the modification date.
+- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Reveal the chat file in Finder.
+- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;L&lt;/kbd&gt; Inspect the unabridged preview as [Large Type](https://www.alfredapp.com/help/features/large-type/).
+- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Send conversation to the trash.
+
+
+
+
+### Inference Actions¹
+
+&gt; Inference Actions provide a suite of language tools for text generation and transformation. These tools enable summarization, clarification, concise writing, and tone adjustment for selected text. They can also correct spelling, expand and paraphrase text, follow instructions, answer questions, and improve text in other ways. 
+
+Access a list of all available actions via the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/) or by setting the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) trigger.
+
+![Universal Action Preview](images/preview/universal-action.png)
+![Inference Actions Preview](images/preview/generate.png)
+
+- &lt;kbd&gt;↩&lt;/kbd&gt; Generate the result using the configured default strategy.
+- &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; __Paste__ the result and replace selection.
+- &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; __Stream__ the result and preserve selection.
+- &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; __Copy__ the result to clipboard.
+
+
+---
+
+## 3 / Prompting
+
+&gt; A prompt is the text that you give the model to elicit, or "prompt," a relevant output. A prompt is usually in the form of a question or instructions.
+
+### References
+
+- [General prompt engineering guide](https://www.promptingguide.ai/)
+- [OpenAI prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering) | [Prompt Gallery](https://platform.openai.com/docs/examples)
+- [Anthropic prompt engineering guide](https://docs.anthropic.com/en/docs/prompt-engineering) | [Prompt Gallery](https://docs.anthropic.com/en/prompt-library/library) 
+- [Google AI prompt engineering guide](https://ai.google.dev/gemini-api/docs/prompting-intro) | [Prompt Gallery](https://ai.google.dev/gemini-api/prompts)
+
+
+
+---
+
+## 4 / Configuration
+
+
+### Primary 
+
+The *primary* configuration setting determines the service that is used for conversations and inference tasks.
+
+
+#### OpenAI Proxies²
+
+If you want to use a third party proxy, define the correlating `host`, `path`, `API key`, `model`, and if required the `url scheme` or `port` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment).
+The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the returned stream events and errors to mirror the shape of those returned by the OpenAI API.
+
+
+#### Local LM's³
+
+If you want to use a local language model, define the correlating `url scheme`, `host`, `port`, `path`, and if required the `model` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment) to establish a connection to the local HTTP initiated and maintained by the method of your choice.
+The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the returned stream events and errors to mirror the shape of those returned by the OpenAI API.
+
+
+__Note__: Additional stop sequences can be provided via the shared `finish_reasons` environment variable.
+
+---
+
+### System Prompt
+
+A system prompt is a way to provide context, instructions, and guidelines to a language model before presenting it with a question or task. By using a system prompt, you can set the stage for the conversation, specifying the model's role, personality, tone, or any other relevant information that will help it better understand and respond to your input. ([@](https://docs.anthropic.com/claude/docs/system-prompts))
+
+__Note:__ OpenAI shares some tactics for effective [prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering).  
+__Note:__ Using [Perplexity](https://docs.perplexity.ai/docs/model-cards#online-llms), the search subsystem of the Online LLMs do not attend to the system prompt.
+
+
+
+
+__Simple examples you can try:__
+- `Be clear and concise.`
+- `Use markdown formatting to emphasize your points.`
+- `Explain your reasoning step by step.` ([@](https://docs.anthropic.com/en/docs/let-claude-think))
+
+
+---
+
+### Models
+
+If you opt in to using more expensive models, be aware of their prices and consider starting new conversations often to avoid paying for unnecessarily large chat histories included in the context window.
+
+#### OpenAI Model Information  
+
+&gt; __GPT 4o mini__                                   $0.15      /     $0.60     ·   _128k_  
+&gt; __GPT 4o__                                                     $2.50      /    $10.00     · _128k_  
+&gt; __OpenAI o1-mini__                          $3.00      /    $12.00     · _128k_  
+&gt; __OpenAI o1-preview__                   $15.00   /    $60.00     · _128k_  
+&gt; *Per M input / output tokens* · context window | [09.10.2024](https://openai.com/api/pricing/)
+
+
+#### Google Model Information
+&gt; __Gemini 1.5 Flash﹡__       $0.075      /    $0.30     · _1M_  
+&gt; __Gemini 1.5 Pro ⁑__             $1.25         /    $5.00     · _1M_   
+&gt; __Gemini 1.0 Pro__                $0.50       /    $1.50      · _32k_  
+&gt; *Per M input / output tokens* · context window | [01.10.2024](https://ai.google.dev/pricing)  
+&gt; __Note﹡__  $0.15 / $0.60 _for prompts longer than 128k tokens._  
+&gt; __Note ⁑ __   $2.50 / $10.00 _for prompts longer than 128k tokens._
+
+#### Anthropic Model Information
+
+##### Claude
+
+&gt; __Claude 3 Haiku__         $0.25    /   $1.25      · _200k_  
+&gt; __Claude 3.5 Sonnet__   $3.00    /   $15.00 · _200k_  
+&gt; __Claude 3 Opus__          $15.00  /   $75.00 · _200k_  
+&gt; *Per M input / output tokens* · context window | [22.06.2024](https://docs.anthropic.com/en/docs/models-overview#model-comparison)
+
+##### Perplexity
+
+###### 1. Perplexity In-House Models
+  
+&gt; __Llama-3.1-Sonar-S-8B__ __*chat*__ || __*online*__      $0.20    /   $0.20 · _131k_ || _127k_  
+&gt; __Llama-3.1-Sonar-L-70B__ __*chat*__ || __*online*__    $1.00    /    $1.00  · _131k_ || _127k_  
+&gt; __Llama-3.1-Sonar-H-405B__ __*online*__                             $5.00 ·  _127k_  
+&gt; *Per M input / output tokens* · context window | [18.08.2024](https://docs.perplexity.ai/docs/pricing)  
+&gt; __Note:__ For *online* models, in addition to the token charges, a flat $5 is charged per 1000 requests (or half a cent per request).
+
+
+###### 2. Perplexity Open Source Models
+
+&gt; __Llama-3.1-8b instruct__	      $0.20    /   $0.20 · _131k_  
+&gt; __Llama-3.1-70b instruct__        $1.00    /    $1.00  · _131k_  
+&gt; *Per M input / output tokens* · context window | [18.08.2024](https://docs.perplexity.ai/docs/pricing)  
+
+
+---
+
+## Footnotes
+
+¹ *Ayai* will make sure that the frontmost application accepts text input before streaming or pasting, and will simply copy the result to the clipboard if it does not. This requires [accessibility access](https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac), which you may need to grant in order to use inference actions.  
+² Third party proxies such as [OpenRouter](https://openrouter.ai/), [Groq](https://groq.com/), [Fireworks](https://fireworks.ai/)  or [Together.ai](https://www.together.ai/) (see [wiki](https://github.com/zeitlings/ayai-gpt-nexus/wiki)).  
+³ Local HTTP servers can be set up with interfaces such as [LM Studio](https://lmstudio.ai/) or [Ollama](https://ollama.com/).</string>
+	<key>uidata</key>
+	<dict>
+		<key>089D84C7-5C32-4DA9-94FB-C6129F34E7CC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>Speak Last</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>645</real>
+		</dict>
+		<key>0AA7EA40-5C9C-4A27-9452-7F9B7AEB23C5</key>
+		<dict>
+			<key>xpos</key>
+			<real>1385</real>
+			<key>ypos</key>
+			<real>765</real>
+		</dict>
+		<key>0DAA57DE-284A-40EA-9E1C-AD9B92BFFC2A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1775</real>
+			<key>ypos</key>
+			<real>275</real>
+		</dict>
+		<key>0E1F78CA-3BC8-4059-852E-266A63C9E302</key>
+		<dict>
+			<key>xpos</key>
+			<real>1135</real>
+			<key>ypos</key>
+			<real>1285</real>
+		</dict>
+		<key>0E259C2F-0D42-4D9D-9DAD-B909A3FF5E8A</key>
+		<dict>
+			<key>xpos</key>
+			<real>1670</real>
+			<key>ypos</key>
+			<real>280</real>
+		</dict>
+		<key>147133EF-CBEB-4B54-A36D-4D0FF1A4AF61</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>1010</real>
+		</dict>
+		<key>17795C7B-B492-4775-BE7A-4335A136FBA0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>→ Inference Actions</string>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>1440</real>
+		</dict>
+		<key>193A7178-50B7-4803-ADB2-F4C7CB12622C</key>
+		<dict>
+			<key>xpos</key>
+			<real>570</real>
+			<key>ypos</key>
+			<real>725</real>
+		</dict>
+		<key>1A6E8005-C5E7-4592-AAC9-212566AA526F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Show HUD</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
+		<key>1FD1522C-5846-4C92-9560-93E9DE192147</key>
+		<dict>
+			<key>xpos</key>
+			<real>1775</real>
+			<key>ypos</key>
+			<real>195</real>
+		</dict>
+		<key>2488D1FF-67CB-4C8F-B1E2-E0C84987FF43</key>
+		<dict>
+			<key>note</key>
+			<string>Swap Chats
+Archive Conversation</string>
+			<key>xpos</key>
+			<real>495</real>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>2599B1FD-DC62-4380-B8E6-BA888CA83952</key>
+		<dict>
+			<key>xpos</key>
+			<real>1550</real>
+			<key>ypos</key>
+			<real>495</real>
+		</dict>
+		<key>26A54A2E-DA90-48CC-B225-23F4E598BB13</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>1285</real>
+		</dict>
+		<key>27364F03-FD83-4934-802E-A6B4C7B2D1A1</key>
+		<dict>
+			<key>xpos</key>
+			<real>1775</real>
+			<key>ypos</key>
+			<real>85</real>
+		</dict>
+		<key>2B6151BC-EF9E-4F69-A335-27E25FB90DFA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Copy All</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>570</real>
+		</dict>
+		<key>2F1F9909-A7AD-464D-B0D9-EF6BA49EE1BF</key>
+		<dict>
+			<key>xpos</key>
+			<real>1280</real>
+			<key>ypos</key>
+			<real>160</real>
+		</dict>
+		<key>31FA52AC-018A-4F30-A4C2-FCBC637F4707</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>1850</real>
+			<key>ypos</key>
+			<real>40</real>
+		</dict>
+		<key>3675B542-81DE-419E-8038-E8BC0343ACFB</key>
+		<dict>
+			<key>xpos</key>
+			<real>1850</real>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
+		<key>398EC620-2BB2-4F3C-A365-12F0798C92C4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>1205</real>
+		</dict>
+		<key>3B7D6C5A-57B3-4548-AA9D-177A554EA073</key>
+		<dict>
+			<key>xpos</key>
+			<real>1775</real>
+			<key>ypos</key>
+			<real>305</real>
+		</dict>
+		<key>3DA87F71-D125-41E9-BFEF-49CFF967E506</key>
+		<dict>
+			<key>note</key>
+			<string>Ask Question</string>
+			<key>xpos</key>
+			<real>1585</real>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>42B5F116-9B04-4E94-8F1F-D61CF4D15637</key>
+		<dict>
+			<key>xpos</key>
+			<real>830</real>
+			<key>ypos</key>
+			<real>1395</real>
+		</dict>
+		<key>44EED82E-72A4-4A76-8245-858F6241EA87</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Hidden:
+- ⇧⌥⏎ Config Info
+- ⌘⇧⏎ Multi-Line
+- ⇧⌃⏎ Speak</string>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>4523F2F2-BB6B-470B-9475-8EF4CE758457</key>
+		<dict>
+			<key>xpos</key>
+			<real>1280</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>49C08720-D40E-48B9-AA17-0061D835B99B</key>
+		<dict>
+			<key>xpos</key>
+			<real>495</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
+		<key>4B8AFA6C-0288-4CCA-8D59-708E92B6B002</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>1470</real>
+		</dict>
+		<key>4B8BE85D-D638-413D-920A-29BC8DABD3B0</key>
+		<dict>
+			<key>xpos</key>
+			<real>495</real>
+			<key>ypos</key>
+			<real>1010</real>
+		</dict>
+		<key>50B677CA-DBFE-445B-A54E-1262D2A20A7E</key>
+		<dict>
+			<key>xpos</key>
+			<real>1135</real>
+			<key>ypos</key>
+			<real>540</real>
+		</dict>
+		<key>563AB6D0-32FA-4453-A27C-5EB5AC8C119F</key>
+		<dict>
+			<key>note</key>
+			<string>Archive Conversation</string>
+			<key>xpos</key>
+			<real>495</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>58A508A1-E62D-40D0-83E0-B2C32BB9AF3B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>495</real>
+			<key>ypos</key>
+			<real>1145</real>
+		</dict>
+		<key>58CE5512-A5D3-4B4A-900E-51CD37633E75</key>
+		<dict>
+			<key>xpos</key>
+			<real>830</real>
+			<key>ypos</key>
+			<real>1050</real>
+		</dict>
+		<key>59CC3B66-BEFC-4E0D-9C50-9846A7D52C05</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Cancel</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>420</real>
+		</dict>
+		<key>5E4EEBF1-A743-458D-B196-0E9B27899E21</key>
+		<dict>
+			<key>xpos</key>
+			<real>1775</real>
+			<key>ypos</key>
+			<real>55</real>
+		</dict>
+		<key>62DE42B0-9620-4926-8A49-8E77B1F766BF</key>
+		<dict>
+			<key>xpos</key>
+			<real>1850</real>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>63140911-7499-46EA-BC6E-A3222039525E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>1145</real>
+		</dict>
+		<key>68FAB48B-44B4-4131-8C5C-5993AD5A247F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>6B7B78B6-7600-4376-BF92-14F063C32DB9</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
+		<key>7113234A-832D-471F-A3E5-167802C86774</key>
+		<dict>
+			<key>xpos</key>
+			<real>1670</real>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>78FCFED5-8833-4E81-8989-5EC1569C6BF3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>79B3846A-D1C6-49EA-8AE0-DEFAEA0115AA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>New Chat</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>79DBA4D5-5E20-4FEE-96B2-853DA60BB40B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>All Inference Actions [Text]</string>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>1285</real>
+		</dict>
+		<key>7C272766-985E-4316-AA9C-88B5C35877B2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>→ View Chat</string>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>695</real>
+		</dict>
+		<key>7C55C3A8-C10A-4A1B-844A-B7D4E267847E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Continue with existing chat</string>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>460</real>
+		</dict>
+		<key>7DEB157F-2231-4736-9B67-B2CB1E5DF772</key>
+		<dict>
+			<key>xpos</key>
+			<real>1385</real>
+			<key>ypos</key>
+			<real>410</real>
+		</dict>
+		<key>80EBB87B-C18D-48B1-80E0-AC464CEAF70F</key>
+		<dict>
+			<key>xpos</key>
+			<real>1380</real>
+			<key>ypos</key>
+			<real>525</real>
+		</dict>
+		<key>850A0EF7-406C-4468-8BEA-2C0472ED3158</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<real>830</real>
+			<key>ypos</key>
+			<real>1285</real>
+		</dict>
+		<key>8F759188-E34C-4576-80E9-2E0954B98B46</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>1315</real>
+		</dict>
+		<key>91D3361F-2008-4DC6-B1CB-2654FFED534D</key>
+		<dict>
+			<key>note</key>
+			<string>Swap Editor / Markdown</string>
+			<key>xpos</key>
+			<real>1585</real>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>9851E23B-A570-4959-8D2E-15A088AEDD07</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>note</key>
+			<string>Edit Multi-Line prompt</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+		<key>9901D433-1F42-4B14-8142-26B2094C650C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>Show Archive</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>795</real>
+		</dict>
+		<key>9ACBF3C3-8BA7-4938-B049-B9CF33A49942</key>
+		<dict>
+			<key>xpos</key>
+			<real>1670</real>
+			<key>ypos</key>
+			<real>170</real>
+		</dict>
+		<key>9C2BBDCC-3085-4483-95CA-63A35A2A8409</key>
+		<dict>
+			<key>note</key>
+			<string>Open Configuration</string>
+			<key>xpos</key>
+			<real>345</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
+		<key>A0392681-01B8-4466-8703-589E802F58FB</key>
+		<dict>
+			<key>note</key>
+			<string>configuration details</string>
+			<key>xpos</key>
+			<real>1135</real>
+			<key>ypos</key>
+			<real>690</real>
+		</dict>
+		<key>A33A56F6-4CF0-452D-9F1C-877FEDF71B40</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Copy Last</string>
+			<key>xpos</key>
+			<real>1025</real>
+			<key>ypos</key>
+			<real>495</real>
+		</dict>
+		<key>ACF23CC4-E3AA-4839-8787-ACB95760A3B3</key>
+		<dict>
+			<key>xpos</key>
+			<real>1775</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>AD893F74-F647-4429-900E-BB1CA95365B2</key>
+		<dict>
+			<key>xpos</key>
+			<real>1385</real>
+			<key>ypos</key>
+			<real>640</real>
+		</dict>
+		<key>AF2D2F0E-2FDA-40E9-B192-A3E332F11F26</key>
+		<dict>
+			<key>xpos</key>
+			<real>1270</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
+		<key>B8F550AF-FF20-4FA4-8AB2-42D32F13D268</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>Utility to add an application's bundle identifier to the Inference Action safty-check ignore list</string>
+			<key>xpos</key>
+			<real>985</real>
+			<key>ypos</key>
+			<real>1285</real>
+		</dict>
+		<key>C011E563-61E9-456F-823C-3B116A7B1B4D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>New chat</string>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>380</real>
+		</dict>
+		<key>C11119FB-73C2-44F8-98C7-B956A75EAF24</key>
+		<dict>
+			<key>note</key>
+			<string>New Chat</string>
+			<key>xpos</key>
+			<real>1585</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>C56469BF-2E28-4030-9288-954F67D07899</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>View chat history and
+continue previous chats</string>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>C60A7190-4D07-4649-8A86-0863AC9CB804</key>
+		<dict>
+			<key>xpos</key>
+			<real>830</real>
+			<key>ypos</key>
+			<real>1160</real>
+		</dict>
+		<key>C786B1FF-256D-4536-B924-0392511CA454</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Chat Universal Action</string>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>1145</real>
+		</dict>
+		<key>C8F160E1-3A1E-4DC0-95F7-21E3D58C8D3C</key>
+		<dict>
+			<key>xpos</key>
+			<real>1550</real>
+			<key>ypos</key>
+			<real>375</real>
+		</dict>
+		<key>C9E0E3E8-9B97-4777-BCA5-81E5CBDE2F79</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>700</real>
+			<key>ypos</key>
+			<real>1165</real>
+		</dict>
+		<key>CA127E33-F076-44F9-94C3-B47DB988BA53</key>
+		<dict>
+			<key>xpos</key>
+			<real>650</real>
+			<key>ypos</key>
+			<real>1010</real>
+		</dict>
+		<key>D20A08DE-4D38-4817-950C-A08566CDF9AC</key>
+		<dict>
+			<key>xpos</key>
+			<real>1385</real>
+			<key>ypos</key>
+			<real>1285</real>
+		</dict>
+		<key>D44AA87C-D6B5-417C-994A-641BE653DDB0</key>
+		<dict>
+			<key>xpos</key>
+			<real>1135</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+		<key>D538DF05-F7F1-450A-9720-8BB078209292</key>
+		<dict>
+			<key>xpos</key>
+			<real>275</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>D5FE5D7C-1658-4C85-B12B-8C363E17A54F</key>
+		<dict>
+			<key>xpos</key>
+			<real>1280</real>
+			<key>ypos</key>
+			<real>420</real>
+		</dict>
+		<key>D6E6B9AF-D319-4D4E-B460-3AA4FBFCD98C</key>
+		<dict>
+			<key>note</key>
+			<string>kill process and clean up</string>
+			<key>xpos</key>
+			<real>1135</real>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
+		<key>DA719CCE-39AC-4C66-8975-8CA7A81454D5</key>
+		<dict>
+			<key>note</key>
+			<string>Accessibility Injection</string>
+			<key>xpos</key>
+			<real>680</real>
+			<key>ypos</key>
+			<real>460</real>
+		</dict>
+		<key>EB1A5D08-9459-4C71-81C6-B0815E89D1AC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<real>640</real>
+			<key>ypos</key>
+			<real>1175</real>
+		</dict>
+		<key>FA1FD985-D73B-4F59-8A0F-89E30166C169</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>6</integer>
+			<key>note</key>
+			<string>→ View Chat History</string>
+			<key>xpos</key>
+			<real>85</real>
+			<key>ypos</key>
+			<real>850</real>
+		</dict>
+		<key>FF4D8102-6821-4A92-94DD-E5BCEB57D307</key>
+		<dict>
+			<key>xpos</key>
+			<real>1380</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>ask</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>key</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>DeepSeek</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Ask DeepSeek</string>
+						<string>DeepSeek</string>
+					</array>
+					<array>
+						<string>Ask Claude</string>
+						<string>Claude</string>
+					</array>
+					<array>
+						<string>Ask Gemini</string>
+						<string>Gemini</string>
+					</array>
+					<array>
+						<string>Ask Perplexity</string>
+						<string>Perplexity</string>
+					</array>
+					<array>
+						<string>Ask Proxy</string>
+						<string>Proxy</string>
+					</array>
+					<array>
+						<string>Ask Local LM</string>
+						<string>Local LM</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>The primary setting defines which service is used for inference.</string>
+			<key>label</key>
+			<string>Primary ⚫</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>primary_endpoint</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>DeepSeek API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>deepseek_apikey</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Anthropic API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>anthropic_apikey</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Perplexity API key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>perplexity_apikey</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Google AI API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>google_apikey</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>deepseek-coder</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>deepseek-coder</string>
+						<string>deepseek-coder</string>
+					</array>
+					<array>
+						<string>deepseek-chat</string>
+						<string>deepseek-chat</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>DeepSeek Model</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>deepseek_gpt_model</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>claude-3-haiku-20240307</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Claude 3 Haiku</string>
+						<string>claude-3-haiku-20240307</string>
+					</array>
+					<array>
+						<string>Claude 3.5 Sonnet</string>
+						<string>claude-3-5-sonnet-20240620</string>
+					</array>
+					<array>
+						<string>Claude 3 Opus</string>
+						<string>claude-3-opus-20240229</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Anthropic Model</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>anthropic_gpt_model</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>llama-3.1-sonar-large-128k-online</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Llama 3.1 Sonar Small 8B · Chat</string>
+						<string>llama-3.1-sonar-small-128k-chat</string>
+					</array>
+					<array>
+						<string>Llama 3.1 Sonar Small 8B · Online</string>
+						<string>llama-3.1-sonar-small-128k-online</string>
+					</array>
+					<array>
+						<string>Llama 3.1 Sonar Large 70B · Chat</string>
+						<string>llama-3.1-sonar-large-128k-chat</string>
+					</array>
+					<array>
+						<string>Llama 3.1 Sonar Large 70B  · Online</string>
+						<string>llama-3.1-sonar-large-128k-online</string>
+					</array>
+					<array>
+						<string>Llama 3.1 Sonar Huge 405B  · Online</string>
+						<string>llama-3.1-sonar-huge-128k-online</string>
+					</array>
+					<array>
+						<string>━━━━━━━━━━━━</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Llama 3.1 8B Instruct</string>
+						<string>llama-3.1-8b-instruct</string>
+					</array>
+					<array>
+						<string>Llama 3.1 70B Instruct</string>
+						<string>llama-3.1-70b-instruct</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Perplexity Model</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>perplexity_gpt_model</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>gemini-1.5-flash-latest</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Gemini 1.5 Flash (Preview)</string>
+						<string>gemini-1.5-flash-latest</string>
+					</array>
+					<array>
+						<string>Gemini 1.5 Pro (Preview)</string>
+						<string>gemini-1.5-pro-latest</string>
+					</array>
+					<array>
+						<string>Gemini 1.5 Pro</string>
+						<string>gemini-1.5-pro</string>
+					</array>
+					<array>
+						<string>Gemini 1.5 Flash</string>
+						<string>gemini-1.5-flash</string>
+					</array>
+					<array>
+						<string>Gemini 1.0 Pro</string>
+						<string>gemini-1.0-pro</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Gemini Model</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>google_gpt_model</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>2048</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>256 tokens</string>
+						<string>256</string>
+					</array>
+					<array>
+						<string>512 tokens</string>
+						<string>512</string>
+					</array>
+					<array>
+						<string>1024 tokens</string>
+						<string>1024</string>
+					</array>
+					<array>
+						<string>2048 tokens</string>
+						<string>2048</string>
+					</array>
+					<array>
+						<string>3072 tokens</string>
+						<string>3072</string>
+					</array>
+					<array>
+						<string>3584 tokens</string>
+						<string>3584</string>
+					</array>
+					<array>
+						<string>4096 tokens</string>
+						<string>4096</string>
+					</array>
+					<array>
+						<string>8192 tokens</string>
+						<string>8192</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>The maximum length setting determines the maximum number of output tokens (words or subwords) that the model will generate. Once the model has generated the specified number of output tokens, it will stop producing any further text.</string>
+			<key>label</key>
+			<string>Maximum Length</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>max_output_length</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>60</integer>
+				<key>markercount</key>
+				<integer>10</integer>
+				<key>maxvalue</key>
+				<integer>500</integer>
+				<key>minvalue</key>
+				<integer>1</integer>
+				<key>onlystoponmarkers</key>
+				<false/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Context</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>shared_context_message_limit</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Truncate by summarizing chat history instead</string>
+			</dict>
+			<key>description</key>
+			<string>The context setting determines at which point previously sent messages will be ignored. Instead of truncating the chat history, you can also opt in to generate and inject a summary of the overflowing dialog into the system prompt (WIP).</string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>shared_context_summarize_instead</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>0.8</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>0.01</string>
+						<string>0.01</string>
+					</array>
+					<array>
+						<string>0.1</string>
+						<string>0.1</string>
+					</array>
+					<array>
+						<string>0.2</string>
+						<string>0.2</string>
+					</array>
+					<array>
+						<string>0.3</string>
+						<string>0.3</string>
+					</array>
+					<array>
+						<string>0.4</string>
+						<string>0.4</string>
+					</array>
+					<array>
+						<string>0.5</string>
+						<string>0.5</string>
+					</array>
+					<array>
+						<string>0.6</string>
+						<string>0.6</string>
+					</array>
+					<array>
+						<string>0.7</string>
+						<string>0.7</string>
+					</array>
+					<array>
+						<string>0.8</string>
+						<string>0.8</string>
+					</array>
+					<array>
+						<string>0.9</string>
+						<string>0.9</string>
+					</array>
+					<array>
+						<string>1.0</string>
+						<string>1.0</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>The temperature setting determines the balance between predictability and creativity in the language model's responses.</string>
+			<key>label</key>
+			<string>Temperature</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>shared_gpt_temperature</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+				<key>verticalsize</key>
+				<integer>9</integer>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>System Prompt</string>
+			<key>type</key>
+			<string>textarea</string>
+			<key>variable</key>
+			<string>gpt_system_prompt</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Save Conversations</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Archive</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>enable_archiving</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>layout_preset_f</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Chat Layout I</string>
+						<string>layout_preset_a</string>
+					</array>
+					<array>
+						<string>Chat Layout II</string>
+						<string>layout_preset_b</string>
+					</array>
+					<array>
+						<string>Chat Layout III</string>
+						<string>layout_preset_c</string>
+					</array>
+					<array>
+						<string>Chat Layout IV</string>
+						<string>layout_preset_d</string>
+					</array>
+					<array>
+						<string>Chat Layout V</string>
+						<string>layout_preset_e</string>
+					</array>
+					<array>
+						<string>Chat Layout VI</string>
+						<string>layout_preset_f</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Formatting</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>chat_layout</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>0</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Text Size: Global</string>
+						<string>0</string>
+					</array>
+					<array>
+						<string>Text Size: Small</string>
+						<string>1</string>
+					</array>
+					<array>
+						<string>Text Size: Medium</string>
+						<string>2</string>
+					</array>
+					<array>
+						<string>Text Size: Large</string>
+						<string>3</string>
+					</array>
+					<array>
+						<string>Text Size: Extra Large</string>
+						<string>4</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Accessibility</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>text_view_font_size</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>168</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Speaking Tempo: Fast</string>
+						<string>200</string>
+					</array>
+					<array>
+						<string>Speaking Tempo: Swift</string>
+						<string>180</string>
+					</array>
+					<array>
+						<string>Speaking Tempo: Normal</string>
+						<string>168</string>
+					</array>
+					<array>
+						<string>Speaking Temp: Relaxed</string>
+						<string>150</string>
+					</array>
+					<array>
+						<string>Speaking Tempo: Deliberate</string>
+						<string>140</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Start or stop speaking the last message with ⌃⇧⏎</string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>speech_rate</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Enable live web-search</string>
+			</dict>
+			<key>description</key>
+			<string>Search the internet to retrieve real time information. 
+(Works with OpenAI models. Requires Exa.ai or Azure API key)</string>
+			<key>label</key>
+			<string>Tools</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>tool_web_search_enable</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Exa API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>exa_apikey</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Microsoft Azure Subscription API token for Bing Search</string>
+			<key>label</key>
+			<string>Azure API Key</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>bing_apikey</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>stream</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Paste (replacing)</string>
+						<string>paste</string>
+					</array>
+					<array>
+						<string>Stream (preserving)</string>
+						<string>stream</string>
+					</array>
+					<array>
+						<string>Copy to Clipboard</string>
+						<string>clipboard</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>The generate setting determines the default output behaviour of inference actions.</string>
+			<key>label</key>
+			<string>Generate</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>inference_action_output_behaviour</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>com.apple.mail, ...</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Enter the bundle identifiers of the applications for which you want to disable the safety feature when using inference actions.  
+
+The text input fields of some applications, such as Apple Mail, are not registered as such, causing an opt-out of the stream and paste behaviour when generating inline text. By declaring an exception for these applications, the output will always be streamed or pasted. You must ensure that inference actions are only used when a text view that accepts text is focused. Use at your own discretion.</string>
+			<key>label</key>
+			<string>Safety Exception</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>inference_actions_behaviour_disable_safety_check_for_application_with_bundleID</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>anthropic_gpt_model_override</key>
+		<string></string>
+		<key>google_gpt_model_override</key>
+		<string></string>
+		<key>inference_a_DIVDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>inference_actions_behaviour_disable_safety_check_for_application_with_bundleID_</key>
+		<string></string>
+		<key>openai_alternative_a_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>openai_alternative_local_gpt_model</key>
+		<string></string>
+		<key>openai_alternative_local_url_host</key>
+		<string>localhost</string>
+		<key>openai_alternative_local_url_path</key>
+		<string>/v1/chat/completions</string>
+		<key>openai_alternative_local_url_port</key>
+		<string>11434</string>
+		<key>openai_alternative_local_url_scheme</key>
+		<string>http</string>
+		<key>openai_alternative_p_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>openai_alternative_proxy_api_key</key>
+		<string></string>
+		<key>openai_alternative_proxy_gpt_model</key>
+		<string>llama-3.1-70b-versatile</string>
+		<key>openai_alternative_proxy_url_host</key>
+		<string>api.groq.com</string>
+		<key>openai_alternative_proxy_url_path</key>
+		<string>/deepseek/v1/chat/completions</string>
+		<key>openai_alternative_proxy_url_port</key>
+		<string>443</string>
+		<key>openai_alternative_proxy_url_scheme</key>
+		<string>https</string>
+		<key>openai_alternative_s_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>openai_alternative_shared_finish_reasons</key>
+		<string></string>
+		<key>openai_gpt_a_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>openai_gpt_model_override</key>
+		<string></string>
+		<key>openai_gpt_organization_id</key>
+		<string></string>
+		<key>perplexity_a_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>perplexity_gpt_temperature</key>
+		<string>0.2</string>
+		<key>shared_a_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>shared_url_timeout</key>
+		<string>60</string>
+		<key>workflow_a_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>workflow_theme_override</key>
+		<string></string>
+		<key>x_debug_DEV</key>
+		<string></string>
+		<key>x_debug_a_DIVIDER</key>
+		<string>-----------------------------------------------------------------------------------------</string>
+		<key>x_debug_log_event_stream</key>
+		<string>false</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>anthropic_gpt_model_override</string>
+		<string>workflow_theme_override</string>
+		<string>openai_alternative_proxy_api_key</string>
+		<string>google_gpt_model_override</string>
+		<string>openai_alternative_shared_finish_reasons</string>
+		<string>x_debug_DEV</string>
+		<string>openai_gpt_model_override</string>
+		<string>inference_actions_behaviour_disable_safety_check_for_application_with_bundleID_</string>
+		<string>openai_alternative_local_gpt_model</string>
+		<string>openai_gpt_organization_id</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0-alpha.7</string>
+	<key>webaddress</key>
+	<string>https://github.com/zeitlings/ayai-gpt-nexus</string>
+</dict>
+</plist>

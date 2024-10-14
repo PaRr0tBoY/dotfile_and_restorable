@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.gleitzman.howdoi</string>
+	<key>connections</key>
+	<dict>
+		<key>59A90524-0AB4-45CD-9BD9-642C53C9826B</key>
+		<array/>
+		<key>62E18CD4-113F-4B75-BB04-9E8F61F4EA84</key>
+		<array/>
+		<key>84E8677F-3EF2-4489-ACE5-31C54323E398</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>62E18CD4-113F-4B75-BB04-9E8F61F4EA84</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>DA9817A7-4BA4-4680-9D0D-6914F0DF1A04</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8F30E883-4C9A-4ECD-A412-B27F3FEB3A23</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0D390F5D-AC85-4455-BAD0-170CC0F9D545</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A91D4A20-800F-4739-B887-4AD9FDD3C5F7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>59A90524-0AB4-45CD-9BD9-642C53C9826B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>84E8677F-3EF2-4489-ACE5-31C54323E398</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D866DA1D-5E55-49F2-AF16-AB9C87C22355</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A91D4A20-800F-4739-B887-4AD9FDD3C5F7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F30E883-4C9A-4ECD-A412-B27F3FEB3A23</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open answer web page</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Benjamin Gleitzman</string>
+	<key>description</key>
+	<string>Instant coding answers</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Howdoi</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>59A90524-0AB4-45CD-9BD9-642C53C9826B</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>62E18CD4-113F-4B75-BB04-9E8F61F4EA84</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>howdoi "${1}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A91D4A20-800F-4739-B887-4AD9FDD3C5F7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>{var:question_keyword}</string>
+				<key>subtext</key>
+				<string>Instant coding answers</string>
+				<key>text</key>
+				<string>Howdoi</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D866DA1D-5E55-49F2-AF16-AB9C87C22355</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:show_large_type}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Large Type</string>
+						<key>uid</key>
+						<string>DA9817A7-4BA4-4680-9D0D-6914F0DF1A04</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>84E8677F-3EF2-4489-ACE5-31C54323E398</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0D390F5D-AC85-4455-BAD0-170CC0F9D545</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>howdoi --link "${1}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8F30E883-4C9A-4ECD-A412-B27F3FEB3A23</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># howdoi
+
+## Instant coding answers via Alfred
+
+⚡ Never open your browser to look for help again ⚡
+
+## Introduction to howdoi
+
+Are you a hack programmer? Do you find yourself constantly Googling for how to do basic programming tasks?
+
+Suppose you want to know how to use the tar command. Why open your browser and read through blogs (risking major distraction) when you can simply stay in the console and ask howdoi:
+
+    $ howdoi properly use tar command
+    &gt; tar -czf /tmp/workspace.tar.gz .
+
+## Installation
+
+Make sure howdoi is installed on your machine with `brew install howdoi`.
+
+## Usage
+
+Invoke the Alfred workflow with the keyword Question Keyword (default: `howdoi`) and then your query. The output will be shown as large type and also copied to the clipboard. Use ⌘↩ to open the answer's web page instead.
+
+![Typing the howdoi query](images/howdoi-alfred-window.png)
+
+New to howdoi? You can get started by running:
+
+    howdoi howdoi
+
+## Notes
+
+- If `howdoi` is installed to a non-standard Homebrew location (or with `pip`) then you need to tell Alfred about your appropriate `PATH`. Open the Workflow in Alfred, click "prepare workflow configuration" in the top right (the icon looks like `(x)`), select the "Environment Variables" tab, and make a new entry with name `PATH` and value as the text output of entering `echo $PATH` in a terminal, e.g. `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/username/.homebrew/bin`.
+
+## Useful Links
+
+- [howdoi](https://github.com/gleitz/howdoi/) github page</string>
+	<key>uidata</key>
+	<dict>
+		<key>0D390F5D-AC85-4455-BAD0-170CC0F9D545</key>
+		<dict>
+			<key>xpos</key>
+			<real>580</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>59A90524-0AB4-45CD-9BD9-642C53C9826B</key>
+		<dict>
+			<key>xpos</key>
+			<real>580</real>
+			<key>ypos</key>
+			<real>40</real>
+		</dict>
+		<key>62E18CD4-113F-4B75-BB04-9E8F61F4EA84</key>
+		<dict>
+			<key>xpos</key>
+			<real>580</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>84E8677F-3EF2-4489-ACE5-31C54323E398</key>
+		<dict>
+			<key>note</key>
+			<string>Should show as Large Type?</string>
+			<key>xpos</key>
+			<real>460</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>8F30E883-4C9A-4ECD-A412-B27F3FEB3A23</key>
+		<dict>
+			<key>note</key>
+			<string>Get link from howdoi</string>
+			<key>xpos</key>
+			<real>255</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>A91D4A20-800F-4739-B887-4AD9FDD3C5F7</key>
+		<dict>
+			<key>note</key>
+			<string>Get answer from howdoi</string>
+			<key>xpos</key>
+			<real>255</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+		<key>D866DA1D-5E55-49F2-AF16-AB9C87C22355</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>190</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>howdoi</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Question Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>question_keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>If unchecked, answer will still be copied to the clipboard</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Show as Large Type</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>show_large_type</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>PATH</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>PATH</string>
+	</array>
+	<key>version</key>
+	<string>0.0.2</string>
+	<key>webaddress</key>
+	<string>http://github.com/gleitz/howdoi</string>
+</dict>
+</plist>

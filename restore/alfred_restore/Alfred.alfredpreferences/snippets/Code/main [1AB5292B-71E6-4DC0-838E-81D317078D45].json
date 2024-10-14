@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "#include <stdio.h>\n\nint main() {\n\t\n\treturn 0;\n}",
+    "uid" : "1AB5292B-71E6-4DC0-838E-81D317078D45",
+    "name" : "main",
+    "keyword" : "main"
+  }
+}

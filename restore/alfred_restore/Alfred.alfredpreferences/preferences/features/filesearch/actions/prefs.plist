@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>disabledDefaultActions</key>
+	<dict>
+		<key>alfred.action.mixed.email</key>
+		<true/>
+		<key>alfred.action.mixed.emailto</key>
+		<true/>
+		<key>alfred.action.recent</key>
+		<true/>
+		<key>alfred.action.showpackagecontents</key>
+		<true/>
+		<key>alfred.action.text.useinalfred</key>
+		<true/>
+		<key>alfred.action.viewinalfred</key>
+		<true/>
+	</dict>
+	<key>finderSelectionHotkey</key>
+	<dict>
+		<key>key</key>
+		<integer>-1</integer>
+		<key>mod</key>
+		<integer>524288</integer>
+		<key>string</key>
+		<string>double tap</string>
+	</dict>
+</dict>
+</plist>

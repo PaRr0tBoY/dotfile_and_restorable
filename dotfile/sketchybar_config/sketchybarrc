@@ -1,0 +1,168 @@
+#!/bin/bash
+
+source "$CONFIG_DIR/colors.sh" # Loads all defined colors
+source "$CONFIG_DIR/icons.sh" # Loads all defined icons
+ITEM_DIR="$CONFIG_DIR/items" # Directory where the items are configured
+PLUGIN_DIR="$CONFIG_DIR/plugins" # Directory where all the plugin scripts are stored
+AVATAR="$CONFIG_DIR/avatar.png"
+
+FONT="SF Pro"
+desktop=$(system_profiler SPDisplaysDataType | grep -c 'Retina')
+if [ "$desktop" -gt 0 ]; then
+  PADDINGS=1
+else
+  PADDINGS=3
+fi
+
+# aerospace setting
+AEROSPACE_FOCUSED_MONITOR_NO=$(aerospace list-workspaces --focused)
+AEROSPACE_LIST_OF_WINDOWS_IN_FOCUSED_MONITOR=$(aerospace list-windows --workspace $AEROSPACE_FOCUSED_MONITOR_NO | awk -F'|' '{gsub(/^ *| *$/, "", $2); print $2}')
+
+# Setting up and starting the helper process
+HELPER=git.felix.helper
+killall helper
+(cd $CONFIG_DIR/helper && make)
+$CONFIG_DIR/helper/helper $HELPER > /dev/null 2>&1 &
+
+# Unload the macOS on screen indicator overlay for volume change
+launchctl unload -F /System/Library/LaunchAgents/com.apple.OSDUIHelper.plist > /dev/null 2>&1 &
+
+##### Bar Appearance #####
+# https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
+
+bar=(
+  height=40
+  color=$BAR_COLOR
+  border_width=2
+  border_color=0xff40e0d0
+  corner_radius=14
+  shadow=off
+  position=top
+  sticky=on
+  padding_right=10
+  padding_left=10
+  y_offset=3
+  margin=6
+  topmost=window
+  display=all
+  notch_width=200
+  color=0x00000000
+  border_color=0x00000000
+)
+
+
+sketchybar --bar "${bar[@]}"
+
+#items
+default=(
+  updates=when_shown
+  padding_left=5
+  padding_right=5
+  icon.font="$FONT:Bold:14.0"
+  icon.color=$ICON_COLOR
+  icon.padding_left=$PADDINGS
+  icon.padding_right=$PADDINGS
+  label.font="$Font:Bold:13.0"
+  label.color=0xffffffff
+  label.padding_left=$PADDINGS
+  label.padding_right=$PADDINGS
+  label.shadow.drawing=on
+  label.shadow.distance=2
+  label.shadow.color=0xff000000
+  padding_right=$PADDINGS
+  padding_left=$PADDINGS
+  background.height=26
+  background.corner_radius=9
+  background.border_width=2
+  popup.background.border_width=2
+  popup.background.corner_radius=9
+  popup.background.border_color=$POPUP_BORDER_COLOR
+  popup.background.color=$POPUP_BACKGROUND_COLOR
+  popup.blur_radius=20
+  popup.background.shadow.drawing=on
+  scroll_texts=on
+)
+
+sketchybar --default "${default[@]}"
+
+# Left
+source "$ITEM_DIR/logo.sh"
+source "$ITEM_DIR/spaces.sh"
+source "$ITEM_DIR/front_app.sh"
+
+# Right
+source "$ITEM_DIR/calendar.sh"
+source "$ITEM_DIR/placeholder4.sh"
+#source "$ITEM_DIR/input_source.sh"
+source "$ITEM_DIR/volume.sh"
+source "$ITEM_DIR/battery.sh"
+source "$ITEM_DIR/wifi.sh"
+source "$ITEM_DIR/bluetooth.sh"
+source "$ITEM_DIR/vpn.sh"
+source "$ITEM_DIR/placeholder5.sh"
+source "$ITEM_DIR/istat.sh"
+#source "$ITEM_DIR/svim.sh"
+source "$ITEM_DIR/placeholder1.sh"
+source "$ITEM_DIR/wechat.sh"
+source "$ITEM_DIR/github.sh"
+source "$ITEM_DIR/brew.sh"
+source "$ITEM_DIR/qbserve.sh"
+source "$ITEM_DIR/placeholder2.sh"
+if [ "$desktop" -eq 0 ]; then
+  source "$ITEM_DIR/music.sh"
+  #source "$ITEM_DIR/cava.sh"
+  #source "$ITEM_DIR/music.sh"
+  #source "$ITEM_DIR/cpu.sh"
+  source "$ITEM_DIR/placeholder3.sh"
+  source "$ITEM_DIR/weather.sh"
+fi
+
+brackets=(
+  background.color=$BACKGROUND_1 \
+  background.corner_radius=8  \
+  background.height=28 \
+  background.border_color=$GREY \
+  icon.highlight_color=$GREEN
+  icon.padding_left=10
+  icon.padding_right=10
+  padding_left=2 \
+  padding_right=2 \
+   \
+  background.drawing=on
+)
+
+# Components
+sketchybar --add bracket components weather \
+           --set         components "${brackets[@]}"
+
+# Media
+sketchybar --add bracket media music \
+           --set         media "${brackets[@]}"
+
+# Apps
+sketchybar --add bracket apps wechat github.bell brew "Qbserve,Item-0" \
+           --set         apps "${brackets[@]}"
+
+# iStat Menus
+sketchybar --add bracket istat "iStat Menus Menubar,com.bjango.istatmenus.memory" "iStat Menus Menubar,com.bjango.istatmenus.cpu" \
+           --set         istat "${brackets[@]}"
+
+# System
+sketchybar --add bracket system volume battery volume_icon wifi "控制中心,Bluetooth" vpn \
+           --set         system "${brackets[@]}" \
+                                padding_left=0 \
+                                padding_right=0
+
+# Time
+sketchybar --add bracket timetrack calendar \
+           --set         timetrack "${brackets[@]}"
+
+
+
+
+
+
+sketchybar --hotload on
+sketchybar --update
+
+echo "sketchybar configuation loaded.."

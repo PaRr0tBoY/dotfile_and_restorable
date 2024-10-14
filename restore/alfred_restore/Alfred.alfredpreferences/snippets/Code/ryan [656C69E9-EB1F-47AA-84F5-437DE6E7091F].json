@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "#include <stdio.h>\n\nint main() {\n\t\/\/R\n\tconst char* c_shape[] = {\n\t\t\"*******  *     *   *      **    *\",\n\t\t\"*     *   *   *   * *     * *   *\",\n\t\t\"*******     *    *   *    *  *  *\",\n\t\t\"*      *    *   *******   *   * *\",\n\t\t\"*       *   *  *       *  *    **\",\n\t};\n\n\tfor(int i = 0; i < sizeof(c_shape) \/ sizeof(c_shape[0]); i++){\n\t\tprintf(\"%s\\n\", c_shape[i]);\n\t}\n\n\treturn 0;\n}",
+    "uid" : "656C69E9-EB1F-47AA-84F5-437DE6E7091F",
+    "name" : "ryan",
+    "keyword" : "ryan"
+  }
+}

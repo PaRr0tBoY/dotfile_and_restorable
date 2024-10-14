@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>app.alfred.jygh.recentfiles</string>
+	<key>connections</key>
+	<dict>
+		<key>54A2D100-BD2F-487A-92DB-C05393D50E13</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7EAF66B6-6563-47D6-A6C7-795CAA979C3D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EB26E726-6EEB-4F0F-81BD-7D5B77E02D82</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Open with</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D711A38C-E53D-41EF-80D2-D083632B60BA</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Reveal file in Finder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C3983BB8-C8FF-4C75-97F0-4CC969657B03</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Open Terminal Here</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>JY</string>
+	<key>description</key>
+	<string>Displays the most recently added/modified files in Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Recent Files</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>7EAF66B6-6563-47D6-A6C7-795CAA979C3D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>jumpto</key>
+				<string>alfred.action.openwith</string>
+				<key>path</key>
+				<string></string>
+				<key>type</key>
+				<integer>100</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.actioninalfred</string>
+			<key>uid</key>
+			<string>EB26E726-6EEB-4F0F-81BD-7D5B77E02D82</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>{var:keyword}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Finding recent files...</string>
+				<key>script</key>
+				<string>PATH=${PATH}:/opt/local/bin ./recent_files --dir "${TOP_LEVEL_DIRECTORY}" --output-format json --max-results ${MAX_RESULTS} --ignore-file "${IGNORE_FILE}" --fd-command "${FD_COMMAND}" --changed-within ${CHANGED_WITHIN} --filetype ${FILETYPE} --json-dir-title ${JSON_DIR_TITLE} --json-file-title ${JSON_FILE_TITLE} ${FOLLOW_LINKS} ${SHOW_HIDDEN} -e "${EXTENSIONS}"
+
+
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>recent_files</string>
+				<key>subtext</key>
+				<string>Shows the most recently added/modified files</string>
+				<key>title</key>
+				<string>Recent files</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>54A2D100-BD2F-487A-92DB-C05393D50E13</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>D711A38C-E53D-41EF-80D2-D083632B60BA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinterminal</string>
+			<key>uid</key>
+			<string>C3983BB8-C8FF-4C75-97F0-4CC969657B03</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Recent Files will list the most recently created/modified files in Alfred's file browser.
+
+The fd command is required to run this application. It can be installed from a variety of sources, including [MacPorts](https://www.macports.org/), [Brew](https://brew.sh/), and [GitHub](https://github.com/sharkdp/fd).</string>
+	<key>uidata</key>
+	<dict>
+		<key>54A2D100-BD2F-487A-92DB-C05393D50E13</key>
+		<dict>
+			<key>xpos</key>
+			<real>75</real>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
+		<key>7EAF66B6-6563-47D6-A6C7-795CAA979C3D</key>
+		<dict>
+			<key>xpos</key>
+			<real>325</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>C3983BB8-C8FF-4C75-97F0-4CC969657B03</key>
+		<dict>
+			<key>xpos</key>
+			<real>325</real>
+			<key>ypos</key>
+			<real>510</real>
+		</dict>
+		<key>D711A38C-E53D-41EF-80D2-D083632B60BA</key>
+		<dict>
+			<key>xpos</key>
+			<real>325</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>EB26E726-6EEB-4F0F-81BD-7D5B77E02D82</key>
+		<dict>
+			<key>xpos</key>
+			<real>325</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>rf</string>
+				<key>placeholder</key>
+				<string>rf</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Change the default to something else if desired.</string>
+			<key>label</key>
+			<string>Workflow keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>fd</string>
+				<key>filtermode</key>
+				<integer>2</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Change this value if the fd command is located somewhere other than /usr/local/bin or /opt/local/bin.</string>
+			<key>label</key>
+			<string>Path to the fd command</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>FD_COMMAND</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>~</string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>This is the directory/folder that the workflow will use as the top-level to start searching from. The default is the user's $HOME directory, as specified by the ~ (tilde) character.
+
+Leave this as-is unless you wish to change the default.
+
+Note that a colon-separated list may be used (e.g., ~/Desktop:~/Downloads).</string>
+			<key>label</key>
+			<string>Top level directory</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>TOP_LEVEL_DIRECTORY</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>example_ignore_file.txt</string>
+				<key>filtermode</key>
+				<integer>2</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Recent Files includes an example ignore file that allows the workflow to ignore specific files, directories, or file types.  An existing, but empty, file may be chosen if no filtering of results is to be performed.</string>
+			<key>label</key>
+			<string>Ignore File</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>IGNORE_FILE</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>f</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Files only</string>
+						<string>f</string>
+					</array>
+					<array>
+						<string>Directories only</string>
+						<string>d</string>
+					</array>
+					<array>
+						<string>Both files and directories</string>
+						<string>fd</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>Limit results to only files, only directories, or both.</string>
+			<key>label</key>
+			<string>File Type</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>FILETYPE</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>:</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Limit results to only files and/or directories having the extension.  For example,  pdf:txt:docx  will limt results to files and/or directories having the extensions .pdf, .txt, and .docx. Note that the dot is not necessary, but can be included as it will work either way.  The default value, ':', will include results with any extension (including the absence of an extension).</string>
+			<key>label</key>
+			<string>File/directory extensions?</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>EXTENSIONS</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>7d</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Show items added/changed within a time period. The default is 7d (seven days). Other time units may be used, such as min (minutes), h (hours), and w (weeks). A value of 12h, for example, would only return files created or modified in the previous 12 hours.</string>
+			<key>label</key>
+			<string>Changed within</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>CHANGED_WITHIN</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>20</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>By default, Recent Files only returns the most recent 20 items. Increase or decrease this value if you want more or fewer results.</string>
+			<key>label</key>
+			<string>Maximum number of results</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>MAX_RESULTS</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>name</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>path</string>
+						<string>path</string>
+					</array>
+					<array>
+						<string>name</string>
+						<string>name</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>If set to 'name', use the directory name as the title (first line) of each result. If set to 'path', use the full path of the directory as the title of each line. The full pathname will still be displayed as a subtitle. This only matters if the File Type, above, includes directories as results.</string>
+			<key>label</key>
+			<string>Directory title in Alfred results</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>JSON_DIR_TITLE</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>name</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>name</string>
+						<string>name</string>
+					</array>
+					<array>
+						<string>path</string>
+						<string>path</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>If set to 'name', use the filename as the title (first line) of each result. If set to 'path', use the full path of the file as the title of each line. The full pathname will still be displayed as a subtitle. This only matters if the File Type, above, includes files as results.</string>
+			<key>label</key>
+			<string>File title in Alfred results</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>JSON_FILE_TITLE</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Ignore</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Follow</string>
+						<string>--follow-links</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>If set to 'Follow', symbolically linked directories will be traversed as part of the search. The default is not to follow symbolically linked directories.</string>
+			<key>label</key>
+			<string>Follow symbolically linked directories?</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>FOLLOW_LINKS</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Ignore</string>
+						<string></string>
+					</array>
+					<array>
+						<string>Show</string>
+						<string>--hidden</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>If selected, hidden files (files starting with '.') will be included in results. The default is to ignore hidden files. Note that this setting will take precedence over files listed in an ignore file as that's how the fd command ranks them.</string>
+			<key>label</key>
+			<string>Include hidden files?</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>SHOW_HIDDEN</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.9.1</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

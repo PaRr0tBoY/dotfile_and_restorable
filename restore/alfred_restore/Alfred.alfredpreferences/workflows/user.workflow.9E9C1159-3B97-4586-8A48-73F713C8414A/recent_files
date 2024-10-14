@@ -1,0 +1,350 @@
+#! /usr/bin/env python3
+
+"""
+Shows recently modified files in either JSON or text format.
+The JSON format is used for an Alfred workflow.
+"""
+
+import argparse
+import io
+import json
+import os
+import re
+import subprocess
+import sys
+
+FD_COMMAND = "fd"
+FD_DEFAULT_FILETYPE = "f"
+FD_ALLOWED_FILETYPES = ("f", "d", "l", "s", "p", "x", "e")
+VERSION="v0.9.1"
+
+
+class FindRecentFiles:
+    """Uses the fd command to find recent files"""
+
+    def __init__(self):
+        """Initialize variables"""
+
+        self._parse_arguments()
+        self.filetypes = set()
+
+        if self.arguments["filetypes"] is None:
+            self.filetypes.add(FD_DEFAULT_FILETYPE)
+        else:
+            for item in self.arguments["filetypes"]:
+                for char in item:
+                    if char in FD_ALLOWED_FILETYPES:
+                        self.filetypes.add(char)
+                    else:
+                        print("Error: invalid filetype: '" + char + "'!")
+                        sys.exit(1)
+
+        if self.arguments["fd_command"] is None:
+            self.arguments["fd_command"] = FD_COMMAND
+
+        if self.arguments["ignore_file"] is not None:
+            if os.path.isfile(self.arguments["ignore_file"]):
+                ignore_file = os.path.abspath(self.arguments["ignore_file"])
+                self.arguments["ignore_file_absolute_path"] = ignore_file
+            else:
+                print("Error: -i/--ignore-file file does not exist!")
+                print("  " + self.arguments["ignore_file"])
+                sys.exit(1)
+
+    def _parse_arguments(self):
+        """Parses command line arguments"""
+        parser = argparse.ArgumentParser(description="Finds recent files")
+        parser.add_argument(
+            "-c",
+            "--changed-within",
+            dest="changed_within",
+            default="7d",
+            type=str,
+            required=False,
+            help="changed within 1h, 2d, 5min, etc.; the default is 7d",
+        )
+        parser.add_argument(
+            "-d",
+            "--dir",
+            required=False,
+            dest="dirs",
+            action='append',
+            help="the directory/directories to search (multiple -d arguments are allowed); the default is the current directory",
+        )
+        parser.add_argument(
+            "-e",
+            "--extension",
+            required=False,
+            dest="exts",
+            action='append',
+            help="file extensions to search (multiple -e arguments are allowed); the default is to search all file/directory extensions",
+        )
+        parser.add_argument(
+            "--fd-command",
+            dest="fd_command",
+            type=str,
+            required=False,
+            help="path to the fd(1) command if not specified in $PATH",
+        )
+        parser.add_argument(
+            "-H",
+            "--hidden",
+            dest="show_hidden",
+            default=False,
+            action="store_true",
+            required=False,
+            help="show hidden files; the default is not to show hidden files",
+        )
+        parser.add_argument(
+            "-i",
+            "--ignore-file",
+            dest="ignore_file",
+            type=str,
+            required=False,
+            help="path to the Git-format ignore file for search exclusions, optional",
+        )
+        parser.add_argument(
+            "--json-dir-title",
+            dest="json_dir_title",
+            type=str,
+            default="name",
+            choices=["name", "path"],
+            required=False,
+            help="in JSON (only), display only the directory name as title; 'path' displays the full pathname to the directory",
+        )
+        parser.add_argument(
+            "--json-file-title",
+            dest="json_file_title",
+            type=str,
+            default="name",
+            choices=["name", "path"],
+            required=False,
+            help="in JSON (only), display only the filename as title; 'path' displays the full pathname",
+        )
+        parser.add_argument(
+            "-L",
+            "--follow-links",
+            dest="follow_links",
+            default=False,
+            action="store_true",
+            required=False,
+            help="Traverse symbolically linked directories; default is to ignore them",
+        )
+        parser.add_argument(
+            "-m",
+            "--max-results",
+            dest="max_results",
+            type=int,
+            default=-1,
+            required=False,
+            help="only return MAX_RESULTS items; the default is to return all results",
+        )
+        parser.add_argument(
+            "-o",
+            "--output-format",
+            dest="output_format",
+            choices=["text", "json"],
+            required=False,
+            default="text",
+            help="output format, default is text; json is for use by Alfred",
+        )
+        parser.add_argument(
+            "--relative-path",
+            dest="relative_path",
+            action="store_true",
+            default=False,
+            required=False,
+            help="display relative file/directory paths; the default is to display absolute paths",
+        )
+        parser.add_argument(
+            "--reverse",
+            dest="reverse_sort",
+            default=True,
+            action="store_false",
+            required=False,
+            help="reverse the sorting order; the default is newest files first",
+        )
+        parser.add_argument(
+            "-t",
+            "--filetype",
+            dest="filetypes",
+            required=False,
+            action="append",
+            help="filetype, as supported by fd; the default is \"f\";\
+            the argument may be repeated or combined, so both (1) and (2)\
+            are allowed:\
+              (1) --filetype fd\
+              (2) --filetype f --filetype d",
+        )
+        parser.add_argument(
+            "--version",
+            dest="version",
+            default=False,
+            action="store_true",
+            required=False,
+            help="print version information",
+        )
+
+        parsed_arguments = parser.parse_args()
+        self.arguments = vars(parsed_arguments)
+
+    def _set_options(self):
+        """Set up the command line options for the fd command"""
+        options = []
+
+        if "version" in self.arguments and self.arguments["version"]:
+            print(VERSION)
+            sys.exit(0)
+
+        if "relative_path" in self.arguments and self.arguments["relative_path"]:
+            options.append("--relative-path")
+        else:
+            options.append("-a")
+
+        options.append("--changed-within")
+        options.append(self.arguments["changed_within"])
+
+        for filetype in self.filetypes:
+            options.append("-t")
+            options.append(filetype)
+
+        if "ignore_file_absolute_path" in self.arguments:
+            options.append("--ignore-file")
+            options.append(self.arguments["ignore_file_absolute_path"])
+
+        if "show_hidden" in self.arguments and self.arguments["show_hidden"]:
+            options.append("-H")
+
+        if 'follow_links' in self.arguments and self.arguments["follow_links"]:
+            options.append("-L")
+
+        if 'exts' in self.arguments and self.arguments['exts'] is not None:
+            split_exts = [re.split(r':', x) for x in self.arguments['exts']]
+            if len(split_exts) > 0:
+                exts = [elem.strip() for y in split_exts for elem in y]
+                for extension in exts:
+                    if extension != '':
+                        options.append("--extension")
+                        options.append(extension)
+
+        if 'dirs' not in self.arguments or self.arguments['dirs'] is None:
+            options.append('--search-path')
+            options.append(os.getcwd())
+        else:
+            split_dirs = [re.split(r':', x) for x in self.arguments['dirs']]
+            dirlist = [item for sublist in split_dirs for item in sublist]
+            for dir in dirlist:
+                options.append('--search-path')
+                options.append(os.path.expandvars(os.path.expanduser(dir)))
+
+        return options
+
+    def find_recent_files(self):
+        """Run the fd command, parse the result, and get file mtime values"""
+        files = {}
+        options = self._set_options()
+
+        try:
+            result = subprocess.Popen(
+                [self.arguments["fd_command"], *options],
+                stdout=subprocess.PIPE
+            )
+        except FileNotFoundError:
+            print("Error: the fd command does not exist or is not executable!")
+            print("  " + self.arguments["fd_command"])
+            sys.exit(1)
+
+        for line in io.TextIOWrapper(result.stdout, encoding="utf-8"):
+
+            # Universal newlines are on, and io.TextIOWrapper will translate
+            # end of line characters to '\n'; however, it seems wise to ensure
+            # that the line.rstrip() call uses os.linesep, not a hardcoded '\n'
+            filename = line.rstrip(os.linesep)
+
+            # It makes more sense to simply ignore FileNotFoundError than it
+            # does to crash the application.
+            try:
+                mtime = os.stat(filename).st_mtime
+                files[filename] = mtime
+            except FileNotFoundError:
+                continue
+
+        return files
+
+    @staticmethod
+    def create_json(sorted_list, max_results, json_dir_title="name", json_file_title="name"):
+        """Prepare and return JSON output"""
+        files = []
+        result_count = 0
+
+        for list_item in sorted_list:
+
+            if result_count == max_results:
+                break
+
+            result_count += 1
+
+            filename = list_item[0]
+            if os.path.isfile(filename):
+                if json_file_title == 'name':
+                    title = os.path.basename(filename)
+                else:
+                    title = filename
+            elif os.path.isdir(filename):
+                if json_dir_title == 'name':
+                    if filename[-1] == '/':
+                        title = os.path.basename(filename[0:-1])
+                    else:
+                        title = os.path.basename(filename)
+                else:
+                    title = filename
+            else:
+                title = filename
+
+            record = {
+                "type": "file",
+                "title": title,
+                "subtitle": filename,
+                "arg": filename,
+                "icon": {"type": "fileicon", "path": filename},
+            }
+            files.append(record)
+
+        items = {"items": files}
+
+        print(json.dumps(items))
+
+    @staticmethod
+    def create_text(sorted_list, max_results):
+        """Prepare and return plain text output"""
+        result_count = 0
+
+        for list_item in sorted_list:
+
+            if result_count == max_results:
+                break
+
+            print(list_item[0])
+            result_count += 1
+
+    def run(self):
+        """Main program"""
+
+        files = self.find_recent_files()
+        sorted_list = sorted(files.items(),
+                             key=lambda x: x[1],
+                             reverse=self.arguments["reverse_sort"])
+        if self.arguments["output_format"] == "json":
+            self.create_json(
+                sorted_list,
+                self.arguments["max_results"],
+                self.arguments["json_dir_title"],
+                self.arguments["json_file_title"]
+            )
+        else:
+            self.create_text(sorted_list, self.arguments["max_results"])
+
+
+if __name__ == "__main__":
+    program = FindRecentFiles()
+    program.run()

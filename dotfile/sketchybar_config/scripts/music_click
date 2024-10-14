@@ -1,0 +1,15 @@
+#!/usr/bin/env osascript
+
+tell application "Music"
+    if player state is playing then
+        pause
+        do shell script "sketchybar -m --set music icon=􀊄"
+    else
+        play
+        do shell script "sketchybar -m --set music icon=􀊃"
+    end if
+end tell
+
+delay 1
+
+do shell script "bash /Users/acid/.config/sketchybar/scripts/music"

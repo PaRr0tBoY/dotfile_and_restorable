@@ -1,0 +1,6 @@
+### Changelog
+- **chore**: cleanup & better logging
+- **build**: update Justfile
+- **build**: minor fix for build-and-release script
+- **build**: update build-and-release script
+- **build**: switch to `just` as task runner

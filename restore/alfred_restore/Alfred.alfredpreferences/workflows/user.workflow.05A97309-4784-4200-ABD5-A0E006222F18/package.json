@@ -1,0 +1,15 @@
+{
+  "name": "logseq",
+  "version": "1.0.0",
+  "description": "A utility to perform logseq actions from finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type":  "module",
+  "author": "Aryan Sawhney",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^1.0.0"
+  }
+}

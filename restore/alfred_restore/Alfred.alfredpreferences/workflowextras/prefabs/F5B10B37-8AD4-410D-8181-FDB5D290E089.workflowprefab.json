@@ -1,0 +1,122 @@
+{
+  "name" : "SplitGroup",
+  "data" : {
+    "items" : [
+      {
+        "workflowobjecttype" : "alfred.workflow.input.keyword",
+        "uid" : "19F5CEF0-33F0-41F7-B2D3-E66D2ACEA8C5",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "withspace" : true,
+          "argumenttype" : 0,
+          "text" : "一网搜尽",
+          "subtext" : "正在搜索...稍后",
+          "keyword" : "ss"
+        },
+        "colorindex" : 0,
+        "ypos" : 155,
+        "xpos" : 20
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.action.openurl",
+        "uid" : "DE64154A-6C7E-4318-91E8-0C2E4FE4C9B5",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "skipqueryencode" : false,
+          "browser" : "",
+          "spaces" : "",
+          "url" : "https:\/\/www.nodeseek.com\/search?q={query}",
+          "skipvarencode" : false
+        },
+        "colorindex" : 0,
+        "ypos" : 5,
+        "xpos" : 240
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.action.openurl",
+        "uid" : "B7BDD7BE-1B55-47AA-8005-8F358600AA0E",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "skipqueryencode" : false,
+          "browser" : "",
+          "spaces" : "",
+          "url" : "https:\/\/www.sov2ex.com\/?q={query}&gte=1704067200000",
+          "skipvarencode" : false
+        },
+        "colorindex" : 0,
+        "ypos" : 155,
+        "xpos" : 240
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.action.openurl",
+        "uid" : "A23471D9-9CC3-4156-9E1A-570455EAA375",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "skipqueryencode" : false,
+          "browser" : "",
+          "spaces" : "",
+          "url" : "https:\/\/linux.do\/search?q={query}",
+          "skipvarencode" : false
+        },
+        "colorindex" : 0,
+        "ypos" : 305,
+        "xpos" : 240
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.action.script",
+        "uid" : "AAF64A46-3A1C-4BE5-A817-0AC7F28C26D5",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "script" : "tell application \"System Events\"\n\tdelay 1.0\n    repeat 2 times\n        -- 按下 Control + Shift + =\n        key down control\n        key down shift\n        keystroke \"=\"\n        key up shift\n        key up control\n        \n        -- 按下回车键\n        keystroke return\n        \n        delay 0.5\n    end repeat\nend tell",
+          "scriptfile" : "",
+          "escaping" : 102,
+          "scriptargtype" : 1,
+          "type" : 6,
+          "concurrently" : false
+        },
+        "colorindex" : 0,
+        "ypos" : 305,
+        "xpos" : 450
+      }
+    ],
+    "connections" : [
+      {
+        "sourceuid" : "19F5CEF0-33F0-41F7-B2D3-E66D2ACEA8C5",
+        "config" : {
+          "destinationuid" : "DE64154A-6C7E-4318-91E8-0C2E4FE4C9B5",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "19F5CEF0-33F0-41F7-B2D3-E66D2ACEA8C5",
+        "config" : {
+          "destinationuid" : "A23471D9-9CC3-4156-9E1A-570455EAA375",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "19F5CEF0-33F0-41F7-B2D3-E66D2ACEA8C5",
+        "config" : {
+          "destinationuid" : "B7BDD7BE-1B55-47AA-8005-8F358600AA0E",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      },
+      {
+        "sourceuid" : "A23471D9-9CC3-4156-9E1A-570455EAA375",
+        "config" : {
+          "destinationuid" : "AAF64A46-3A1C-4BE5-A817-0AC7F28C26D5",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      }
+    ]
+  },
+  "description" : ""
+}

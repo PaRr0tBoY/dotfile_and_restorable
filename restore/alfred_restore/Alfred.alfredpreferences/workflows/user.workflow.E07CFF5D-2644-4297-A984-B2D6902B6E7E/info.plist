@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>20241010</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>3C90A9AD-C57C-400E-9F9A-CBC158C64AD7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C6D749B9-AE66-4E4D-A44A-EE1FD86ACD53</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>acid</string>
+	<key>description</key>
+	<string>cleanmymac</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>CleanMyMac</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>mac</string>
+				<key>subtext</key>
+				<string>scan with cleanmymac</string>
+				<key>text</key>
+				<string>开始扫描 mac</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3C90A9AD-C57C-400E-9F9A-CBC158C64AD7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>tell application "CleanMyMac X"
+    activate
+end tell
+
+tell application "System Events"
+    keystroke "1" using {command down}
+	delay 0.5
+    keystroke return
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C6D749B9-AE66-4E4D-A44A-EE1FD86ACD53</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>split screen and search via multiple website</string>
+	<key>uidata</key>
+	<dict>
+		<key>3C90A9AD-C57C-400E-9F9A-CBC158C64AD7</key>
+		<dict>
+			<key>xpos</key>
+			<real>185</real>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>C6D749B9-AE66-4E4D-A44A-EE1FD86ACD53</key>
+		<dict>
+			<key>xpos</key>
+			<real>405</real>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
