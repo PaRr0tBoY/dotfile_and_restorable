@@ -31,22 +31,22 @@ launchctl unload -F /System/Library/LaunchAgents/com.apple.OSDUIHelper.plist > /
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
 
 bar=(
-  height=40
+  height=45
   color=$BAR_COLOR
-  border_width=2
+  border_width=1
   border_color=0xff40e0d0
   corner_radius=14
+  blur_radius=20
   shadow=off
   position=top
   sticky=on
   padding_right=10
   padding_left=10
-  y_offset=3
+  y_offset=2
   margin=6
   topmost=window
   display=all
   notch_width=200
-  border_color=0x00000000
 )
 
 
@@ -96,18 +96,17 @@ source "$ITEM_DIR/placeholder4.sh"
 source "$ITEM_DIR/volume.sh"
 source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/wifi.sh"
-
 source "$ITEM_DIR/vpn.sh"
 source "$ITEM_DIR/placeholder5.sh"
-source "$ITEM_DIR/istat.sh"
 #source "$ITEM_DIR/svim.sh"
 source "$ITEM_DIR/placeholder1.sh"
 source "$ITEM_DIR/wechat.sh"
 source "$ITEM_DIR/github.sh"
 source "$ITEM_DIR/brew.sh"
-source "$ITEM_DIR/qbserve.sh"
 source "$ITEM_DIR/placeholder2.sh"
 if [ "$desktop" -eq 0 ]; then
+  source "$ITEM_DIR/istat.sh"
+  sketchybar --set "iStat Menus Menubar,com.bjango.istatmenus.memory" padding_left=-15
   source "$ITEM_DIR/bluetooth.sh"
   source "$ITEM_DIR/music.sh"
   #source "$ITEM_DIR/cava.sh"
@@ -115,7 +114,16 @@ if [ "$desktop" -eq 0 ]; then
   #source "$ITEM_DIR/cpu.sh"
   source "$ITEM_DIR/placeholder3.sh"
   source "$ITEM_DIR/weather.sh"
+  source "$ITEM_DIR/task.sh"
+  source "$ITEM_DIR/qbserve.sh"
 fi
+
+sketchybar --reorder apple.logo space_creator front_app "Redline,Item-0" calendar placeholder4 volume_icon volume \
+battery wifi vpn "控制中心,Bluetooth" placeholder5 \
+"iStat Menus Menubar,com.bjango.istatmenus.memory" \
+"iStat Menus Menubar,com.bjango.istatmenus.cpu" \
+placeholder1 wechat github.bell brew "Qbserve,Item-0" \
+placeholder2 music placeholder3 weather
 
 brackets=(
   background.color=$BACKGROUND_1 \

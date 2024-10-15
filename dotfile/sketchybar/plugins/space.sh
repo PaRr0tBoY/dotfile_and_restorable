@@ -9,7 +9,7 @@ update() {
     source "$CONFIG_DIR/colors.sh"
     COLOR=$BACKGROUND_2
     if [ "$SELECTED" = "true" ]; then
-      COLOR=$GREY
+      COLOR=$GRAY
     fi
     # sketchybar --set $NAME icon.highlight=$SELECTED \
     #                        label.highlight=$SELECTED \
@@ -18,7 +18,7 @@ update() {
     focused_workspace=$(aerospace list-workspaces --focused)
     sketchybar --set space.$focused_workspace icon.highlight=true \
                       label.highlight=true \
-                      background.border_color=$GREY
+                      background.border_color=$GRAY
   fi
 }
 

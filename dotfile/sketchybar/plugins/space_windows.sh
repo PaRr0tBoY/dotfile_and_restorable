@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
- 
+
 echo AEROSPACE_PREV_WORKSPACE: $AEROSPACE_PREV_WORKSPACE, \
  AEROSPACE_FOCUSED_WORKSPACE: $AEROSPACE_FOCUSED_WORKSPACE \
  SELECTED: $SELECTED \
@@ -63,7 +63,7 @@ if [ "$SENDER" = "aerospace_workspace_change" ]; then
   # current workspace space border color
   sketchybar --set space.$AEROSPACE_FOCUSED_WORKSPACE icon.highlight=true \
                          label.highlight=true \
-                         background.border_color=$GREY
+                         background.border_color=0x9940e0d0
 
   # prev workspace space border color
   sketchybar --set space.$AEROSPACE_PREV_WORKSPACE icon.highlight=false \
