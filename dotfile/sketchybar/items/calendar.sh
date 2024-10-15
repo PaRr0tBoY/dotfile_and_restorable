@@ -9,5 +9,5 @@ sketchybar --add item calendar right \
   background.height=25 \
   padding_left=0 \
   padding_right=0 \
-  background.color=0xff232136 \
+  #background.color=0xff232136 \
   update_freq=1

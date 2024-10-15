@@ -46,7 +46,6 @@ bar=(
   topmost=window
   display=all
   notch_width=200
-  color=0x00000000
   border_color=0x00000000
 )
 
@@ -97,7 +96,7 @@ source "$ITEM_DIR/placeholder4.sh"
 source "$ITEM_DIR/volume.sh"
 source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/wifi.sh"
-source "$ITEM_DIR/bluetooth.sh"
+
 source "$ITEM_DIR/vpn.sh"
 source "$ITEM_DIR/placeholder5.sh"
 source "$ITEM_DIR/istat.sh"
@@ -109,6 +108,7 @@ source "$ITEM_DIR/brew.sh"
 source "$ITEM_DIR/qbserve.sh"
 source "$ITEM_DIR/placeholder2.sh"
 if [ "$desktop" -eq 0 ]; then
+  source "$ITEM_DIR/bluetooth.sh"
   source "$ITEM_DIR/music.sh"
   #source "$ITEM_DIR/cava.sh"
   #source "$ITEM_DIR/music.sh"
