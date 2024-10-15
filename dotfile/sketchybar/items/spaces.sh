@@ -15,7 +15,7 @@ for i in $(aerospace list-workspaces --monitor $current_monitor); do
     space=(
       space="$sid"
       icon="$sid"
-      icon.highlight_color=$GREEN
+      icon.highlight_color=0x9940e0d0
       icon.padding_left=10
       icon.padding_right=10
       display=$current_monitor

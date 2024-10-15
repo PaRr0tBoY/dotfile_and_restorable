@@ -3,7 +3,7 @@ after-login-command = []
 after-startup-command = [
     'exec-and-forget /opt/homebrew/opt/sketchybar/bin/sketchybar',
     # 'exec-and-forget /opt/homebrew/opt/borders/bin/borders active_color="glow(0xd943ff64)" inactive_color=0x20494d64 width=8.0'
-    'exec-and-forget borders active_color="glow(0xff40e0d0)" inactive_color=0xff708090 width=4.0 hidpi=on ax_focus=true'
+    'exec-and-forget borders active_color="glow(0xff40e0d0)" inactive_color=0xff708090 width=3.0 hidpi=on ax_focus=true'
 ]
 
 exec-on-workspace-change = [
