@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#SPACE_ICONS=("1" "2" "3" "4")
-
 # Destroy space on right click, focus space on left click.
 # New space by left clicking separator (>)
 
@@ -68,6 +66,7 @@ space_creator=(
   script="$PLUGIN_DIR/space_windows.sh"
   #script="$PLUGIN_DIR/aerospace.sh"
   icon.color=$WHITE
+  icon.drawing=off
 )
 
 # sketchybar --add item space_creator left               \
