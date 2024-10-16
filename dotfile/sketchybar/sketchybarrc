@@ -87,7 +87,7 @@ sketchybar --default "${default[@]}"
 # Left
 source "$ITEM_DIR/logo.sh"
 source "$ITEM_DIR/spaces.sh"
-source "$ITEM_DIR/front_app.sh"
+#source "$ITEM_DIR/front_app.sh"
 
 # Right
 source "$ITEM_DIR/calendar.sh"
@@ -103,10 +103,12 @@ source "$ITEM_DIR/placeholder1.sh"
 source "$ITEM_DIR/wechat.sh"
 source "$ITEM_DIR/github.sh"
 source "$ITEM_DIR/brew.sh"
+source "$ITEM_DIR/qbserve.sh"
 source "$ITEM_DIR/placeholder2.sh"
 if [ "$desktop" -eq 0 ]; then
   source "$ITEM_DIR/istat.sh"
   sketchybar --set "iStat Menus Menubar,com.bjango.istatmenus.memory" padding_left=-15
+  sketchybar --set space_creator icon.drawing=on
   source "$ITEM_DIR/bluetooth.sh"
   source "$ITEM_DIR/music.sh"
   #source "$ITEM_DIR/cava.sh"
@@ -115,10 +117,10 @@ if [ "$desktop" -eq 0 ]; then
   source "$ITEM_DIR/placeholder3.sh"
   source "$ITEM_DIR/weather.sh"
   source "$ITEM_DIR/task.sh"
-  source "$ITEM_DIR/qbserve.sh"
+  source "$ITEM_DIR/front_app.sh"
 fi
 
-sketchybar --reorder apple.logo space_creator front_app "Redline,Item-0" calendar placeholder4 volume_icon volume \
+sketchybar --reorder apple.logo space_creator front_app "Redline,Item-0" calendar placeholder4 volume volume_icon \
 battery wifi vpn "控制中心,Bluetooth" placeholder5 \
 "iStat Menus Menubar,com.bjango.istatmenus.memory" \
 "iStat Menus Menubar,com.bjango.istatmenus.cpu" \

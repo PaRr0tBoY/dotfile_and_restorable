@@ -19,4 +19,4 @@ case "$COUNT" in
 esac
 
 sketchybar --set $NAME label=$COUNT icon.color=$COLOR \
-	label.font="$FONT:Black:13.0" \
+	label.font="$FONT:Black:13.0"
