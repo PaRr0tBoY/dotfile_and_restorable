@@ -103,7 +103,7 @@ source "$ITEM_DIR/placeholder1.sh"
 source "$ITEM_DIR/wechat.sh"
 source "$ITEM_DIR/github.sh"
 source "$ITEM_DIR/brew.sh"
-source "$ITEM_DIR/qbserve.sh"
+source "$ITEM_DIR/session.sh"
 source "$ITEM_DIR/placeholder2.sh"
 if [ "$desktop" -eq 0 ]; then
   source "$ITEM_DIR/istat.sh"
@@ -124,7 +124,7 @@ sketchybar --reorder apple.logo space_creator front_app "Redline,Item-0" calenda
 battery wifi vpn "控制中心,Bluetooth" placeholder5 \
 "iStat Menus Menubar,com.bjango.istatmenus.memory" \
 "iStat Menus Menubar,com.bjango.istatmenus.cpu" \
-placeholder1 wechat github.bell brew "Qbserve,Item-0" \
+placeholder1 wechat github.bell brew "Session,Item-0" \
 placeholder2 music placeholder3 weather
 
 brackets=(
@@ -137,7 +137,6 @@ brackets=(
   icon.padding_right=10
   padding_left=2 \
   padding_right=2 \
-   \
   background.drawing=on
 )
 
@@ -150,7 +149,7 @@ sketchybar --add bracket media music \
            --set         media "${brackets[@]}"
 
 # Apps
-sketchybar --add bracket apps wechat github.bell brew "Qbserve,Item-0" \
+sketchybar --add bracket apps wechat github.bell brew \
            --set         apps "${brackets[@]}"
 
 # iStat Menus
@@ -167,12 +166,7 @@ sketchybar --add bracket system volume battery volume_icon wifi "控制中心,Bl
 sketchybar --add bracket timetrack calendar \
            --set         timetrack "${brackets[@]}"
 
-
-
-
-
-
 sketchybar --hotload on
 sketchybar --update
 
-echo "sketchybar configuation loaded.."
+echo -e "----------------\nSketchybar已重载\n----------------"
