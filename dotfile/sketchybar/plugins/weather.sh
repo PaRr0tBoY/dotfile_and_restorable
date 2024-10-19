@@ -3,7 +3,7 @@ sketchybar --set $NAME \
   icon.color=0xff5edaff \
 
 # fetch weather data
-LOCATION="Dalian"
+LOCATION="Lvshun"
 REGION=""
 LANG="zh"
 
