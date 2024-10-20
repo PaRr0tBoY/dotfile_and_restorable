@@ -9,7 +9,7 @@ AVATAR="$CONFIG_DIR/avatar.png"
 FONT="SF Pro"
 desktop=$(system_profiler SPDisplaysDataType | grep -c 'Retina')
 if [ "$desktop" -gt 0 ]; then
-  PADDINGS=1
+  PADDINGS=2
 else
   PADDINGS=3
 fi
@@ -42,7 +42,7 @@ bar=(
   sticky=on
   padding_right=10
   padding_left=10
-  y_offset=2
+  y_offset=3
   margin=6
   topmost=window
   display=all
@@ -105,6 +105,7 @@ source "$ITEM_DIR/github.sh"
 source "$ITEM_DIR/brew.sh"
 source "$ITEM_DIR/session.sh"
 source "$ITEM_DIR/placeholder2.sh"
+
 if [ "$desktop" -eq 0 ]; then
   source "$ITEM_DIR/istat.sh"
   sketchybar --set "iStat Menus Menubar,com.bjango.istatmenus.memory" padding_left=-15
@@ -120,7 +121,8 @@ if [ "$desktop" -eq 0 ]; then
   source "$ITEM_DIR/front_app.sh"
 fi
 
-sketchybar --reorder apple.logo space_creator front_app "Redline,Item-0" calendar placeholder4 volume volume_icon \
+#重排菜单栏项目顺序
+sketchybar --reorder apple.logo space_creator front_app calendar placeholder4 volume volume_icon \
 battery wifi vpn "控制中心,Bluetooth" placeholder5 \
 "iStat Menus Menubar,com.bjango.istatmenus.memory" \
 "iStat Menus Menubar,com.bjango.istatmenus.cpu" \
