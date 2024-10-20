@@ -10,7 +10,7 @@ brew=(
 	script="$PLUGIN_DIR/brew.sh"
 	click_script="$PLUGIN_DIR/brew_update.sh"
 	padding_left=10
-	update_freq=180
+	update_freq=60
 )
 
 sketchybar --add event brew_update \
