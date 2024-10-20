@@ -1,7 +1,7 @@
 #!/bin/bash
 
-brew update
-brew upgrade
+osascript -e 'display notification "正在更新,请稍候" with title "Brew Update Status"'
+brew update && brew upgrade
 updated_packages=$(brew outdated --verbose)
 brew cleanup
 if [ -n "$updated_packages" ]; then

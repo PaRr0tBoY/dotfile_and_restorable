@@ -1,0 +1,5469 @@
+Applications:
+
+    票据显示程序:
+
+      Version: 4.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Ticket Viewer.app
+
+    无线诊断:
+
+      Version: 11.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Wireless Diagnostics.app
+
+    iOS App安装器:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/iOS App Installer.app
+
+    访达:
+
+      Version: 14.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Finder.app
+
+    隔空投送:
+
+      Version: 14.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Finder.app/Contents/Applications/AirDrop.app
+
+    电脑:
+
+      Version: 14.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Finder.app/Contents/Applications/Computer.app
+
+    网络:
+
+      Version: 14.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Finder.app/Contents/Applications/Network.app
+
+    最近使用:
+
+      Version: 14.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Finder.app/Contents/Applications/Recents.app
+
+    iCloud云盘:
+
+      Version: 14.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Finder.app/Contents/Applications/iCloud Drive.app
+
+    帮助显示程序:
+
+      Version: 7.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Help Viewer.app
+
+    提示:
+
+      Version: 10.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Tips.app
+
+    AOSUIPrefPaneLauncher:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AOSUIPrefPaneLauncher.app
+
+    AVB配置:
+
+      Version: 1220.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AVB Configuration.app
+
+    添加打印机:
+
+      Version: 607
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AddPrinter.app
+
+    AddressBookUrlForwarder:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AddressBookUrlForwarder.app
+
+    AirPlayUIAgent:
+
+      Version: 2.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AirPlayUIAgent.app
+
+    AirPort Base Station Agent:
+
+      Version: 2.2.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AirPort Base Station Agent.app
+      Get Info String: 2.2.1 (221.11), Copyright © 2006 -2023 Apple Inc. All Rights Reserved.
+
+    AppleScript实用工具:
+
+      Version: 1.1.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AppleScript Utility.app
+
+    AskToMessagesHost:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/AskToMessagesHost.app
+
+    Automator Application Stub:
+
+      Version: 1.3
+      Obtained from: Unknown
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Location: /System/Library/CoreServices/Automator Application Stub.app
+
+    自动操作安装器:
+
+      Version: 2.10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Automator Installer.app
+
+    电池:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Batteries.app
+
+    蓝牙设置助理:
+
+      Version: 9.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/BluetoothSetupAssistant.app
+      Get Info String: 9.0 (1)
+
+    BluetoothUIServer:
+
+      Version: 9.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/BluetoothUIServer.app
+      Get Info String: kBluetoothCFBundleGetInfoString
+
+    BluetoothUIService:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/BluetoothUIService.app
+
+    CalendarFileHandler:
+
+      Version: 8.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/CalendarFileHandler.app
+
+    Captive Network Assistant:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Captive Network Assistant.app
+
+    证书助理:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Certificate Assistant.app
+
+    控制中心:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ControlCenter.app
+
+    ControlStrip:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ControlStrip.app
+
+    CoreLocationAgent:
+
+      Version: 2890.16.16
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/CoreLocationAgent.app
+      Get Info String: Copyright © 2013 Apple Inc.
+
+    CoreServicesUIAgent:
+
+      Version: 369
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/CoreServicesUIAgent.app
+      Get Info String: Copyright © 2009 Apple Inc.
+
+    保障范围详细信息:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Coverage Details.app
+
+    Database Events:
+
+      Version: 1.0.6
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Database Events.app
+
+    Diagnostics Reporter:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Diagnostics Reporter.app
+
+    DiscHelper:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/DiscHelper.app
+
+    DiskImageMounter:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/DiskImageMounter.app
+
+    程序坞:
+
+      Version: 1.8
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Dock.app
+      Get Info String: Dock 1.8
+
+    Dwell Control:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Dwell Control.app
+
+    抹掉助理:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Erase Assistant.app
+
+    EscrowSecurityAlert:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/EscrowSecurityAlert.app
+
+    Family:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Family.app
+
+    FolderActionsDispatcher:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/FolderActionsDispatcher.app
+
+    Game Center:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Game Center.app
+
+    IOUIAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/IOUIAgent.app
+
+    Image Events:
+
+      Version: 1.1.6
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Image Events.app
+
+    Install Command Line Developer Tools:
+
+      Version: 2408
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Install Command Line Developer Tools.app
+
+    正在进行安装:
+
+      Version: 3.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Install in Progress.app
+
+    Installer Progress:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Installer Progress.app
+
+    安装器:
+
+      Version: 6.2.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Installer.app
+
+    JavaLauncher:
+
+      Version: 321
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/JavaLauncher.app
+
+    KeyboardAccessAgent:
+
+      Version: 10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/KeyboardAccessAgent.app
+
+    KeyboardSetupAssistant:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/KeyboardSetupAssistant.app
+
+    Keychain Circle Notification:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Keychain Circle Notification.app
+
+    语言选取器:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Language Chooser.app
+
+    MTLReplayer:
+
+      Version: 270.13.3
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/MTLReplayer.app
+
+    ManagedClient:
+
+      Version: 16.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ManagedClient.app
+
+    MediaMLPluginApp:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/MediaMLPluginApp.app
+
+    内存插槽实用工具:
+
+      Version: 1.5.3
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Memory Slot Utility.app
+
+    App Store:
+
+      Version: 3.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/App Store.app
+
+    自动操作:
+
+      Version: 2.10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Automator.app
+
+    图书:
+
+      Version: 6.4
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Books.app
+
+    计算器:
+
+      Version: 10.16
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Calculator.app
+      Get Info String: 10.14, Copyright © 2000-2018, Apple Inc.
+
+    日历:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Calendar.app
+
+    国际象棋:
+
+      Version: 3.18
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Chess.app
+      Get Info String: 3.18, Copyright 2003–2023 Apple Inc.
+
+    时钟:
+
+      Version: 1.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Clock.app
+
+    通讯录:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Contacts.app
+
+    WindowManager:
+
+      Version: 175.106
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/WindowManager.app
+      Get Info String: WindowManager
+
+    WindowManagerShowDesktopEducation:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/WindowManagerShowDesktopEducation.app
+      Get Info String: WindowManagerShowDesktopEducation
+
+    WorkoutAlert-Mac:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/WorkoutAlert-Mac.app
+
+    iCloud+:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/iCloud+.app
+
+    iCloud:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/iCloud.app
+
+    loginwindow:
+
+      Version: 9.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/loginwindow.app
+
+    rcd:
+
+      Version: 361
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/rcd.app
+      Get Info String: 361
+
+    screencaptureui:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/screencaptureui.app
+
+    备忘录:
+
+      Version: 4.11
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Notes.app
+
+    Photo Booth:
+
+      Version: 13.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Photo Booth.app
+
+    照片:
+
+      Version: 9.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Photos.app
+
+    播客:
+
+      Version: 1.1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Podcasts.app
+
+    预览:
+
+      Version: 11.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Preview.app
+
+    QuickTime Player:
+
+      Version: 10.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/QuickTime Player.app
+      Get Info String: 10.5, Copyright © 2009-2023 Apple Inc. All Rights Reserved.
+
+    提醒事项:
+
+      Version: 7.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Reminders.app
+
+    快捷指令:
+
+      Version: 7.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Shortcuts.app
+
+    Siri:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Siri.app
+
+    便笺:
+
+      Version: 10.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Stickies.app
+
+    股市:
+
+      Version: 6.2.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Stocks.app
+
+    系统设置:
+
+      Version: 15.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/System Settings.app
+
+    TV:
+
+      Version: 1.4.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/TV.app
+      Get Info String: TV 1.4.5.36, © 2019–2024 Apple Inc. All rights reserved.
+
+    文本编辑:
+
+      Version: 1.19
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/TextEdit.app
+
+    时间机器:
+
+      Version: 1.3
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Time Machine.app
+
+    活动监视器:
+
+      Version: 10.14
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Activity Monitor.app
+
+    AirPort实用工具:
+
+      Version: 6.3.9
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/AirPort Utility.app
+      Get Info String: 6.3.9, Copyright 2001 -2023 Apple Inc.
+
+    音频MIDI设置:
+
+      Version: 3.6
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Audio MIDI Setup.app
+      Get Info String: 3.6, Copyright 2002–2023 Apple Inc.
+
+    蓝牙文件交换:
+
+      Version: 9.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Bluetooth File Exchange.app
+      Get Info String: 7.0.0, Copyright © 2002-2018 Apple Inc. All rights reserved.
+
+    启动转换助理:
+
+      Version: 6.1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Boot Camp Assistant.app
+
+    色彩同步实用工具:
+
+      Version: 12.0.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/ColorSync Utility.app
+
+    控制台:
+
+      Version: 1.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Console.app
+
+    数码测色计:
+
+      Version: 5.22
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Digital Color Meter.app
+
+    磁盘工具:
+
+      Version: 22.6
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Disk Utility.app
+
+    Grapher:
+
+      Version: 2.7
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Grapher.app
+
+    钥匙串访问:
+
+      Version: 11.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Keychain Access.app
+
+    迁移助理:
+
+      Version: 14.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Migration Assistant.app
+
+    打印中心:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Print Center.app
+
+    屏幕共享:
+
+      Version: 4.3
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Screen Sharing.app
+
+    截屏:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Screenshot.app
+
+    脚本编辑器:
+
+      Version: 2.11
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Script Editor.app
+
+    系统信息:
+
+      Version: 11.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/System Information.app
+
+    终端:
+
+      Version: 2.14
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/Terminal.app
+
+    旁白实用工具:
+
+      Version: 10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Utilities/VoiceOver Utility.app
+
+    语音备忘录:
+
+      Version: 2.4
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/VoiceMemos.app
+
+    天气:
+
+      Version: 4.2.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Weather.app
+
+    关于本机:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/About This Mac.app
+
+    归档实用工具:
+
+      Version: 10.15
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Archive Utility.app
+
+    DVD播放程序:
+
+      Version: 6.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/DVD Player.app
+
+    桌上视角:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Desk View.app
+
+    目录实用工具:
+
+      Version: 6.4
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Directory Utility.app
+
+    扩充槽实用工具:
+
+      Version: 2.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Expansion Slot Utility.app
+
+    反馈助理:
+
+      Version: 5.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Feedback Assistant.app
+
+    文件夹操作设置:
+
+      Version: 1.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Applications/Folder Actions Setup.app
+
+    音乐识别:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/MusicRecognitionMac.app
+
+    NetAuthAgent:
+
+      Version: 6.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/NetAuthAgent.app
+
+    通知中心:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/NotificationCenter.app
+
+    NowPlayingTouchUI:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/NowPlayingTouchUI.app
+
+    OBEXAgent:
+
+      Version: 9.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/OBEXAgent.app
+      Get Info String: 7.0.0, Copyright © 2002-2018 Apple Inc. All rights reserved.
+
+    ODSAgent:
+
+      Version: 1.9
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ODSAgent.app
+      Get Info String: 1.9 (190.2), Copyright © 2007-2009 Apple Inc. All Rights Reserved.
+
+    OSDUIHelper:
+
+      Version: 1.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/OSDUIHelper.app
+
+    PIPAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/PIPAgent.app
+
+    配对的设备:
+
+      Version: 5.5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Paired Devices.app
+
+    Pass Viewer:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Pass Viewer.app
+
+    PeopleMessageService:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/PeopleMessageService.app
+
+    通讯录:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/PeopleViewService.app
+
+    PowerChime:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/PowerChime.app
+
+    PreviewShell:
+
+      Version: 15.3
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/PreviewShell.app
+
+    Pro Display校准程序:
+
+      Version: 2.0.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Pro Display Calibrator.app
+
+    Problem Reporter:
+
+      Version: 10.13
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Problem Reporter.app
+
+    描述文件安装器:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ProfileHelper.app
+
+    RapportUIAgent:
+
+      Version: 5.5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/RapportUIAgent.app
+
+    RegisterPluginIMApp:
+
+      Version: 25
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/RegisterPluginIMApp.app
+
+    ARDAgent:
+
+      Version: 3.9.8
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/RemoteManagement/ARDAgent.app
+
+    “远程桌面”信息:
+
+      Version: 3.9.8
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/RemoteManagement/Remote Desktop Message.app
+
+    SSMenuAgent:
+
+      Version: 3.9.8
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/RemoteManagement/SSMenuAgent.app
+
+    Rosetta 2更新程序:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Apple Silicon
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Rosetta 2 Updater.app
+
+    屏幕使用时间:
+
+      Version: 3.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Screen Time.app
+
+    ScreenSaverEngine:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ScreenSaverEngine.app
+
+    脚本菜单:
+
+      Version: 1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Script Menu.app
+
+    ScriptMonitor:
+
+      Version: 1.0.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ScriptMonitor.app
+
+    设置助理:
+
+      Version: 10.10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Setup Assistant.app
+
+    ShortcutDroplet:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ShortcutDroplet.app
+
+    Shortcuts Events:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Shortcuts Events.app
+
+    ShortcutsActions:
+
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ShortcutsActions.app
+
+    Siri:
+
+      Version: 3305.2.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Siri.app
+
+    软件更新:
+
+      Version: 6
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Software Update.app
+      Get Info String: Software Update version 4.0, Copyright © 2000-2009, Apple Inc. All rights reserved.
+
+    SpacesTouchBarAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/SpacesTouchBarAgent.app
+
+    聚焦:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/Spotlight.app
+
+    StageManagerOnboarding:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/StageManagerOnboarding.app
+      Get Info String: StageManagerOnboarding
+
+    System Events:
+
+      Version: 1.3.6
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/System Events.app
+
+    SystemUIServer:
+
+      Version: 1.7
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/SystemUIServer.app
+
+    TextInputMenuAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/TextInputMenuAgent.app
+
+    TextInputSwitcher:
+
+      Version: 1.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/TextInputSwitcher.app
+
+    ThermalTrap:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/ThermalTrap.app
+
+    TMHelperAgent:
+
+      Version: 13
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/TimeMachine/TMHelperAgent.app
+
+    UIKitSystem:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/UIKitSystem.app
+
+    UniversalAccessControl:
+
+      Version: 7.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/UniversalAccessControl.app
+
+    通用控制:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/UniversalControl.app
+
+    UnmountAssistantAgent:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/UnmountAssistantAgent.app
+
+    UserNotificationCenter:
+
+      Version: 82
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/UserNotificationCenter.app
+
+    旁白:
+
+      Version: 10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/VoiceOver.app
+
+    墙纸:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/WallpaperAgent.app
+
+    表盘帮助:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/WatchFaceAlert.app
+
+    WiFiAgent:
+
+      Version: 17.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/WiFiAgent.app
+      Get Info String: 17.0, Copyright © 2012-2019 Apple Inc. All rights reserved.
+
+    WidgetKit Simulator:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/CoreServices/WidgetKit Simulator.app
+
+    SyncServer:
+
+      Version: 8.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/SyncServices.framework/Versions/A/Resources/SyncServer.app
+      Get Info String: © 2002-2003 Apple
+
+    ClassroomStudentMenuExtra:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Classroom/ClassroomStudentMenuExtra.app
+
+    显示器校准程序:
+
+      Version: 4.18
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/ColorSync/Calibrators/Display Calibrator.app
+      Get Info String: 4.18, Copyright 2014-2023 Apple Computer, Inc.
+
+    IMTransferAgent:
+
+      Version: 10.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app
+
+    Calibration Assistant:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/Resources/Calibration Assistant.app
+
+    iCloud云盘:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Resources/iCloud Drive.app
+
+    AXVisualSupportAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/AXVisualSupportAgent.app
+
+    DFRHUD:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/DFRHUD.app
+
+    语音控制指南:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/Voice Control Guide.app
+
+    universalAccessAuthWarn:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app
+
+    FindMyMacMessenger:
+
+      Version: 4.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/FindMyMac.framework/Versions/A/Resources/FindMyMacMessenger.app
+
+    AppSSOAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app
+
+    KerberosMenuExtra:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AppSSOKerberos.framework/Support/KerberosMenuExtra.app
+
+    AOSHeartbeat:
+
+      Version: 1.07
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/Helpers/AOSHeartbeat.app
+
+    AOSPushRelay:
+
+      Version: 1.07
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/Helpers/AOSPushRelay.app
+
+    DiskImages UI Agent:
+
+      Version: 654.120.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/Resources/DiskImages UI Agent.app
+
+    LinkedNotesUIService:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/PaperKit.framework/Contents/LinkedNotesUIService.app
+
+    identityservicesd:
+
+      Version: 10.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app
+
+    IDSRemoteURLConnectionAgent:
+
+      Version: 10.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSRemoteURLConnectionAgent.app
+
+    UASharedPasteboardProgressUI:
+
+      Version: 54.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/UserActivity.framework/Agents/UASharedPasteboardProgressUI.app
+
+    iCloudUserNotificationsd:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/Resources/iCloudUserNotificationsd.app
+
+    AOSAlertManager:
+
+      Version: 1.07
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/Helpers/AOSAlertManager.app
+
+    实时字幕:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/Versions/A/Resources/Live Captions.app
+
+    LiveSpeech:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/Versions/A/Resources/LiveSpeech.app
+
+    BackgroundTaskManagementAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Support/BackgroundTaskManagementAgent.app
+
+    imagent:
+
+      Version: 10.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/IMCore.framework/imagent.app
+
+    IMAutomaticHistoryDeletionAgent:
+
+      Version: 10.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app
+
+    eaptlstrust:
+
+      Version: 13.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/EAP8021X.framework/Support/eaptlstrust.app
+
+    AskPermissionUI:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/AskPermissionUI.app
+
+    ScreenReaderUIServer:
+
+      Version: 10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Resources/ScreenReaderUIServer.app
+
+    旁白快速入门:
+
+      Version: 10
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Resources/VoiceOver Quickstart.app
+
+    sociallayerd:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/SocialLayer.framework/sociallayerd.app
+
+    语音下载程序:
+
+      Version: 9.0.68
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechDataInstallerd.app
+
+    SpeechRecognitionServer:
+
+      Version: 9.0.68
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechRecognitionServer.app
+
+    nbagent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app
+
+    FollowUpUI:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Resources/FollowUpUI.app
+
+    AutoFillPanelService:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AutoFillUI.framework/Contents/AutoFillPanelService.app
+
+    AutomationModeUI:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AutomationMode.framework/AutomationModeUI.app
+
+    AMSEngagementViewService:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/Resources/AMSEngagementViewService.app
+
+    冲突解决程序:
+
+      Version: 8.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/SyncServicesUI.framework/Versions/A/Resources/Conflict Resolver.app
+      Get Info String: 1.0, Copyright Apple Computer Inc. 2004
+
+    syncuid:
+
+      Version: 8.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/SyncServicesUI.framework/Versions/A/Resources/syncuid.app
+      Get Info String: 4.0, Copyright Apple Computer Inc. 2004
+
+    storeuid:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app
+
+    ParentalControls:
+
+      Version: 4.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/Resources/ParentalControls.app
+      Get Info String: 2.0, Copyright Apple Inc. 2007-2019
+
+    STMUIHelper:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/Resources/STMUIHelper.app
+
+    AquaAppearanceHelper:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/AquaAppearanceHelper.app
+
+    SoftwareUpdateNotificationManager:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/Resources/SoftwareUpdateNotificationManager.app
+
+    CIMFindInputCodeTool:
+
+      Version: 104
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/CoreChineseEngine.framework/Versions/A/SharedSupport/CIMFindInputCodeTool.app
+
+    AccessibilityVisualsAgent:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/Resources/AccessibilityVisualsAgent.app
+
+    构建网页:
+
+      Version: 10.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Image Capture/Automatic Tasks/Build Web Page.app
+      Get Info String: 10.1, © Copyright 2003-2014 Apple  Inc. All rights reserved.
+
+    制作PDF:
+
+      Version: 10.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Image Capture/Automatic Tasks/MakePDF.app
+      Get Info String: 10.1, © Copyright 2003-2015 Apple Inc. All rights reserved.
+
+    AirScanScanner:
+
+      Version: 18
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Image Capture/Devices/AirScanScanner.app
+
+    50onPaletteServer:
+
+      Version: 1.1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/50onPaletteServer.app
+
+    AinuIM:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/AinuIM.app
+
+    Assistive Control:
+
+      Version: 2.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/Assistive Control.app
+
+    CharacterPalette:
+
+      Version: 2.0.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/CharacterPalette.app
+
+    听写:
+
+      Version: 6.1.82.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/DictationIM.app
+
+    EmojiFunctionRowIM:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/EmojiFunctionRowIM.app
+
+    JapaneseIM-KanaTyping:
+
+      Version: 6.3
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/JapaneseIM-KanaTyping.app
+
+    JapaneseIM-RomajiTyping:
+
+      Version: 6.3
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/JapaneseIM-RomajiTyping.app
+
+    KoreanIM:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/KoreanIM.app
+
+    PluginIM:
+
+      Version: 25
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/PluginIM.app
+
+    PressAndHold:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/PressAndHold.app
+
+    SCIM:
+
+      Version: 104
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/SCIM.app
+
+    TCIM:
+
+      Version: 104
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/TCIM.app
+
+    TYIM:
+
+      Version: 104
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/TYIM.app
+
+    TamilIM:
+
+      Version: 1.6
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/TamilIM.app
+      Get Info String: Tamil Input Method 1.5
+
+    TrackpadIM:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/TrackpadIM.app
+
+    TransliterationIM:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/TransliterationIM.app
+
+    VietnameseIM:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Input Methods/VietnameseIM.app
+
+    qlmanage:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/qlmanage.app
+
+    quicklookd:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd.app
+      Get Info String: 5.0, Copyright Apple Inc. 2007-2013
+
+    FontRegistryUIAgent:
+
+      Version: 81.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/FontRegistryUIAgent.app
+      Get Info String: Copyright © 2008-2013 Apple Inc.
+
+    系统语音:
+
+      Version: 9.2.22
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/System Speech.app
+      Get Info String: 9.2.22
+
+    智能卡配对:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/CryptoTokenKit.framework/ctkbind.app
+
+    Quick Look Simulator:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/QuickLookUI.framework/Versions/A/Resources/Quick Look Simulator.app
+
+    QuickLookUIHelper:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/QuickLookUI.framework/Versions/A/Resources/QuickLookUIHelper.app
+      Get Info String: 5.0, Copyright Apple Inc. 2007-2013
+
+    Wish:
+
+      Version: 8.5.9
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/Tk.framework/Versions/8.5/Resources/Wish.app
+      Get Info String: Wish Shell 8.5.9,
+Copyright © 1989-2024 Tcl Core Team,
+Copyright © 2002-2024 Daniel A. Steffen,
+Copyright © 2001-2009 Apple Inc.,
+Copyright © 2001-2002 Jim Ingham & Ian Reid
+
+    CinematicFramingOnboardingUI:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/CinematicFramingOnboardingUI.app
+
+    ContinuityCaptureOnboardingUI:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/ContinuityCaptureOnboardingUI.app
+
+    AddressBookSync:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app
+
+    ABAssistantService:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/ABAssistantService.app
+
+    AddressBookManager:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookManager.app
+
+    AddressBookSourceSync:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Frameworks/AddressBook.framework/Versions/A/Helpers/AddressBookSourceSync.app
+
+    AppleSpell:
+
+      Version: 2.4
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Services/AppleSpell.service
+
+    ChineseTextConverterService:
+
+      Version: 2.1
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Services/ChineseTextConverterService.app
+      Get Info String: Chinese Text Converter 1.1
+
+    OpenSpell:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Services/OpenSpell.service
+
+    SpeechService:
+
+      Version: 9.2.22
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Services/SpeechService.service
+      Get Info String: 9.2.22
+
+    Spotlight:
+
+      Version: 3.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Services/Spotlight.service
+
+    摘要服务:
+
+      Version: 2.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Library/Services/Summary Service.app
+
+    词典:
+
+      Version: 2.3.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Dictionary.app
+
+    FaceTime通话:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/FaceTime.app
+
+    查找:
+
+      Version: 4.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/FindMy.app
+
+    字体册:
+
+      Version: 11.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Font Book.app
+
+    无边记:
+
+      Version: 2.4
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Freeform.app
+
+    家庭:
+
+      Version: 8.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Home.app
+
+    图像捕捉:
+
+      Version: 8.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Image Capture.app
+
+    启动台:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Launchpad.app
+
+    邮件:
+
+      Version: 16.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Mail.app
+
+    地图:
+
+      Version: 3.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Maps.app
+
+    信息:
+
+      Version: 14.0
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Messages.app
+
+    调度中心:
+
+      Version: 1.2
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Mission Control.app
+
+    音乐:
+
+      Version: 1.4.5
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:01
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /System/Applications/Music.app
+      Get Info String: Music 1.4.5.36, © 2019–2024 Apple Inc. All rights reserved.
+
+    group.is.workflow:
+
+      Obtained from: Unknown
+      Last Modified: 2024-07-27 11:12
+      Kind: Other
+      Location: /Users/acid/Library/Application Scripts/group.is.workflow.my.app
+
+    Arc:
+
+      Version: 1.65.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-18 18:29
+      Kind: Universal
+      Signed by: Developer ID Application: The Browser Company of New York Inc. (S6N382Y83G), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Arc.app
+
+    Snipaste:
+
+      Version: 2.9.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-02 21:24
+      Kind: iOS
+      Signed by: Developer ID Application: Le Liu (NGTL73P583), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Snipaste.app
+
+    PopClip:
+
+      Version: 2024.5.1
+      Obtained from: Unknown
+      Last Modified: 2024-05-11 19:51
+      Kind: Apple Silicon
+      Signed by: TNT
+      Location: /Applications/PopClip.app
+
+    Hovrly:
+
+      Version: 2.4.5
+      Obtained from: Identified Developer
+      Last Modified: 2022-12-03 16:10
+      Kind: iOS
+      Signed by: Developer ID Application: Treasy, OU (FVDBT9B8SA), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Hovrly.app
+
+    Sketch:
+
+      Version: 100.2
+      Obtained from: Unknown
+      Last Modified: 2024-07-16 21:40
+      Kind: Apple Silicon
+      Signed by: TNT
+      Location: /Applications/Sketch.app
+
+    Folder Icons:
+
+      Version: 1.95
+      Obtained from: App Store
+      Last Modified: 2024-07-08 01:38
+      Kind: Apple Silicon
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Folder Icons.app
+
+    BetterDisplay:
+
+      Version: 2.2.6
+      Obtained from: Unknown
+      Last Modified: 2024-03-10 01:51
+      Kind: Apple Silicon
+      Signed by: https://macked.app
+      Location: /Applications/BetterDisplay.app
+
+    PlayMusic:
+
+      Version: 1.1.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-14 01:47
+      Kind: Universal
+      Signed by: Developer ID Application: Apptorium (MLZTD8K9AU), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/com.apptorium.Workspaces2-paddle/Plugins/PlayMusic.app
+
+    Keystroke:
+
+      Version: 1.0.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-13 23:47
+      Kind: Universal
+      Signed by: Developer ID Application: Apptorium (MLZTD8K9AU), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/com.apptorium.Workspaces2-paddle/Plugins/Keystroke.app
+
+    ScriptRunner:
+
+      Version: 1.1.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-14 01:10
+      Kind: Universal
+      Signed by: Developer ID Application: Apptorium (MLZTD8K9AU), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/com.apptorium.Workspaces2-paddle/Plugins/ScriptRunner.app
+
+    Riffo:
+
+      Version: 1.0.7
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-15 12:37
+      Kind: Universal
+      Signed by: Developer ID Application: GroupUltra Limited (DXBQ96GC5Q), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Riffo.app
+
+    NotchNook:
+
+      Version: 1.2.7
+      Obtained from: Unknown
+      Last Modified: 2024-08-19 01:36
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Applications/NotchNook.app
+
+    BoltAI:
+
+      Version: 1.24.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-17 10:51
+      Kind: Universal
+      Signed by: Developer ID Application: Long Nguyen (6D5N473QP3), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/BoltAI.app
+
+    Stay:
+
+      Version: 2.7.8
+      Obtained from: App Store
+      Last Modified: 2024-10-17 10:51
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Stay.app
+
+    Dash:
+
+      Version: 7.3.1
+      Obtained from: Unknown
+      Last Modified: 2024-09-12 20:58
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/Dash.app
+
+    Cursor:
+
+      Version: 0.42.3
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-16 18:37
+      Kind: iOS
+      Signed by: Developer ID Application: Hilary Stout (VDXQ22DGB9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Cursor.app
+
+    Session:
+
+      Version: 2.10.25
+      Obtained from: Unknown
+      Last Modified: 2024-08-25 06:01
+      Kind: Universal
+      Location: /Applications/Session.app
+
+    Ulysses:
+
+      Version: 35.1
+      Obtained from: Unknown
+      Last Modified: 2024-06-21 06:39
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Applications/UlyssesMac.app
+
+    GoldenDict-ng:
+
+      Version: 24.05.05
+      Obtained from: Unknown
+      Last Modified: 2024-05-05 22:29
+      Kind: iOS
+      Location: /Applications/GoldenDict-ng.app
+
+    com.apple.ctcategories:
+
+      Obtained from: Unknown
+      Last Modified: 2024-07-27 11:16
+      Kind: Other
+      Location: /Users/acid/Library/HTTPStorages/com.apple.ctcategories.service
+
+    阿里云盘:
+
+      Version: 6.1.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-18 16:45
+      Kind: iOS
+      Signed by: Developer ID Application: ALIBABA (CHINA) CO., LTD (94F2JS8SWX), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/aDrive.app
+
+    Obsidian:
+
+      Version: 1.6.7
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-18 22:53
+      Kind: iOS
+      Signed by: Developer ID Application: Dynalist Inc. (6JSW4SJWN9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Obsidian.app
+
+    https+++elephas:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-15 22:50
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++elephas.app
+
+    Plash:
+
+      Version: 2.15.0
+      Obtained from: App Store
+      Last Modified: 2024-08-15 13:30
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Plash.app
+
+    CodeEdit:
+
+      Version: 0.2.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-27 23:55
+      Kind: Universal
+      Signed by: Developer ID Application: Austin Condiff (9VS2VKC5LQ), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/CodeEdit.app
+
+    TestFlight:
+
+      Version: 3.5.2
+      Obtained from: App Store
+      Last Modified: 2024-07-27 12:29
+      Kind: Apple Silicon
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/TestFlight.app
+
+    Parallels Desktop:
+
+      Version: 19.3.0
+      Obtained from: Unknown
+      Last Modified: 2024-03-01 18:08
+      Kind: Universal
+      Location: /Applications/Parallels Desktop.app
+      Get Info String: 19.3.0, Copyright 2024 Parallels International GmbH
+
+    Parallels Technical Data Reporter:
+
+      Version: 19.3.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-03-01 18:08
+      Kind: Universal
+      Signed by: Developer ID Application: Parallels International GmbH (4C6364ACXT), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Parallels Desktop.app/Contents/Applications/Parallels Technical Data Reporter.app
+      Get Info String: 19.3.0, Copyright 2024 Parallels International GmbH
+
+    Parallels Mounter:
+
+      Version: 19.3.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-03-01 18:08
+      Kind: Universal
+      Signed by: Developer ID Application: Parallels International GmbH (4C6364ACXT), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Parallels Desktop.app/Contents/Applications/Parallels Mounter.app
+      Get Info String: 19.3.0, Copyright 2024 Parallels International GmbH
+
+    Parallels Link:
+
+      Version: 19.3.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-03-01 18:08
+      Kind: Universal
+      Signed by: Developer ID Application: Parallels International GmbH (4C6364ACXT), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Parallels Desktop.app/Contents/Applications/Parallels Link.app
+      Get Info String: 19.3.0, Copyright 2024 Parallels International GmbH
+
+    Logi Options+:
+
+      Version: 1.83.635658
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-15 13:35
+      Kind: Universal
+      Signed by: Developer ID Application: Logitech Inc. (QED4VVPZWA), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app
+      Get Info String: Logi Options+ Application
+
+    罗技语音:
+
+      Version: 1.83.635658
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-15 13:35
+      Kind: Universal
+      Signed by: Developer ID Application: Logitech Inc. (QED4VVPZWA), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_logivoice.app
+      Get Info String: logioptionsplus_logivoice
+
+    Microsoft Word:
+
+      Version: 16.54
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-08 18:04
+      Kind: Universal
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Microsoft Word.app
+
+    Microsoft Excel:
+
+      Version: 16.54
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-08 18:04
+      Kind: Universal
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Microsoft Excel.app
+
+    Microsoft PowerPoint:
+
+      Version: 16.54
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-08 18:04
+      Kind: Universal
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Microsoft PowerPoint.app
+
+    Microsoft OneNote:
+
+      Version: 16.54
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-08 18:04
+      Kind: Universal
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Microsoft OneNote.app
+      Get Info String: SZLONGVERSION
+
+    Microsoft Outlook:
+
+      Version: 16.54
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-08 18:04
+      Kind: Universal
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Microsoft Outlook.app
+
+    Typora:
+
+      Version: 1.9.4
+      Obtained from: Unknown
+      Last Modified: 2024-06-25 22:35
+      Kind: Apple Silicon
+      Signed by: Antibiotics
+      Location: /Applications/Typora.app
+
+    MRT:
+
+      Version: 1.93
+      Obtained from: Apple
+      Last Modified: 2024-07-27 14:31
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Library/Apple/System/Library/CoreServices/MRT.app
+
+    XProtect:
+
+      Version: 140
+      Obtained from: Apple
+      Last Modified: 2024-07-27 14:31
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Library/Apple/System/Library/CoreServices/XProtect.app
+
+    Final Cut Pro Trial:
+
+      Version: 10.8
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-27 15:08
+      Kind: Universal
+      Signed by: 2nd Party Developer ID Application: Apple Inc. - VideoApps, Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Final Cut Pro Trial.app
+
+    超级右键 Lite:
+
+      Version: 1.2.1
+      Obtained from: App Store
+      Last Modified: 2024-07-27 16:03
+      Kind: Intel
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/iRightMouse Lite.app
+
+    ClashX Pro:
+
+      Version: 1.118.1.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-27 16:09
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Fuzhou West2Online Internet Inc. (MEWHFZ92DY), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/ClashX Pro.app
+
+    cn.better365.iRightMouseLite.Service:
+
+      Obtained from: Unknown
+      Last Modified: 2024-07-27 16:11
+      Kind: Other
+      Location: /Users/acid/Library/Application Scripts/cn.better365.iRightMouseLite.Service
+
+    Mos:
+
+      Version: 3.4.1
+      Obtained from: Unknown
+      Last Modified: 2022-10-08 15:21
+      Kind: Apple Silicon
+      Location: /Applications/Mos.app
+
+    CheatSheet:
+
+      Version: 1.6.4
+      Obtained from: Identified Developer
+      Last Modified: 2022-09-24 21:50
+      Kind: Universal
+      Signed by: Developer ID Application: Stefan Fuerst (2295B9BX7F), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/CheatSheet.app
+
+    The Unarchiver:
+
+      Version: 4.3.8
+      Obtained from: App Store
+      Last Modified: 2024-07-27 16:38
+      Kind: Apple Silicon
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/The Unarchiver.app
+
+    IINA:
+
+      Version: 1.3.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-05-31 09:19
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Hechen Li (67CQ77V27R), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/IINA.app
+
+    Downie 4:
+
+      Version: 4.7.23
+      Obtained from: Unknown
+      Last Modified: 2024-07-24 22:18
+      Kind: Apple Silicon
+      Location: /Applications/Downie 4.app
+
+    Docker:
+
+      Version: 4.33.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-25 16:27
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Docker Inc (9BNSXJN65R), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Docker.app
+
+    Steam Helper:
+
+      Version: 31.0.1650.57
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-27 17:26
+      Kind: Intel
+      Signed by: Developer ID Application: Valve Corporation (MXGJJ98X76), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/Frameworks/Steam Helper.app
+
+    Crash Reporter:
+
+      Version: 1.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-27 17:26
+      Kind: Universal
+      Signed by: Developer ID Application: Valve Corporation (MXGJJ98X76), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/Frameworks/Breakpad.framework/Versions/A/Resources/crash_report_sender.app
+
+    Slay the Spire:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-07-27 17:38
+      Kind: Other
+      Location: /Users/acid/Applications/Slay the Spire.app
+
+    CleanMyMac X:
+
+      Version: 4.15.1
+      Obtained from: Unknown
+      Last Modified: 2024-03-05 01:38
+      Kind: Universal
+      Location: /Applications/CleanMyMac X.app
+      Get Info String: CleanMyMac X, Copyright © 2024 MacPaw Way Ltd. All rights reserved.
+
+    Steam:
+
+      Version: 4.0
+      Obtained from: Identified Developer
+      Last Modified: 2022-03-23 08:41
+      Kind: Intel
+      Signed by: Developer ID Application: Valve Corporation (MXGJJ98X76), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Steam.app
+
+    SlayTheSpire:
+
+      Version: 0.9
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-27 17:39
+      Kind: Intel
+      Signed by: Developer ID Application: Mega Crit Games, LLC (UQSTYP6F52), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/Steam/steamapps/common/SlayTheSpire/SlayTheSpire.app
+
+    Python:
+
+      Version: 3.9.6
+      Obtained from: Apple
+      Last Modified: 2024-07-27 22:56
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app
+      Get Info String: 3.9.6, (c) 2001-2020 Python Software Foundation.
+
+    IntelliJ IDEA:
+
+      Version: 2024.1.4
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-21 01:06
+      Kind: iOS
+      Signed by: Developer ID Application: JetBrains s.r.o. (2ZEFAR8TH3), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/IntelliJ IDEA.app
+      Get Info String: IntelliJ IDEA 2024.1.4, build IU-241.18034.62. Copyright JetBrains s.r.o., (c) 2000-2024
+
+    Bartender 5:
+
+      Version: 5.0.54
+      Obtained from: Unknown
+      Last Modified: 2024-06-11 00:44
+      Kind: Apple Silicon
+      Signed by: TNT
+      Location: /Applications/Bartender 5.app
+
+    WeType:
+
+      Version: 1.2.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-25 21:25
+      Kind: Universal
+      Signed by: Developer ID Application: Tencent Technology (Shenzhen) Company Limited (88L2Q4487U), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Input Methods/WeType.app
+
+    OBS:
+
+      Version: 30.2.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-24 00:50
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Wizards of OBS LLC (2MMRE5MTB8), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/OBS.app
+
+    SwitchHosts:
+
+      Version: 4.1.2
+      Obtained from: Identified Developer
+      Last Modified: 2022-06-08 08:11
+      Kind: iOS
+      Signed by: Developer ID Application: Yingjie Wu (J5J6USUX2F), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/SwitchHosts.app
+
+    Minecraft:
+
+      Version: 2.0.16
+      Obtained from: Identified Developer
+      Last Modified: 2024-02-14 06:58
+      Kind: Intel
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Minecraft.app
+
+    Azure Data Studio:
+
+      Version: 1.49.1
+      Obtained from: Identified Developer
+      Last Modified: 2023-12-07 13:52
+      Kind: iOS
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Azure Data Studio.app
+
+    Dropover:
+
+      Version: 4.15.2
+      Obtained from: App Store
+      Last Modified: 2024-10-15 22:32
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Dropover.app
+
+    Mission Control Plus:
+
+      Version: 1.23
+      Obtained from: Unknown
+      Last Modified: 2023-10-16 05:15
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/Mission Control Plus.app
+
+    妙言:
+
+      Version: 1.15.1
+      Obtained from: Unknown
+      Last Modified: 2024-05-26 21:16
+      Kind: Universal
+      Signed by: Apple Development: tw93@qq.com (FN58XR9W8M), Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/MiaoYan.app
+
+    Workspaces:
+
+      Version: 2.1.2
+      Obtained from: Unknown
+      Last Modified: 2023-03-02 23:14
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/Workspaces.app
+
+    BetterAndBetter:
+
+      Version: 2.6.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-16 19:17
+      Kind: Universal
+      Signed by: Developer ID Application: Ningbo Shangguan Technology Co.,Ltd. (4K6FWZU8C4), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/BetterAndBetter.app
+
+    KeyCue:
+
+      Version: 10.2
+      Obtained from: Unknown
+      Last Modified: 2023-02-15 16:01
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/KeyCue.app
+
+    讯飞听见:
+
+      Version: 2.0.0400
+      Obtained from: Unknown
+      Last Modified: 2024-10-17 16:45
+      Kind: Intel
+      Signed by: 3rd Party Mac Developer Application: IFLYREC CO.,LTD. (66927FHK7D), Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/讯飞听见.app
+
+    Flomo:
+
+      Version: 1.0.0
+      Obtained from: Unknown
+      Last Modified: 2024-09-14 14:16
+      Kind: Universal
+      Location: /Applications/Flomo.app
+
+    XiaoHongShu:
+
+      Version: 1.0.0
+      Obtained from: Unknown
+      Last Modified: 2024-09-14 14:19
+      Kind: Universal
+      Location: /Applications/XiaoHongShu.app
+
+    YouTube:
+
+      Version: 1.0.0
+      Obtained from: Unknown
+      Last Modified: 2024-09-14 14:20
+      Kind: Universal
+      Location: /Applications/YouTube.app
+
+    ProgramMusic:
+
+      Version: 1.0.0
+      Obtained from: Unknown
+      Last Modified: 2024-09-14 14:17
+      Kind: Universal
+      Location: /Applications/ProgramMusic.app
+
+    Qwerty:
+
+      Version: 1.0.0
+      Obtained from: Unknown
+      Last Modified: 2024-09-14 14:17
+      Kind: Universal
+      Location: /Applications/Qwerty.app
+
+    LyricsX:
+
+      Version: 1.6.3
+      Obtained from: Identified Developer
+      Last Modified: 2022-04-28 23:26
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Xiang Deng (3665V726AE), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/LyricsX.app
+
+    Permute 3:
+
+      Version: 3.11.10
+      Obtained from: Unknown
+      Last Modified: 2024-06-07 15:53
+      Kind: Intel
+      Signed by: TNT
+      Location: /Applications/Permute 3.app
+
+    MySQLWorkbench:
+
+      Version: 8.0.38.CE
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-17 08:31
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Oracle America, Inc. (VB5E2TV963), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/MySQLWorkbench.app
+
+    Developer:
+
+      Version: 10.6.6
+      Obtained from: App Store
+      Last Modified: 2024-09-14 15:17
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Developer.app
+
+    东方财富:
+
+      Version: 3.7.4
+      Obtained from: App Store
+      Last Modified: 2024-09-14 15:17
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/东方财富.app
+
+    Slidepad:
+
+      Version: 1.5.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-11 17:56
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Cinnamon Labs Inc. (9ADSHQJW8B), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Slidepad.app
+
+    AutoCode:
+
+      Version: 1.0.3
+      Obtained from: App Store
+      Last Modified: 2024-08-01 02:46
+      Kind: Apple Silicon
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/AutoCode.app
+
+    NetNewsWire:
+
+      Version: 6.1.4
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 03:59
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Brent Simmons (M8L2WTLA8W), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/NetNewsWire.app
+
+    One Switch:
+
+      Version: 1.29
+      Obtained from: Unknown
+      Last Modified: 2023-04-04 18:33
+      Kind: Apple Silicon
+      Signed by: TNT
+      Location: /Applications/One Switch.app
+
+    AdobeIPCBroker:
+
+      Version: 7.2.1.38
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Adobe Desktop Common/IPCBox/AdobeIPCBroker.app
+      Get Info String: 7.2.1.38 Copyright 2022, Adobe Inc. All rights reserved.
+
+    Infuse:
+
+      Version: 7.7.7
+      Obtained from: Unknown
+      Last Modified: 2024-05-30 06:43
+      Kind: Apple Silicon
+      Location: /Applications/Infuse.app
+
+    AEFT_24_3_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:17
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/AEFT_24_3_32.app
+      Get Info String: 6.1.0.587
+
+    ACR_16_2_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:17
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/ACR_16_2_32.app
+      Get Info String: 6.1.0.587
+
+    COMP_1_3_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:17
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/COMP_1_3_32.app
+      Get Info String: 6.1.0.587
+
+    CORG_1_1_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:17
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/CORG_1_1_32.app
+      Get Info String: 6.1.0.587
+
+    COSY_7_1_1:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:17
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/COSY_7_1_1.app
+      Get Info String: 6.1.0.587
+
+    CCLibrary:
+
+      Version: 4.4.7-3
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:19
+      Kind: Intel
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Creative Cloud Libraries/CCLibrary.app
+
+    Adobe After Effects Render Engine 2024:
+
+      Version: 24.3
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:18
+      Kind: Universal
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Adobe After Effects 2024/Adobe After Effects Render Engine 2024.app
+      Get Info String: 24.3, © 2021-2024 Adobe. All rights reserved.
+
+    Adobe After Effects 2024:
+
+      Version: 24.3
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:25
+      Kind: Universal
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Adobe After Effects 2024/Adobe After Effects 2024.app
+      Get Info String: 24.3, © 1992-2024 Adobe. All rights reserved.
+
+    Adobe Photoshop 2024:
+
+      Version: 25.6.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:43
+      Kind: Universal
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Adobe Photoshop 2024/Adobe Photoshop 2024.app
+      Get Info String: 25.6.0 (20240312.r.433 2bfcbf1)
+
+    LIBS_4_4_7:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:17
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/LIBS_4_4_7.app
+      Get Info String: 6.1.0.587
+
+    LogTransport:
+
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Universal
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Adobe Desktop Common/HDBox/AdobeCrashReporter.framework/Versions/A/LogTransport.app
+
+    Adobe Crash Reporter:
+
+      Version: 10.5.7
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Universal
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Adobe Desktop Common/HDBox/AdobeCrashReporter.framework/Versions/A/Adobe Crash Reporter.app
+
+    Adobe Crash Handler:
+
+      Version: 10.5.7
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Universal
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Adobe Desktop Common/HDBox/AdobeCrashReporter.framework/Versions/A/Adobe Crash Handler.app
+
+    Adobe Update Helper:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Adobe Update Helper.app
+
+    Uninstaller:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Uninstaller.app
+      Get Info String: 6.1.0.587
+
+    Install:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Universal
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Adobe Desktop Common/HDBox/Install.app
+
+    PHSP_25_6_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/PHSP_25_6_32.app
+      Get Info String: 6.1.0.587
+
+    CCXP_5_2_4:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/CCXP_5_2_4.app
+      Get Info String: 6.1.0.587
+
+    COCM_1_0_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/COCM_1_0_32.app
+      Get Info String: 6.1.0.587
+
+    COPS_1_0_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/COPS_1_0_32.app
+      Get Info String: 6.1.0.587
+
+    CORE_1_0_32:
+
+      Version: 6.1.0.587
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-01 06:30
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Adobe Inc. (JQ525L2MZD), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Adobe/Uninstall/CORE_1_0_32.app
+      Get Info String: 6.1.0.587
+
+    Shottr:
+
+      Version: 1.8.0
+      Obtained from: Unknown
+      Last Modified: 2024-09-30 05:29
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Applications/Shottr.app
+
+    Almighty:
+
+      Version: 2.6.0
+      Obtained from: Identified Developer
+      Last Modified: 2023-09-01 20:27
+      Kind: Universal
+      Signed by: Developer ID Application: Khoa Pham (T78DK947F2), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Almighty.app
+
+    AirBattery:
+
+      Version: 1.5.7
+      Obtained from: Unknown
+      Last Modified: 2024-10-16 15:17
+      Kind: Universal
+      Signed by: Apple Development: lihaoyun11@gmail.com (RLYLNV942Y), Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/AirBattery.app
+
+    Goodnotes:
+
+      Version: 6.5.6
+      Obtained from: App Store
+      Last Modified: 2024-10-16 15:18
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Goodnotes.app
+
+    百度网盘:
+
+      Version: 4.39.6
+      Obtained from: App Store
+      Last Modified: 2024-10-16 15:18
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/BaiduNetdisk.app
+
+    QuickRecorder:
+
+      Version: 1.4.9
+      Obtained from: Unknown
+      Last Modified: 2024-10-16 15:18
+      Kind: Universal
+      Signed by: Apple Development: lihaoyun11@gmail.com (RLYLNV942Y), Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/QuickRecorder.app
+
+    DevCleaner:
+
+      Version: 2.7.0
+      Obtained from: App Store
+      Last Modified: 2024-10-16 15:18
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/DevCleaner.app
+
+    MoneyThings:
+
+      Version: 10.3.13
+      Obtained from: App Store
+      Last Modified: 2024-10-16 15:18
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/CashFlow.app
+
+    Warp:
+
+      Version: 0.1.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-16 15:28
+      Kind: Universal
+      Signed by: Developer ID Application: Denver Technologies, Inc (2BBY89MBSN), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Warp.app
+
+    Stardew Valley:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 16:31
+      Kind: Other
+      Location: /Users/acid/Applications/Stardew Valley.app
+
+    Terraria:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 16:32
+      Kind: Other
+      Location: /Users/acid/Applications/Terraria.app
+
+    SwitchKey:
+
+      Version: 1.1.3
+      Obtained from: Unknown
+      Last Modified: 2021-01-09 23:38
+      Kind: Apple Silicon
+      Location: /Applications/SwitchKey.app
+
+    Keyboard Maestro:
+
+      Version: 11.0.3
+      Obtained from: Identified Developer
+      Last Modified: 2024-05-21 13:39
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Stairways Software Pty Ltd (QMHRBA4LGH), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Keyboard Maestro.app
+      Get Info String: Keyboard Maestro 11.0.3, Copyright 2004-2024 Stairways Software Pty Ltd.
+
+    Latest:
+
+      Version: 0.10.3
+      Obtained from: Identified Developer
+      Last Modified: 2023-12-19 19:32
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Max Langer (VFABJ5RE5Q), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Latest.app
+
+    Terraria:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 16:34
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app
+
+    AlDente:
+
+      Version: 1.27.3
+      Obtained from: Unknown
+      Last Modified: 2024-07-08 21:01
+      Kind: Apple Silicon
+      Signed by: Antibiotics
+      Location: /Applications/AlDente.app
+
+    UE4EditorServices:
+
+      Version: 1.7.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-02 17:56
+      Kind: Intel
+      Signed by: Developer ID Application: Epic Games International, S.a.r.l. (96DBZ92D3Y), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Services/UE4EditorServices.app
+
+    Epic Games Launcher:
+
+      Obtained from: Unknown
+      Last Modified: 2024-08-02 17:55
+      Kind: Other
+      Location: /Users/Shared/UnrealEngine/Launcher/SelfUpdateStaging/Install/Epic Games Launcher.app
+
+    Motrix:
+
+      Version: 1.8.19
+      Obtained from: Identified Developer
+      Last Modified: 2023-05-03 14:51
+      Kind: iOS
+      Signed by: Developer ID Application: Xian Gen Wu (7VMB56CA56), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Motrix.app
+
+    抖音:
+
+      Version: 3.9.0
+      Obtained from: App Store
+      Last Modified: 2024-08-03 08:22
+      Kind: iOS
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/抖音.app
+
+    ToDesk:
+
+      Version: 4.7.4.8
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-16 15:19
+      Kind: Universal
+      Signed by: Developer ID Application: Hainan Youqu Technology Co., Ltd. (KM56KD59W4), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/ToDesk.app
+
+    Displaperture:
+
+      Version: 2.3
+      Obtained from: App Store
+      Last Modified: 2024-09-01 14:28
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Displaperture.app
+      Get Info String: 2.3, © 2007–2023 Many Tricks
+
+    Old-2189:
+
+      Version: 7.00
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 15:10
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/Patch/C7AB2E68-A75F-40D8-92B5-64F5BB8C4D37/Old-2189.app
+
+    Patched-2189:
+
+      Version: 7.00
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 15:10
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/Patch/C7AB2E68-A75F-40D8-92B5-64F5BB8C4D37/Patched-2189.app
+
+    iTermAI:
+
+      Version: 1.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-03 02:55
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: GEORGE NACHMAN (H7V7XYVQ7D), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/iTermAI.app
+
+    Old-2189:
+
+      Version: 7.00
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 15:10
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/Patch/0DBCD5B8-A22E-4927-9AC4-37F4E02FF680/Old-2189.app
+
+    Patched-2189:
+
+      Version: 7.00
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 15:10
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/Patch/0DBCD5B8-A22E-4927-9AC4-37F4E02FF680/Patched-2189.app
+
+    Microsoft AutoUpdate:
+
+      Version: 4.73
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-08 17:05
+      Kind: Universal
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app
+
+    Old-2189:
+
+      Version: 7.00
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 15:10
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/Patch/2EA5BEFD-7CE0-440A-865B-99C364AD3320/Old-2189.app
+
+    Patched-2189:
+
+      Version: 7.00
+      Obtained from: Unknown
+      Last Modified: 2024-08-01 15:10
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/Patch/2EA5BEFD-7CE0-440A-865B-99C364AD3320/Patched-2189.app
+
+    Little Snitch:
+
+      Version: 5.7.4
+      Obtained from: Identified Developer
+      Last Modified: 2024-03-08 22:06
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Objective Development Software GmbH (MLZF7K7B5R), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Little Snitch.app
+
+    Swish:
+
+      Version: 1.10.3
+      Obtained from: Unknown
+      Last Modified: 2023-11-24 05:46
+      Kind: Apple Silicon
+      Signed by: TNT
+      Location: /Applications/Swish.app
+
+    macOS 小助手:
+
+      Version: 1.3.6
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-30 17:48
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Cangzhou Dongcheng Network Technology Co , Ltd. (PNGUVNV73C), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/macOS Assistant.app
+
+    AnyGo:
+
+      Version: 7.0.0
+      Obtained from: Unknown
+      Last Modified: 2024-01-13 14:17
+      Kind: Intel
+      Signed by: TNT
+      Location: /Applications/AnyGo.app
+
+    雷神加速器:
+
+      Version: 1.0.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-24 14:39
+      Kind: iOS
+      Signed by: Developer ID Application: Wuhan Olaf Network Technology Co., Ltd (G74UK3P8Y8), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/雷神加速器.app
+
+    Xmind:
+
+      Version: 24.07.03011-beta
+      Obtained from: Identified Developer
+      Last Modified: 2024-04-17 19:22
+      Kind: iOS
+      Signed by: Developer ID Application: XMind Ltd. (4WV38P2X5K), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Xmind.app
+
+    Playgrounds:
+
+      Version: 4.5.1
+      Obtained from: App Store
+      Last Modified: 2024-08-11 00:16
+      Kind: Apple Silicon
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Playgrounds.app
+
+    Command X:
+
+      Version: 1.4.6
+      Obtained from: App Store
+      Last Modified: 2024-10-10 18:47
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Command X.app
+
+    SF符号:
+
+      Version: 6.0
+      Obtained from: Apple
+      Last Modified: 2024-10-10 18:59
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Applications/SF Symbols.app
+
+    Ruijie Supplicant:
+
+      Version: 1.35
+      Obtained from: Unknown
+      Last Modified: 2020-10-22 11:29
+      Kind: Intel
+      Location: /Applications/Ruijie Supplicant.app
+
+    pap:
+
+      Version: 5.3.0
+      Obtained from: Identified Developer
+      Last Modified: 2023-03-22 23:36
+      Kind: Universal
+      Signed by: Developer ID Application: DongHai Wu (4PEWBY5FWE), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/pap.er.app
+
+    Tickeys:
+
+      Version: 1.1.0
+      Obtained from: Identified Developer
+      Last Modified: 2020-12-03 21:19
+      Kind: Intel
+      Signed by: Developer ID Application: Yuandong Ying (35993D5F9Y), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Tickeys.app
+
+    AirScanLegacyDiscovery:
+
+      Version: 607
+      Obtained from: Apple
+      Last Modified: 2024-05-07 15:22
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app
+
+    Recursive File Processing Droplet:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-05-07 15:22
+      Kind: Other
+      Location: /Library/Application Support/Script Editor/Templates/Droplets/Recursive File Processing Droplet.app
+
+    Droplet with Settable Properties:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-05-07 15:22
+      Kind: Other
+      Location: /Library/Application Support/Script Editor/Templates/Droplets/Droplet with Settable Properties.app
+
+    Recursive Image File Processing Droplet:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-05-07 15:22
+      Kind: Other
+      Location: /Library/Application Support/Script Editor/Templates/Droplets/Recursive Image File Processing Droplet.app
+
+    Cocoa-AppleScript Applet:
+
+      Version: 1.0
+      Obtained from: Unknown
+      Last Modified: 2024-05-07 15:22
+      Kind: Universal
+      Location: /Library/Application Support/Script Editor/Templates/Cocoa-AppleScript Applet.app
+
+    4WV38P2X5K.net.xmind:
+
+      Obtained from: Unknown
+      Last Modified: 2024-08-14 23:23
+      Kind: Other
+      Location: /Users/acid/Library/Application Scripts/4WV38P2X5K.net.xmind.vana.app
+
+    生日:
+
+      Version: 1.3
+      Obtained from: Unknown
+      Last Modified: 2024-08-15 00:38
+      Kind: Universal
+      Location: /Users/acid/Library/Workflows/Applications/Calendar/生日.app
+
+    Reminders MenuBar:
+
+      Version: 1.22.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-03-25 01:51
+      Kind: Universal
+      Signed by: Developer ID Application: Rafael Damasceno (3398VKLH28), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Reminders MenuBar.app
+
+    Hazel:
+
+      Version: 5.3.2
+      Obtained from: Unknown
+      Last Modified: 2024-01-25 03:43
+      Kind: Universal
+      Signed by: MagicMike
+      Location: /Applications/Hazel.app
+
+    Pixelmator Pro:
+
+      Version: 3.6.5
+      Obtained from: App Store
+      Last Modified: 2024-07-12 21:32
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Pixelmator Pro.app
+
+    Reeder:
+
+      Version: 5.4
+      Obtained from: App Store
+      Last Modified: 2023-10-04 19:45
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Reeder.app
+
+    Squirrel:
+
+      Version: 1.0.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-29 17:56
+      Kind: Universal
+      Signed by: Developer ID Application: Yuncao Liu (28HU5A7B46), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Input Methods/Squirrel.app
+
+    qBittorrent:
+
+      Version: 4.6.6
+      Obtained from: Unknown
+      Last Modified: 2024-08-19 09:08
+      Kind: Universal
+      Signed by: qbittorrent macos
+      Location: /Applications/qbittorrent.app
+
+    Jukebox:
+
+      Version: 0.9.5
+      Obtained from: Identified Developer
+      Last Modified: 2022-01-26 22:51
+      Kind: Universal
+      Signed by: Developer ID Application: Sasindu Jayasinghe (P2Q7LG69J2), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Jukebox.app
+
+    Things:
+
+      Version: 3.20.8
+      Obtained from: App Store
+      Last Modified: 2024-06-28 16:28
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Things3.app
+      Get Info String: Copyright © 2007-2024 Cultured Code
+
+    图格Pro:
+
+      Version: 3.4.0
+      Obtained from: App Store
+      Last Modified: 2024-09-06 17:55
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Panostory Pro.app
+
+    TomatoBar:
+
+      Version: v3.5.0
+      Obtained from: Unknown
+      Last Modified: 2023-09-05 21:14
+      Kind: Universal
+      Location: /Applications/TomatoBar.app
+
+    RapidAPI:
+
+      Version: 4.2.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-16 22:17
+      Kind: Universal
+      Signed by: Developer ID Application: Paw Inc. (84599RL58A), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/RapidAPI.app
+
+    Linear:
+
+      Version: 1.27.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-15 18:00
+      Kind: iOS
+      Signed by: Developer ID Application: Linear Orbit, Inc. (7VZ2S3V9RV), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Linear.app
+
+    WezTerm:
+
+      Version: 0.1.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-09 16:15
+      Kind: Universal
+      Signed by: Developer ID Application: Wesley FURLONG (P4A6FU9KZ3), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/WezTerm.app
+
+    Upscayl:
+
+      Version: 2.11.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-01 18:57
+      Kind: Universal
+      Signed by: Developer ID Application: Mayank Sharma (W2T4W74X87), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Upscayl.app
+
+    Screen Studio:
+
+      Version: 2.25.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-06 13:22
+      Kind: iOS
+      Signed by: Developer ID Application: Adam Pietrasiak (SXF593CX2N), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Screen Studio.app
+
+    贝锐向日葵:
+
+      Version: 15.6.2.13600
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-19 18:34
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Shanghai best oray information s&t co.,ltd (ZBNMDRTU32), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/SunloginClient.app
+      Get Info String: Created by OrayUI
+
+    双子星行情交易系统:
+
+      Version: 1.1.5
+      Obtained from: App Store
+      Last Modified: 2024-08-19 19:45
+      Kind: Intel
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/双子星行情交易系统.app
+
+    SideNotes:
+
+      Version: 1.4.15
+      Obtained from: Identified Developer
+      Last Modified: 2024-07-13 19:51
+      Kind: Universal
+      Signed by: Developer ID Application: Apptorium (MLZTD8K9AU), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/SideNotes.app
+
+    Zotero:
+
+      Version: 7.0.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-21 11:25
+      Kind: Universal
+      Signed by: Developer ID Application: Corporation for Digital Scholarship (8LAYR367YV), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Zotero.app
+      Get Info String: Zotero 7.0.2, © 2006-2018 Contributors
+
+    Frostpunk:
+
+      Version: 1.1.1
+      Obtained from: Unknown
+      Last Modified: 2024-08-28 21:21
+      Kind: Intel
+      Signed by: Apple Development: Ignacy Olesiński (FHMW3738UT), Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/Steam/steamapps/common/Frostpunk/Frostpunk.app
+
+    iMazing:
+
+      Version: 3.0.3
+      Obtained from: Unknown
+      Last Modified: 2024-07-14 23:08
+      Kind: Apple Silicon
+      Signed by: Antibiotics
+      Location: /Applications/iMazing.app
+
+    DevToys:
+
+      Version: 2.0.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-04 19:51
+      Kind: iOS
+      Signed by: Developer ID Application: Etienne Baudoux (V6QF45RK9R), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/DevToys.app
+
+    Desktop Goose:
+
+      Version: 0.22
+      Obtained from: Identified Developer
+      Last Modified: 2020-02-11 01:46
+      Kind: Intel
+      Signed by: Developer ID Application: Jesus A. Álvarez González (UJXNDZ5TNU), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Desktop Goose.app
+
+    Zen Browser:
+
+      Version: 1.0.1-a.10
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-17 12:12
+      Kind: iOS
+      Signed by: Developer ID Application: Daniel Garcia (H36NPCN86W), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Zen Browser.app
+      Get Info String: Zen Browser 1.0.1-a.10
+
+    Encrypto:
+
+      Version: 1.4.3
+      Obtained from: App Store
+      Last Modified: 2024-09-08 11:20
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Encrypto.app
+
+    LICEcap:
+
+      Version: 1.32
+      Obtained from: Identified Developer
+      Last Modified: 2022-06-09 10:58
+      Kind: Universal
+      Signed by: Developer ID Application: Cockos Incorporated (Y3T58622SG), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/LICEcap.app
+
+    哔哩哔哩:
+
+      Version: 1.14.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-17 17:44
+      Kind: Universal
+      Signed by: Developer ID Application: Shanghai Bilibili Animation Co.,Ltd (746845GC96), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/哔哩哔哩.app
+
+    KCNScrew1:
+
+      Version: 1.8
+      Obtained from: Unknown
+      Last Modified: 2018-10-12 06:45
+      Kind: Intel
+      Location: /Applications/KCNScrew1.8.app
+      Get Info String: KCNScrew version 1.8, © Copyright 2005-2024, KCN Crew
+
+    SnapBox:
+
+      Version: 1.0.4
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-13 12:42
+      Kind: Universal
+      Signed by: Developer ID Application: zitao li (6M9ALJG395), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/SnapBox.app
+
+    XDeck:
+
+      Version: 2.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-11 11:45
+      Kind: Universal
+      Signed by: Developer ID Application: Shintaro Morikawa (4GERXBURZN), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/XDeck.app
+
+    Dato:
+
+      Version: 5.3.7
+      Obtained from: App Store
+      Last Modified: 2024-09-02 03:09
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Dato.app
+
+    Logseq:
+
+      Version: 0.10.9
+      Obtained from: Identified Developer
+      Last Modified: 2024-04-23 13:26
+      Kind: iOS
+      Signed by: Developer ID Application: Tiansheng Qin (3K44EUN829), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Logseq.app
+
+    Navicat Premium:
+
+      Version: 17.0.13
+      Obtained from: App Store
+      Last Modified: 2024-07-15 14:22
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Navicat Premium.app
+
+    Pages 文稿:
+
+      Version: 14.2
+      Obtained from: App Store
+      Last Modified: 2024-09-19 09:11
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Pages.app
+
+    Numbers 表格:
+
+      Version: 14.2
+      Obtained from: App Store
+      Last Modified: 2024-09-19 09:12
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Numbers.app
+
+    Keynote 讲演:
+
+      Version: 14.2
+      Obtained from: App Store
+      Last Modified: 2024-09-19 09:12
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Keynote.app
+
+    calibre:
+
+      Version: 7.18.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-13 11:15
+      Kind: Universal
+      Signed by: Developer ID Application: Kovid Goyal (NTY7FVCEKP), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/calibre.app
+      Get Info String: calibre, an E-book management application. Visit https://calibre-ebook.com for details.
+
+    WiFi Scanner:
+
+      Version: 3.1
+      Obtained from: Unknown
+      Last Modified: 2023-09-04 10:26
+      Kind: Intel
+      Signed by: TNT
+      Location: /Applications/WiFi Scanner.app
+
+    Logi Options+ 安装程序:
+
+      Version: 1.82.618412
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-05 10:43
+      Kind: Universal
+      Signed by: Developer ID Application: Logitech Inc. (QED4VVPZWA), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/logioptionsplus_installer.app
+      Get Info String: Logi Options+ Installer Application
+
+    uBar:
+
+      Version: 4.2.1
+      Obtained from: Unknown
+      Last Modified: 2022-10-12 04:52
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/uBar.app
+
+    MenubarX:
+
+      Version: 1.7.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-23 10:14
+      Kind: Universal
+      Signed by: Developer ID Application: ZiLi Huang (UAEM649DN3), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/MenubarX.app
+
+    Kando:
+
+      Version: 1.4.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-15 12:53
+      Kind: iOS
+      Signed by: Developer ID Application: Simon Schneegans (ASTCNA5X2Y), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Kando.app
+
+    Eudic:
+
+      Version: 4.7.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-16 17:50
+      Kind: Universal
+      Signed by: Developer ID Application: QianYan Network (7L3ARZ2SN3), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Eudic.app
+
+    Visual Studio Code:
+
+      Version: 1.93.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-12 09:24
+      Kind: Universal
+      Signed by: Developer ID Application: Microsoft Corporation (UBF8T346G9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Visual Studio Code.app
+
+    ForkLift:
+
+      Version: 4.1.6
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-13 23:02
+      Kind: Intel
+      Signed by: Developer ID Application: BinaryNights LLC (J3CP9BBBN6), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/ForkLift.app
+
+    Xcode:
+
+      Version: 16.0
+      Obtained from: App Store
+      Last Modified: 2024-09-19 09:23
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Xcode.app
+
+    Simulator:
+
+      Version: 16.0
+      Obtained from: Apple
+      Last Modified: 2024-09-19 09:23
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app
+
+    Create ML:
+
+      Version: 6.0 Beta
+      Obtained from: Apple
+      Last Modified: 2024-09-19 09:23
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Applications/Xcode.app/Contents/Applications/Create ML.app
+
+    Instruments:
+
+      Version: 16.0
+      Obtained from: Apple
+      Last Modified: 2024-09-19 09:23
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Applications/Xcode.app/Contents/Applications/Instruments.app
+
+    FileMerge:
+
+      Version: 2.11
+      Obtained from: Apple
+      Last Modified: 2024-09-19 09:23
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Applications/Xcode.app/Contents/Applications/FileMerge.app
+
+    Reality Composer Pro:
+
+      Version: 2.0
+      Obtained from: Apple
+      Last Modified: 2024-09-19 09:23
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Applications/Xcode.app/Contents/Applications/Reality Composer Pro.app
+
+    Accessibility Inspector:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-09-19 09:23
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app
+
+    Notion:
+
+      Version: 3.15.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-19 00:03
+      Kind: iOS
+      Signed by: Developer ID Application: Notion Labs, Incorporated (LBQJ96FQ8D), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Notion.app
+
+    MobileDeviceUpdater:
+
+      Version: 1.0
+      Obtained from: Apple
+      Last Modified: 2024-09-19 22:14
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/MobileDeviceUpdater.app
+
+    AppleMobileSync:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-09-19 22:14
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/AppleMobileSync.app
+
+    AppleMobileDeviceHelper:
+
+      Version: 5.0
+      Obtained from: Apple
+      Last Modified: 2024-09-19 22:14
+      Kind: Universal
+      Signed by: Software Signing, Apple Code Signing Certification Authority, Apple Root CA
+      Location: /Library/Apple/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/AppleMobileDeviceHelper.app
+
+    Timemator:
+
+      Version: 3.1.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-10 14:27
+      Kind: Universal
+      Signed by: Developer ID Application: Gleb Kotov (UZ3GNZNN2A), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Timemator.app
+
+    Wealthfolio:
+
+      Version: 1.0.13
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-13 05:04
+      Kind: iOS
+      Signed by: Developer ID Application: Aziz Fadil (DYDJ2RNL5H), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Wealthfolio.app
+
+    https+++zen-browser:
+
+      Obtained from: Unknown
+      Last Modified: 2024-09-22 20:17
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++zen-browser.app
+
+    kazumi:
+
+      Version: 1.3.5
+      Obtained from: Unknown
+      Last Modified: 2024-10-04 10:44
+      Kind: Universal
+      Location: /Applications/kazumi.app
+
+    KeyboardHolder:
+
+      Version: 1.13.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-25 14:06
+      Kind: Universal
+      Signed by: Developer ID Application: hongding chen (JMV6K5KUU4), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/KeyboardHolder.app
+
+    IDLE:
+
+      Version: 3.12.6
+      Obtained from: Unknown
+      Last Modified: 2024-09-25 18:59
+      Kind: Other
+      Location: /Applications/Python 3.12/IDLE.app
+      Get Info String: 3.12.6, © 2001-2023 Python Software Foundation
+
+    Python Launcher:
+
+      Version: 3.12.6
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-25 18:59
+      Kind: Universal
+      Signed by: Developer ID Application: Python Software Foundation (BMM5U3QVKW), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Python 3.12/Python Launcher.app
+      Get Info String: 3.12.6, © 2001-2023 Python Software Foundation
+
+    Python:
+
+      Version: 3.12.6
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-25 18:59
+      Kind: Universal
+      Signed by: Developer ID Application: Python Software Foundation (BMM5U3QVKW), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app
+      Get Info String: 3.12.6, (c) 2001-2023 Python Software Foundation.
+
+    Ollama:
+
+      Version: 0.3.12
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-25 06:27
+      Kind: Universal
+      Signed by: Developer ID Application: Infra Technologies, Inc (3MU9H2V9Y9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Ollama.app
+
+    Anki:
+
+      Version: 24.06.3
+      Obtained from: Identified Developer
+      Last Modified: 2024-06-28 22:11
+      Kind: iOS
+      Signed by: Developer ID Application: Ankitects Pty Ltd (7ZM8SLJM4P), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Anki.app
+
+    HuggingChat-Mac:
+
+      Version: 1.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-24 13:35
+      Kind: Universal
+      Signed by: Developer ID Application: Cyril Zakka (AG2QJ56KLX), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/HuggingChat-Mac.app
+
+    微信:
+
+      Version: 3.8.9.17
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-27 14:36
+      Kind: Universal
+      Signed by: Developer ID Application: Tencent Mobile International Limited (5A4RE8SF68), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/WeChat.app
+
+    文颜:
+
+      Version: 1.6
+      Obtained from: App Store
+      Last Modified: 2024-09-27 21:40
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/文颜.app
+
+    iTerm:
+
+      Version: 3.5.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-27 21:41
+      Kind: Universal
+      Signed by: Developer ID Application: GEORGE NACHMAN (H7V7XYVQ7D), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/iTerm.app
+      Get Info String: 3.5.5
+
+    One Thing:
+
+      Version: 1.12.1
+      Obtained from: App Store
+      Last Modified: 2024-09-28 12:53
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/One Thing.app
+
+    iStat Menus:
+
+      Version: 7.02
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-28 14:46
+      Kind: Universal
+      Signed by: Developer ID Application: Bjango Pty Ltd (Y93TK974AT), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/iStat Menus.app
+
+    iStat Menus Menubar:
+
+      Version: 7.02
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-28 14:46
+      Kind: Universal
+      Signed by: Developer ID Application: Bjango Pty Ltd (Y93TK974AT), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/iStat Menus Menubar.app
+
+    iStat Menus Helper:
+
+      Version: 7.02
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-28 14:46
+      Kind: Universal
+      Signed by: Developer ID Application: Bjango Pty Ltd (Y93TK974AT), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/iStat Menus 7/iStat Menus Helper.app
+
+    Haystack Editor:
+
+      Version: 1.90.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-16 12:17
+      Kind: iOS
+      Signed by: Developer ID Application: Akshay Subramaniam (94N667YW4Q), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Haystack Editor.app
+
+    AeroSpace:
+
+      Version: 0.15.2-Beta
+      Obtained from: Unknown
+      Last Modified: 2024-10-14 19:20
+      Kind: Universal
+      Signed by: aerospace-codesign-certificate
+      Location: /Applications/AeroSpace.app
+
+    ResponsivelyApp:
+
+      Version: 1.15.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-13 13:47
+      Kind: iOS
+      Signed by: Developer ID Application: ManojVivek Palanisamy (M4H33HFC4K), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/ResponsivelyApp.app
+
+    Pearcleaner:
+
+      Version: 3.9.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-11 22:20
+      Kind: Universal
+      Signed by: Developer ID Application: Marius Lupascu (BK8443AXLU), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Pearcleaner.app
+
+    QQ:
+
+      Version: 6.9.56
+      Obtained from: App Store
+      Last Modified: 2024-10-02 22:54
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/QQ.app
+
+    PicGo:
+
+      Version: 2.3.1
+      Obtained from: Unknown
+      Last Modified: 2022-11-13 17:09
+      Kind: iOS
+      Location: /Applications/PicGo.app
+
+    https+++acg:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-04 23:54
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++acg.unv.app
+
+    https+++kardsai:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-07 12:35
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++kardsai.app
+
+    https+++web:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-07 13:39
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++web.kardsai.app
+
+    NextChat:
+
+      Version: 2.15.3
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-25 16:37
+      Kind: Universal
+      Signed by: Developer ID Application: Butterfly Effect OPCO, LLC (PJ4MRH4BXS), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/NextChat.app
+
+    ProNotes:
+
+      Version: 0.7.6
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-18 15:02
+      Kind: Universal
+      Signed by: Developer ID Application: Dexter Leng (LQ2VH8VB84), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/ProNotes.app
+
+    https+++code-to-image-converter:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-09 13:10
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++code-to-image-converter.vercel.app
+
+    BBEdit:
+
+      Version: 15.1.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-10 14:33
+      Kind: Universal
+      Signed by: Developer ID Application: Bare Bones Software, Inc. (W52GZAXT98), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/BBEdit.app
+      Get Info String: 15.1.2 (15B48), copyright ©1992-2024 Bare Bones Software, Inc.
+
+    Alfred 5:
+
+      Version: 5.5.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-13 19:09
+      Kind: Universal
+      Signed by: Developer ID Application: Running with Crayons Ltd (XZZXE9SED4), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Alfred 5.app
+
+    XLD:
+
+      Version: 20240511
+      Obtained from: Unknown
+      Last Modified: 2024-05-11 22:30
+      Kind: Universal
+      Location: /Applications/XLD.app
+      Get Info String: X Lossless Decoder version 20240511, Copyright 2006-2024 tmkk.
+
+    CleanClip:
+
+      Version: 2.2.0-beta.1
+      Obtained from: Unknown
+      Last Modified: 2024-08-10 12:35
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Applications/CleanClip.app
+
+    https+++docs:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-09 22:08
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++docs.zen-browser.app
+
+    Fork:
+
+      Version: 2.46
+      Obtained from: Unknown
+      Last Modified: 2024-09-20 23:39
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/Fork.app
+
+    Qbserve:
+
+      Version: 1.9
+      Obtained from: Unknown
+      Last Modified: 2024-09-20 03:26
+      Kind: Intel
+      Signed by: TNT
+      Location: /Applications/Qbserve.app
+
+    同花顺:
+
+      Version: 4.5.2
+      Obtained from: App Store
+      Last Modified: 2024-10-10 00:10
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/同花顺.app
+
+    RunCat:
+
+      Version: 11.4
+      Obtained from: App Store
+      Last Modified: 2024-10-10 00:10
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/RunCat.app
+
+    Telegram:
+
+      Version: 11.2.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-10 00:11
+      Kind: Universal
+      Signed by: Developer ID Application: TELEGRAM MESSENGER LLP (6N38VWS5BX), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Telegram.app
+
+    Raycast:
+
+      Version: 1.84.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-09 21:54
+      Kind: Universal
+      Signed by: Developer ID Application: Raycast Technologies Inc (SY64MV22J9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Raycast.app
+
+    https+++macked:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-10 21:53
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++macked.app
+
+    https+++xlog:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-10 22:28
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++xlog.app
+
+    KeyCastr:
+
+      Version: 0.10.1
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-30 06:08
+      Kind: Universal
+      Signed by: Developer ID Application: Andrew Kitchen (68TUCLNAPS), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/KeyCastr.app
+
+    Paste:
+
+      Version: 2.5.8
+      Obtained from: Identified Developer
+      Last Modified: 2020-02-17 22:17
+      Kind: Intel
+      Signed by: Developer ID Application: Dmitry Obukhov (4788TTJ39Y), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Paste.app
+
+    nuoshell:
+
+      Version: 0.11.2
+      Obtained from: Identified Developer
+      Last Modified: 2021-08-29 11:39
+      Kind: Universal
+      Signed by: Developer ID Application: YunLong Li (S8ZFXZPLM9), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/nuoshell.app
+
+    Beyond Compare:
+
+      Version: 5.0.2.30045
+      Obtained from: Unknown
+      Last Modified: 2024-08-13 01:51
+      Kind: Universal
+      Location: /Applications/Beyond Compare.app
+
+    Karabiner-EventViewer:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-14 10:22
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Karabiner-EventViewer.app
+
+    Karabiner-Elements:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-14 10:22
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Karabiner-Elements.app
+
+    Karabiner-MultitouchExtension:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-14 10:22
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-MultitouchExtension.app
+
+    Karabiner-AppIconSwitcher:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-10 22:52
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-AppIconSwitcher.app
+
+    Karabiner-Menu:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-14 10:22
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-Menu.app
+
+    Karabiner-VirtualHIDDevice-Daemon:
+
+      Version: 5.0.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-10 22:52
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/org.pqrs/Karabiner-DriverKit-VirtualHIDDevice/Applications/Karabiner-VirtualHIDDevice-Daemon.app
+
+    Karabiner-Elements Non-Privileged Agents:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-14 10:22
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-Elements Non-Privileged Agents.app
+
+    Karabiner-Elements Privileged Daemons:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-14 10:22
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-Elements Privileged Daemons.app
+
+    Karabiner-NotificationWindow:
+
+      Version: 15.2.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-14 10:22
+      Kind: Universal
+      Signed by: Developer ID Application: Fumihiko Takayama (G43BCU2T37), Developer ID Certification Authority, Apple Root CA
+      Location: /Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-NotificationWindow.app
+
+    OrbStack:
+
+      Version: 1.7.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-04 17:20
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: Orbital Labs, LLC (U.S.) (HUAQ24HBR6), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/OrbStack.app
+
+    LogiPluginService:
+
+      Version: 4.2.5
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-15 13:35
+      Kind: Universal
+      Signed by: Developer ID Application: Loupedeck Oy (M24R8BN5BK), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Utilities/LogiPluginService.app
+
+    Curiosity:
+
+      Version: 0.5.5
+      Obtained from: Identified Developer
+      Last Modified: 2021-07-30 16:50
+      Kind: Universal
+      Signed by: Developer ID Application: Thomas Ricouard (Z6P74P6T99), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Curiosity.app-1
+
+    Google Chrome:
+
+      Version: 129.0.6668.101
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-08 08:48
+      Kind: Universal
+      Signed by: Developer ID Application: Google LLC (EQHXZ8M8AV), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Google Chrome.app
+      Get Info String: Google Chrome 129.0.6668.101, Copyright 2024 Google LLC. All rights reserved.
+
+    Logi Options+:
+
+      Version: 1.83.635658
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-15 13:35
+      Kind: Universal
+      Signed by: Developer ID Application: Logitech Inc. (QED4VVPZWA), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/logioptionsplus.app
+      Get Info String: Logi Options+ Application
+
+    https+++height:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-11 19:39
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++height.app
+
+    Discord:
+
+      Version: 0.0.322
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-09 07:56
+      Kind: Universal
+      Signed by: Developer ID Application: Discord, Inc. (53Q6R32WPB), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Discord.app
+
+    Height:
+
+      Version: 0.28.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-25 03:22
+      Kind: Universal
+      Signed by: Developer ID Application: HeightHQ, Inc. (H9MWYLG8FW), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Height.app
+
+    kitty:
+
+      Version: 0.36.4
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-27 13:05
+      Kind: Universal
+      Signed by: Developer ID Application: Kovid Goyal (NTY7FVCEKP), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/kitty.app
+      Get Info String: kitty - The fast, feature-rich, GPU based terminal emulator. https://sw.kovidgoyal.net/kitty/
+
+    https+++docs:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-12 18:40
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++docs.rsshub.app
+
+    DeathStranding:
+
+      Version: 1.1.0
+      Obtained from: App Store
+      Last Modified: 2024-02-04 10:22
+      Kind: Apple Silicon
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/DeathStranding.app
+
+    Follow:
+
+      Version: 0.0.1-alpha.21
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-13 04:23
+      Kind: Universal
+      Signed by: Developer ID Application: Wenjie Fan (NCLY2BLCL2), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Follow.app
+
+    Vivaldi:
+
+      Version: 6.9.3447.54
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-13 20:44
+      Kind: Universal
+      Signed by: Developer ID Application: Vivaldi Technologies AS (4XF3XNRN6Y), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Vivaldi.app
+      Get Info String: Vivaldi 6.9.3447.54, Copyright 2024 Vivaldi Technologies AS. All rights reserved.
+
+    qutebrowser:
+
+      Version: 3.3.1
+      Obtained from: Unknown
+      Last Modified: 2024-10-13 03:46
+      Kind: iOS
+      Location: /Applications/qutebrowser.app
+
+    Patch:
+
+      Obtained from: Unknown
+      Last Modified: 2022-01-09 00:01
+      Kind: Other
+      Location: /Users/acid/Documents/Backup/CrackFile/LaunchControl.v1.52.3.MacOS-BTCR__xclient.info/LaunchControl.v1.52.3.MacOS-BTCR_/BTCR/Patch.app
+      Get Info String: Patch
+
+    Redline:
+
+      Version: 1.7
+      Obtained from: App Store
+      Last Modified: 2024-10-15 17:36
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Redline.app
+
+    https+++miaoyan:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-16 00:06
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++miaoyan.app
+
+    ChatGPT:
+
+      Version: 1.2024.282
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-16 11:08
+      Kind: Apple Silicon
+      Signed by: Developer ID Application: OpenAI, L.L.C. (2DC432GLL2), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/ChatGPT.app
+
+    GoogleUpdater:
+
+      Version: 131.0.6776.0
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-16 09:02
+      Kind: Universal
+      Signed by: Developer ID Application: Google LLC (EQHXZ8M8AV), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/Google/GoogleUpdater/131.0.6776.0/GoogleUpdater.app
+
+    https+++hidutil-generator:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-16 12:29
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++hidutil-generator.netlify.app
+
+    Clop:
+
+      Version: 2.5.5
+      Obtained from: Unknown
+      Last Modified: 2024-03-21 16:26
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Applications/Clop.app
+
+    Daily:
+
+      Version: 1.02
+      Obtained from: App Store
+      Last Modified: 2024-10-16 12:50
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Daily.app
+
+    DevHub:
+
+      Version: 1.32
+      Obtained from: App Store
+      Last Modified: 2024-10-16 12:56
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/DevHub.app
+
+    Cork:
+
+      Version: 1.4.6
+      Obtained from: Unknown
+      Last Modified: 2024-10-16 13:27
+      Kind: Universal
+      Location: /Applications/Cork.app
+
+    ProcessSpy:
+
+      Version: 1.6.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-10-04 19:19
+      Kind: Universal
+      Signed by: Developer ID Application: Robert Varga (CU2ZY4UU43), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/ProcessSpy.app
+
+    QuitAll:
+
+      Version: 1.3.3
+      Obtained from: Unknown
+      Last Modified: 2024-05-12 21:28
+      Kind: Universal
+      Signed by: https://macked.app
+      Location: /Applications/QuitAll.app
+
+    SteerMouse:
+
+      Version: 5.7(05CC)
+      Obtained from: Unknown
+      Last Modified: 2024-01-16 09:06
+      Kind: Universal
+      Location: /Applications/SteerMouse.app
+      Get Info String: 5.7(05CC), ©Plentycom Systems, Inc.
+
+    Speediness:
+
+      Version: 1.7.2
+      Obtained from: App Store
+      Last Modified: 2024-10-16 14:20
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Speediness.app
+
+    CommandQ:
+
+      Version: 3.0.1
+      Obtained from: Identified Developer
+      Last Modified: 2022-05-31 09:18
+      Kind: Universal
+      Signed by: Developer ID Application: Tyler Hall (3A6K89K388), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/CommandQ.app
+
+    SlowQuitApps:
+
+      Version: 0.7.3
+      Obtained from: Unknown
+      Last Modified: 2019-06-29 13:46
+      Kind: Intel
+      Location: /Applications/SlowQuitApps.app
+
+    Paletro:
+
+      Version: 1.8.0
+      Obtained from: Unknown
+      Last Modified: 2023-03-29 22:03
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/Paletro.app
+
+    Ooooo:
+
+      Version: 1.1.6
+      Obtained from: App Store
+      Last Modified: 2024-10-16 18:01
+      Kind: Universal
+      Signed by: Apple Mac OS Application Signing, Apple Worldwide Developer Relations Certification Authority, Apple Root CA
+      Location: /Applications/Ooooo.app
+
+    Rectangle:
+
+      Version: 0.83
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-15 21:56
+      Kind: Universal
+      Signed by: Developer ID Application: Ryan Hanson (XSYZ3E4B7D), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/Rectangle.app
+
+    Yoink:
+
+      Version: 3.6.94
+      Obtained from: Unknown
+      Last Modified: 2024-09-17 20:50
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/Yoink.app
+
+    kindaVim:
+
+      Version: 66
+      Obtained from: Identified Developer
+      Last Modified: 2024-08-27 22:02
+      Kind: Universal
+      Signed by: Developer ID Application: Guillaume Leclerc (ZX49WKA8QN), Developer ID Certification Authority, Apple Root CA
+      Location: /Applications/kindaVim.app
+
+    Path Finder:
+
+      Version: 2176
+      Obtained from: Unknown
+      Last Modified: 2024-09-18 20:49
+      Kind: Universal
+      Signed by: TNT
+      Location: /Applications/Path Finder.app
+      Get Info String: Path Finder 2176 - Copyright © 2001-2024, Cocoatech
+
+    https+++www:
+
+      Obtained from: Unknown
+      Last Modified: 2024-10-17 10:58
+      Kind: Other
+      Location: /Users/acid/Library/Application Support/zen/Profiles/owqfztly.Default (alpha)/storage/default/https+++www.popclip.app
+
+    AddResources:
+
+      Version: 1.0.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-14 01:17
+      Kind: Universal
+      Signed by: Developer ID Application: Apptorium (MLZTD8K9AU), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/com.apptorium.Workspaces2-paddle/Plugins/AddResources.app
+
+    QuitApps:
+
+      Version: 1.1.2
+      Obtained from: Identified Developer
+      Last Modified: 2024-09-14 01:03
+      Kind: Universal
+      Signed by: Developer ID Application: Apptorium (MLZTD8K9AU), Developer ID Certification Authority, Apple Root CA
+      Location: /Users/acid/Library/Application Support/com.apptorium.Workspaces2-paddle/Plugins/QuitApps.app
+
+    Sublime Text:
+
+      Version: Build 4180
+      Obtained from: Unknown
+      Last Modified: 2024-08-06 10:56
+      Kind: Universal
+      Location: /Applications/Sublime Text.app
+
+> find /Applications -maxdepth 1 -type d -name "*.app"
+/Applications/WiFi Scanner.app
+/Applications/BaiduNetdisk.app
+/Applications/文颜.app
+/Applications/WezTerm.app
+/Applications/KCNScrew1.8.app
+/Applications/Qbserve.app
+/Applications/MenubarX.app
+/Applications/Visual Studio Code.app
+/Applications/PopClip.app
+/Applications/双子星行情交易系统.app
+/Applications/SteerMouse.app
+/Applications/Path Finder.app
+/Applications/Xmind.app
+/Applications/Wealthfolio.app
+/Applications/BBEdit.app
+/Applications/UlyssesMac.app
+/Applications/Redline.app
+/Applications/CleanMyMac X.app
+/Applications/Zotero.app
+/Applications/Vivaldi.app
+/Applications/Plash.app
+/Applications/Dato.app
+/Applications/Daily.app
+/Applications/LICEcap.app
+/Applications/SlowQuitApps.app
+/Applications/Snipaste.app
+/Applications/qbittorrent.app
+/Applications/Session.app
+/Applications/AirBattery.app
+/Applications/Tickeys.app
+/Applications/Minecraft.app
+/Applications/Raycast.app
+/Applications/Swish.app
+/Applications/Steam.app
+/Applications/抖音.app
+/Applications/BetterDisplay.app
+/Applications/Rectangle.app
+/Applications/Google Chrome.app
+/Applications/Bartender 5.app
+/Applications/Anki.app
+/Applications/Karabiner-Elements.app
+/Applications/Karabiner-EventViewer.app
+/Applications/Numbers.app
+/Applications/TomatoBar.app
+/Applications/QuitAll.app
+/Applications/ResponsivelyApp.app
+/Applications/Displaperture.app
+/Applications/Beyond Compare.app
+/Applications/IINA.app
+/Applications/TestFlight.app
+/Applications/Reeder.app
+/Applications/Telegram.app
+/Applications/Parallels Desktop.app
+/Applications/Notion.app
+/Applications/Reminders MenuBar.app
+/Applications/Xcode.app
+/Applications/pap.er.app
+/Applications/Final Cut Pro Trial.app
+/Applications/Warp.app
+/Applications/CleanClip.app
+/Applications/ProcessSpy.app
+/Applications/Playgrounds.app
+/Applications/东方财富.app
+/Applications/Kando.app
+/Applications/AeroSpace.app
+/Applications/AutoCode.app
+/Applications/Infuse.app
+/Applications/Cork.app
+/Applications/Dash.app
+/Applications/Upscayl.app
+/Applications/XiaoHongShu.app
+/Applications/Cursor.app
+/Applications/Stay.app
+/Applications/CashFlow.app
+/Applications/Panostory Pro.app
+/Applications/同花顺.app
+/Applications/Workspaces.app
+/Applications/One Switch.app
+/Applications/ProgramMusic.app
+/Applications/Microsoft Word.app
+/Applications/SwitchHosts.app
+/Applications/Screen Studio.app
+/Applications/qutebrowser.app
+/Applications/Little Snitch.app
+/Applications/aDrive.app
+/Applications/雷神加速器.app
+/Applications/Command X.app
+/Applications/Follow.app
+/Applications/DevHub.app
+/Applications/Clop.app
+/Applications/ForkLift.app
+/Applications/uBar.app
+/Applications/iTermAI.app
+/Applications/Navicat Premium.app
+/Applications/Docker.app
+/Applications/Obsidian.app
+/Applications/NetNewsWire.app
+/Applications/Zen Browser.app
+/Applications/Mission Control Plus.app
+/Applications/macOS Assistant.app
+/Applications/Ruijie Supplicant.app
+/Applications/One Thing.app
+/Applications/Slidepad.app
+/Applications/Ooooo.app
+/Applications/Arc.app
+/Applications/LyricsX.app
+/Applications/Dropover.app
+/Applications/ProNotes.app
+/Applications/Paste.app
+/Applications/Microsoft Excel.app
+/Applications/KeyboardHolder.app
+/Applications/Qwerty.app
+/Applications/OrbStack.app
+/Applications/DevCleaner.app
+/Applications/logioptionsplus_installer.app
+/Applications/ChatGPT.app
+/Applications/calibre.app
+/Applications/WeChat.app
+/Applications/Desktop Goose.app
+/Applications/Microsoft Outlook.app
+/Applications/Almighty.app
+/Applications/iRightMouse Lite.app
+/Applications/IntelliJ IDEA.app
+/Applications/Downie 4.app
+/Applications/Keynote.app
+/Applications/Azure Data Studio.app
+/Applications/Timemator.app
+/Applications/iStat Menus.app
+/Applications/YouTube.app
+/Applications/DeathStranding.app
+/Applications/Hazel.app
+/Applications/Linear.app
+/Applications/RapidAPI.app
+/Applications/HuggingChat-Mac.app
+/Applications/ClashX Pro.app
+/Applications/Fork.app
+/Applications/KeyCue.app
+/Applications/KeyCastr.app
+/Applications/nuoshell.app
+/Applications/.Karabiner-VirtualHIDDevice-Manager.app
+/Applications/Motrix.app
+/Applications/Pixelmator Pro.app
+/Applications/Pages.app
+/Applications/DevToys.app
+/Applications/RunCat.app
+/Applications/logioptionsplus.app
+/Applications/AnyGo.app
+/Applications/ToDesk.app
+/Applications/iMazing.app
+/Applications/The Unarchiver.app
+/Applications/kazumi.app
+/Applications/SnapBox.app
+/Applications/Microsoft OneNote.app
+/Applications/BetterAndBetter.app
+/Applications/Latest.app
+/Applications/CommandQ.app
+/Applications/XLD.app
+/Applications/MySQLWorkbench.app
+/Applications/Things3.app
+/Applications/iTerm.app
+/Applications/Speediness.app
+/Applications/Pearcleaner.app
+/Applications/Goodnotes.app
+/Applications/kitty.app
+/Applications/Encrypto.app
+/Applications/CheatSheet.app
+/Applications/Mos.app
+/Applications/Paletro.app
+/Applications/XDeck.app
+/Applications/Folder Icons.app
+/Applications/哔哩哔哩.app
+/Applications/Developer.app
+/Applications/Eudic.app
+/Applications/kindaVim.app
+/Applications/Permute 3.app
+/Applications/Typora.app
+/Applications/Jukebox.app
+/Applications/Riffo.app
+/Applications/Shottr.app
+/Applications/Alfred 5.app
+/Applications/Hovrly.app
+/Applications/OBS.app
+/Applications/SwitchKey.app
+/Applications/Microsoft PowerPoint.app
+/Applications/Logseq.app
+/Applications/CodeEdit.app
+/Applications/BoltAI.app
+/Applications/Height.app
+/Applications/讯飞听见.app
+/Applications/Sketch.app
+/Applications/QuickRecorder.app
+/Applications/PicGo.app
+/Applications/NextChat.app
+/Applications/Keyboard Maestro.app
+/Applications/GoldenDict-ng.app
+/Applications/SideNotes.app
+/Applications/MiaoYan.app
+/Applications/Yoink.app
+/Applications/Haystack Editor.app
+/Applications/Ollama.app
+/Applications/Flomo.app
+/Applications/SunloginClient.app
+/Applications/Discord.app
+/Applications/SF Symbols.app
+/Applications/AlDente.app
+/Applications/NotchNook.app
+/Applications/QQ.app
+/Applications/Sublime Text.app

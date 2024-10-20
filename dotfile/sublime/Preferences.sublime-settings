@@ -1,0 +1,269 @@
+{
+	// "color_scheme": "auto",
+	"font_size": 18,
+	"font_face": "JetBrains Mono",
+	"font_options": ["gray_antialias","no_calt","dlig","no_round"],
+	"theme_font_options": ["gray_antialias","no_calt","dlig","no_round"],
+	
+	//是否在装订线中渲染行号
+	//"line_numbers": true,
+	//"gutter": false,
+	//装订线和文本的水平距离
+	"margin": 0,
+	//是否在装订线中显示折叠按钮
+	"fold_buttons": true,
+	"fade_fold_buttons": false,
+
+	"mini_diff": "auto",
+
+	//在第 n 列，用 solid 的风格，2 的宽度绘制一条线
+	//"rulers": [80, "solid", 2],
+	//"rulers": [78]
+	"ruler_style": "solid",
+	"ruler_width": 20,
+
+	//是否检查拼写
+	//"spell_check": true,
+
+	//每个文件标签占的位置
+	"tab_size": 2,
+
+	"indent_to_bracket": true,
+	//自动换行
+	"word_wrap": true,
+	//自动换行的内容是否对齐原来行的缩进
+	"indent_subsequent_lines": false,
+	//文本居中
+	//"draw_centered": true,
+
+	//为代码 minimap 的可见区域周围渲染一个边框
+	"draw_minimap_border": true,
+	"always_show_minimap_viewport": true,
+	//小地图是否应水平滚动以匹配视口。
+	"minimap_horizontal_scrolling": true,
+
+	// 如果启用，将突出显示任何带有插入符号的行
+	"highlight_line": true,
+	// 如果启用，将突出显示任何带有插入符号的行的装订线
+	"highlight_gutter": true,
+
+	//有效值为 “smooth”、“phase”、“blink” 和 “solid”。
+	"caret_style": "smooth",
+	// 这些设置控制插入点的大小
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	"caret_extra_width": 1,
+	"match_brackets_content": false,
+
+	// 每行顶部的附加间距（以像素为单位）
+	"line_padding_top": 1,
+	// 每行底部的附加间距（以像素为单位）
+	"line_padding_bottom": 1,
+	// 设置为 false 可禁用滚动超过缓冲区末尾。设置为0.0～1.0允许超过的程度
+	"scroll_past_end": 0.5,
+	//这个设置控制在滚动时（例如使用选择、拖拽、按下 Page Up/Page Down 或移动光标）显示的上下文行数
+	"scroll_context_lines": 100,
+	//如果设置为 true，当光标在第一行或最后一行时，按上下键会将光标直接移动到该行的开头或结尾
+	"move_to_limit_on_up_down": true,
+	"draw_white_space": ["selection","enclosed","trailing","isolated_mixed","leading_mixed"],
+
+	// - "hex": Draw characters using their hex encoding, ie. <0xA0>
+	// - "names": Draw characters using their abbreviation, ie. <NBSP>
+	"control_character_style": "names",
+
+	// "guide", "activeGuide" and "stackGuide"
+	"draw_indent_guides": "stackGuide",
+	"indent_guide_options": ["draw_active","draw_solid"],
+	"trim_trailing_white_space_on_save": "not_on_caret",
+	//设置为 true 以确保文件的最后一行以换行符结尾字符--------------重要
+	"ensure_newline_at_eof_on_save": true,
+	//设置为 true 可在切换到其他文件时自动保存文件或应用程序---------重要
+	"save_on_focus_lost": true,
+
+	//默认编码------------------------------------------------重要
+	"default_encoding": "UTF-8",
+
+	// 键入后弹出自动填入窗口之前的延迟（以毫秒为单位）
+	"auto_complete_delay": 0,
+	// 覆盖了回车自动补全，让回车只是开新行，而 tab 是补全
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_cycle": true,
+
+	// 自动选中之前选择的补全------------------------------------重要
+	"auto_complete_use_history": true,
+
+	// 如果设置为 true，当你选择一个补全项时，编辑器会根据上下文自动添加尾随符号
+	"auto_complete_trailing_symbols": true,
+
+	// 如果设置为 true，当你选择一个补全项时，编辑器会根据上下文自动添加空格
+	"auto_complete_trailing_spaces": true,
+
+	// 这些设置在键入时会自动隐藏 UI 的各个部分。移动鼠标将再次显示它们。
+	"auto_hide_menu": true,
+	"auto_hide_tabs": true,
+	"auto_hide_status_bar": true,
+
+	// 与 auto_hide_tabs 相关，如果启用此功能，则切换文件时将暂时显示选项卡。选项卡将在恢复键入时或固定时间后自动隐藏。
+	"reveal_tabs_with_timeout": true,
+
+	"shift_tab_unindent": true,
+
+	//在选中文本中查找
+	"auto_find_in_selection": true,
+
+	// 并排打开“在文件中查找”缓冲区的搜索结果。
+	"find_in_files_side_by_side": true,
+
+	// 要为每个结果显示的上下文行数
+	"find_in_files_context_lines": 2,
+
+	// 无法打开和搜索文件时出现的错误消息将从结果中隐藏
+	"find_in_files_suppress_errors": false,
+
+	// 将文件拖放到 Sublime Text 上时获得焦点。在 Windows 上，此值在特定于平台的设置中被覆盖为 true。
+	"focus_on_file_drop": true,
+
+	//
+	// 用户界面设置
+	//
+
+	// Options: "rounded", "square" "angled"
+	"file_tab_style": "angled",
+
+	// 控制整个应用程序的动画-----------------------------------重要
+	"animation_enabled": true,
+
+	// 使包含已修改文件的选项卡更加明显
+	"highlight_modified_tabs": true,
+
+	// 当 false 时隐藏 tab 关闭按钮
+	"show_tab_close_buttons": true,
+
+	// 确定关闭按钮位于哪一侧
+	"show_tab_close_buttons_on_left": true,
+
+	// 在边栏中以粗体显示文件夹
+	"bold_folder_labels": true,
+
+	// 使用 Adaptive 主题时在 UI 的各个部分之间绘制分隔线
+	"adaptive_dividers": true,
+
+	//	“system”：使用系统的默认设置，决定是否启用原生标签。
+	//	“preferred”：强制启用原生标签，让每个项目都在一个独立的标签页中打开。
+	//	“disabled”：禁用原生标签，每个项目都会在一个新的窗口中打开。
+	"native_tabs": "preferred",
+
+	// 新选项卡应优先在当前选项卡之后打开还是在选项卡列表的末尾打开。
+	"open_tabs_after_current": true,
+
+	// 允许选项卡向左和向右滚动，而不是简单地缩小
+	"enable_tab_scrolling": true,
+
+	// 隐藏用于向左/向右滚动选项卡的按钮，需要使用触控板或鼠标滚轮
+	"hide_tab_scrolling_buttons": true,
+
+	// 隐藏新建选项卡按钮
+	"hide_new_tab_button": true,
+
+	// 在状态栏中显示切换侧边栏按钮
+	"show_sidebar_button": true,
+
+	// 在状态栏中显示文件编码
+	"show_encoding": true,
+
+	// 在状态栏中显示行尾
+	"show_line_endings": true,
+
+	// 在状态栏中显示缩进
+	"show_indentation": true,
+
+	// 状态栏中显示语法
+	"show_syntax": true,
+
+	// 在状态栏中以全长、紧凑或完全隐藏的方式显示 hanglie 。有效值为 “enabled”、“compact” 和 “disabled”
+	"show_line_column": "compact",
+
+	// 在状态栏中显示拼写错误的单词
+	"show_spelling_errors": true,
+
+	// On Mac, this value is overridden in the platform specific settings.
+	"hardware_acceleration": "OpenGL",
+
+	//
+	// Application Behavior Settings
+	//
+
+	"hot_exit": "always",
+	"hot_exit_projects": true,
+	"remember_layout": true,
+	"close_deleted_files": true,
+
+	// 仅限 Mac：控制启动时是否创建空窗口。
+	"create_window_at_startup": false,
+	"close_windows_when_empty": false,
+	//绝对路径与相对路径
+	"show_full_path": true,
+	"show_rel_path": true,
+
+	// 在标题栏中显示 “project - file” 或 “file - project”。
+	"show_project_first": true,
+
+	// 在构建时显示 Build Results （构建结果） 面板。如果设置为 false，则可以通过 Tools/Build Results 菜单显示 Build Results。
+	"show_panel_on_build": true,
+
+	// 在构建错误的行正下方显示错误内容
+	"show_errors_inline": true,
+
+	// Valid values are "index" or "head"
+	"git_diff_target": "index",
+
+	// - true: Always preview on click, including right click
+	// - false: Never preview
+	// - "only_left"
+	"preview_on_click": false,
+	"select_across_groups": true,
+
+	// folder_exclude_patterns 和 file_exclude_patterns 控制在侧边栏上的文件夹中列出哪些文件。这些也可以按项目进行设置。
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"],
+	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", ".directory", "desktop.ini", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
+	// 这些文件仍将显示在侧边栏中，但不会包含在 Goto Anything 或 Find in Files 中
+	"binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
+
+	// 将作为图像而不是文本文件打开的文件。文件仍可通过“文件”菜单以文本或图像的形式打开
+	"image_file_patterns": ["*.jpeg", "*.jpg", "*.gif", "*.png", "*.ico", "*.bmp", "*.tga", "*.psd", "*.ppm", "*.pgm", "*.webp", "*.hdr"],
+
+	// 指示哪些文件不会被索引。
+	"index_exclude_patterns": ["*.log"],
+
+	// 确定 Goto Anything 是否应排除被 git 忽略的文件。
+	"goto_anything_exclude_gitignore": false,
+
+	// 在 Goto Anything 中预览文件内容
+	"goto_anything_file_preview": true,
+	//是否默认进入 vim 编辑模式
+	"vintage_start_in_command_mode": true,
+
+	// Yank 命令可以将文本放置在内部寄存器或系统剪贴板中。
+	"vintage_use_clipboard": true,
+	//vim 模式下 ctrl 键是否符合 vim 操作习惯
+	"vintage_ctrl_keys": true,
+
+	//相对行数，快速通过 vim 跳行
+	"relative_line_numbers": true,
+
+	//sublime 忽略的包
+	"ignored_packages": [
+	],
+	"color_scheme": "Packages/Guna/themes/Guna.sublime-color-scheme",
+	"theme": "Guna.sublime-theme",
+	"gnc_h12": true,
+	"gnc_m06": true,
+	"gnc_w6m13": true,
+	"gn_hide_tab_dropdown": true,
+	"gn_overlay_scroll_bars": true,
+	"gn_sidebar_box": true,
+	"gn_title_bar": true,
+	"gnwidg1": true,
+	"gnwidgo": true,
+	"gpu_window_buffer": false,
+}
