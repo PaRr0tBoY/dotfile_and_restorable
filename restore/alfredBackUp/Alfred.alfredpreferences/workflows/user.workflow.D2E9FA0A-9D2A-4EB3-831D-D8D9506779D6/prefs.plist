@@ -6,5 +6,7 @@
 	<string>7816751a-a2f6-19b7-bc30-218d6dc7d61b:fx</string>
 	<key>deepl_check</key>
 	<true/>
+	<key>deepl_target_language</key>
+	<string>EN-US</string>
 </dict>
 </plist>

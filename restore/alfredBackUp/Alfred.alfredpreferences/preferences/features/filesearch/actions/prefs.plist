@@ -17,6 +17,8 @@
 		<key>alfred.action.viewinalfred</key>
 		<true/>
 	</dict>
+	<key>escapeCopiedPath</key>
+	<true/>
 	<key>finderSelectionHotkey</key>
 	<dict>
 		<key>key</key>
@@ -26,5 +28,7 @@
 		<key>string</key>
 		<string>double tap</string>
 	</dict>
+	<key>showWithRightArrow</key>
+	<false/>
 </dict>
 </plist>

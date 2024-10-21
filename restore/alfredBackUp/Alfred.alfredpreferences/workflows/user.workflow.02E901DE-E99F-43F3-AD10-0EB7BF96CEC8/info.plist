@@ -175,7 +175,7 @@ sh lipsum.sh -t characters -c $count</string>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
-				<string>placeholder</string>
+				<string>lorem</string>
 				<key>subtext</key>
 				<string>Generate {query} characters</string>
 				<key>text</key>
@@ -196,7 +196,7 @@ sh lipsum.sh -t characters -c $count</string>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
-				<string>placeholder</string>
+				<string>lorem</string>
 				<key>subtext</key>
 				<string>Generate {query} words</string>
 				<key>text</key>
@@ -243,6 +243,27 @@ sh lipsum.sh -t words -c $count</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>lorem</string>
+				<key>subtext</key>
+				<string>Generate {query} sentences</string>
+				<key>text</key>
+				<string>Sentences</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1029C7B6-DB95-4448-B3C5-C33F3DA0F894</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -275,28 +296,7 @@ sh lipsum.sh -t sentences -c $count</string>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
-				<string>placeholder</string>
-				<key>subtext</key>
-				<string>Generate {query} sentences</string>
-				<key>text</key>
-				<string>Sentences</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>1029C7B6-DB95-4448-B3C5-C33F3DA0F894</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>placeholder</string>
+				<string>lorem</string>
 				<key>subtext</key>
 				<string>Generate {query} paragraphs</string>
 				<key>text</key>

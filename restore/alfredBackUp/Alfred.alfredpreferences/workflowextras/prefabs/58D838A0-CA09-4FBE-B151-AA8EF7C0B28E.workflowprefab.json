@@ -1,0 +1,46 @@
+{
+  "name" : "open with",
+  "data" : {
+    "items" : [
+      {
+        "workflowobjecttype" : "alfred.workflow.trigger.action",
+        "uid" : "DDFAE429-BEEC-49EA-BEDB-7E71BD402695",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "name" : "Open with Visual Studio Code",
+          "filetypes" : [
+
+          ],
+          "acceptsmulti" : 1
+        },
+        "colorindex" : 0,
+        "ypos" : 5,
+        "xpos" : 20
+      },
+      {
+        "workflowobjecttype" : "alfred.workflow.action.openfile",
+        "uid" : "0DF99641-3C65-4832-B2BA-B2B6A5B78B3D",
+        "note" : "",
+        "workflowobjectconfig" : {
+          "openwith" : "\/Applications\/Visual Studio Code.app",
+          "sourcefile" : ""
+        },
+        "colorindex" : 0,
+        "ypos" : 5,
+        "xpos" : 1030
+      }
+    ],
+    "connections" : [
+      {
+        "sourceuid" : "DDFAE429-BEEC-49EA-BEDB-7E71BD402695",
+        "config" : {
+          "destinationuid" : "0DF99641-3C65-4832-B2BA-B2B6A5B78B3D",
+          "modifiers" : 0,
+          "modifiersubtext" : "",
+          "vitoclose" : false
+        }
+      }
+    ]
+  },
+  "description" : ""
+}
