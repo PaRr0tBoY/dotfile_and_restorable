@@ -113,7 +113,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>ss</string>
+				<string>split</string>
 				<key>subtext</key>
 				<string>Searching...{query}</string>
 				<key>text</key>

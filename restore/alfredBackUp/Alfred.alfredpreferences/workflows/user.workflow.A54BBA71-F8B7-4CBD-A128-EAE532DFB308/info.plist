@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>20241019</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>4E63C6FE-FA58-4B2A-B071-0603169CA46D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>79A26D3A-F022-4103-B8C5-8A49CA033833</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>acid</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>qapp</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>qapp</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>退出指定的 app</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4E63C6FE-FA58-4B2A-B071-0603169CA46D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>app_list</key>
+					<string>net.kovidgoyal.kitty
+com.barebones.bbedit
+/Applications/Alfred 5.app/Contents/Preferences/Alfred Preferences.app
+Hazel
+预览
+访达
+Follow
+TextEdit
+Terminal
+快捷指令</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/macOS/app.quit</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>79A26D3A-F022-4103-B8C5-8A49CA033833</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>split screen and search via multiple website</string>
+	<key>uidata</key>
+	<dict>
+		<key>4E63C6FE-FA58-4B2A-B071-0603169CA46D</key>
+		<dict>
+			<key>xpos</key>
+			<real>325</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+		<key>79A26D3A-F022-4103-B8C5-8A49CA033833</key>
+		<dict>
+			<key>xpos</key>
+			<real>525</real>
+			<key>ypos</key>
+			<real>255</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

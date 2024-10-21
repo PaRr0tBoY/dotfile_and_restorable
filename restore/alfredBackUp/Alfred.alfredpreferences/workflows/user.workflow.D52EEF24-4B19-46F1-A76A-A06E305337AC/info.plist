@@ -6,6 +6,19 @@
 	<string>nauxscript.workflow.alfred-cursor-open</string>
 	<key>connections</key>
 	<dict>
+		<key>7A94DD0B-E6F5-4F78-B82B-D15DCECCD571</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D4761B0E-3DD1-4E60-A903-D13CBAAF8647</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F5815BD0-3FC4-4447-85EA-06D7653459A7</key>
 		<array>
 			<dict>
@@ -199,6 +212,27 @@ end run</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsfiles</key>
+				<true/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<true/>
+				<key>name</key>
+				<string>Open With Cursor</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>7A94DD0B-E6F5-4F78-B82B-D15DCECCD571</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># Alfred Cursor Folder Opener Workflow
@@ -299,6 +333,13 @@ Happy coding with Cursor and Alfred! 🚀
 祝您使用 Cursor 和 Alfred 编码愉快！🚀</string>
 	<key>uidata</key>
 	<dict>
+		<key>7A94DD0B-E6F5-4F78-B82B-D15DCECCD571</key>
+		<dict>
+			<key>xpos</key>
+			<real>225</real>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
 		<key>D4761B0E-3DD1-4E60-A903-D13CBAAF8647</key>
 		<dict>
 			<key>xpos</key>

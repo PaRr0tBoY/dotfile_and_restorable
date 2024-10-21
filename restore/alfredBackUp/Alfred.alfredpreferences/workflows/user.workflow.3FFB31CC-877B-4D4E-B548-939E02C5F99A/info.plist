@@ -158,7 +158,7 @@
 
 cd "$hexodir"
 hexo new post "{query}"
-open -a "typora" ./source/_posts/$(date +%Y-%m-%d)-"{query}".md</string>
+open -a "UlyssesMac" ./source/_posts/$(date +%Y-%m-%d)-"{query}".md</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>

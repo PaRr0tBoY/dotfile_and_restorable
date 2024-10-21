@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>__always_display_lyrics_in_browser</key>
+	<true/>
+	<key>__artwork_folder_size</key>
+	<string>101M</string>
+	<key>__country_code</key>
+	<string>US</string>
+	<key>__display_name</key>
+	<string>Ascr1pt</string>
+	<key>__fuzzy_search</key>
+	<true/>
+	<key>__oauth_access_token</key>
+	<string>BQBJnUdOC4c4E5aulRmOjMJZ1ZrQLF8OPoEhuqW6qzyjz7wXj4fjT4nyKmCLvsxF7pu0jDdrZWdty3Wlv6GgRQ8TDHcjQ4SUCEt5U9BBGNIfrW6lymq-F9xXH8qmWjSAbgKQ9cqvIC4ygiBvgWzbcekhUdI80bA_QWl6AOe0WXFCnEgVu1_wCdUqQK38YvjCFVk_njU7zGBDmmjZou1NMGCv4EI-WuWF8nQowKD2DHuN1vA3yEaSA64rxR90u2-o23YGSSHH6_JJ2bFL3poedVAylg0MtwSsFeHJ1EUAepbkfY3_wbuG5JoqQG1rVlz8pd4I61n89ryuNg</string>
+	<key>__oauth_client_id</key>
+	<string>0b90fb96bcfb4e6a9b49994407527203</string>
+	<key>__oauth_client_secret</key>
+	<string>99b551a89885406aa539ed48bf598fd5</string>
+	<key>__oauth_refresh_token</key>
+	<string>AQAmsVlRw2ZwkrcVKfUTiHfqsOd6iiTE3-GoWLym7yXQeYQAud_H6IfGq-2T9XKNZKiS-5giN8zYJOTRix7q-qN8DBpPlVpzRFtspnURh8uxN2Ew5MV8Y55t0W0bh8EO398</string>
+	<key>__podcasts_enabled</key>
+	<string>0</string>
+	<key>__userid</key>
+	<string>u594ul1djn3scxvpws5r449d1</string>
+	<key>c_spot_mini</key>
+	<string>sptf</string>
+	<key>menu_display_alfred_playlist</key>
+	<false/>
+	<key>menu_display_browse_by_show</key>
+	<false/>
+	<key>menu_display_browse_categories</key>
+	<false/>
+</dict>
+</plist>
