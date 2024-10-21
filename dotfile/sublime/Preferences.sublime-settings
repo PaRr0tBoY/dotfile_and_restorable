@@ -254,7 +254,7 @@
 	//sublime 忽略的包
 	"ignored_packages": [
 	],
-	"color_scheme": "Packages/Guna/themes/Guna.sublime-color-scheme",
+	"color_scheme": "Packages/Agila Theme/Agila Neon Monocyanide.tmTheme",
 	"theme": "Theme - Kronuz.sublime-theme",
 	/*"gnc_h12": true,*/
 	/*"gnc_m06": true,*/
@@ -377,9 +377,12 @@
 	/*"gnc_m07": true,*/
 	/*"gnc_001": false,*/
 	/*"gnc_002": true,*/
-	"gnc_001": false,
-	"gnc_h17": true,
-	"gnc_m03": true,
-	"gnc_w6m11": true,
-	"gnc_002": true,
+	/*"gnc_001": false,*/
+	/*"gnc_h17": true,*/
+	/*"gnc_m03": true,*/
+	/*"gnc_w6m11": true,*/
+	/*"gnc_002": true,*/
+	/*"gnc_h15": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_w0m11": true,*/
 }
