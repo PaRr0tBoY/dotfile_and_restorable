@@ -3,7 +3,8 @@ after-login-command = []
 after-startup-command = [
     'exec-and-forget /opt/homebrew/opt/sketchybar/bin/sketchybar',
     # 'exec-and-forget /opt/homebrew/opt/borders/bin/borders active_color="glow(0xd943ff64)" inactive_color=0x20494d64 width=8.0'
-    'exec-and-forget borders active_color="glow(0xff40e0d0)" inactive_color=0xff708090 width=3.0 hidpi=on ax_focus=true'
+    'exec-and-forget borders active_color="glow(0xff40e0d0)" inactive_color=0xff708090 width=3.0 hidpi=on ax_focus=true',
+    'exec-and-forget brew services restart sketchybar'
 ]
 
 exec-on-workspace-change = [
@@ -11,6 +12,9 @@ exec-on-workspace-change = [
     '-c',
     '/opt/homebrew/opt/sketchybar/bin/sketchybar --trigger aerospace_workspace_change AEROSPACE_FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE AEROSPACE_PREV_WORKSPACE=$AEROSPACE_PREV_WORKSPACE',
 ]
+
+#暂时无法创建粘性窗口
+#'WIN=$(aerospace list-windows --all | grep "画中画" | cut -d" " -f1); [ -n "$WIN" ] && aerospace move-node-to-workspace --window-id="$WIN" "$AEROSPACE_FOCUSED_WORKSPACE"',
 
 start-at-login = true
 
@@ -47,7 +51,7 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 [gaps]
 inner.horizontal = [{ monitor."built-in" = 9 }, 9]
 inner.vertical = [{ monitor."built-in" = 9 }, 9]
-outer.top = [{ monitor."built-in" = 19 }, 52]
+outer.top = [{ monitor."built-in" = 22 }, 54]
 outer.bottom = [{ monitor."built-in" = 7 }, 9]
 outer.left = [{ monitor."built-in" = 7 }, 9]
 outer.right = [{ monitor."built-in" = 7 }, 6]
@@ -75,7 +79,7 @@ PATH = '/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}'
 
 # All possible commands: https://nikitabobko.github.io/AeroSpace/commands
 
-alt-enter = ['exec-and-forget open -n /System/Volumes/Data/Applications/iTerm.app', 'exec-and-forget aerospace resize width -650']
+#alt-enter = ['exec-and-forget open -n /System/Volumes/Data/Applications/iTerm.app', 'exec-and-forget aerospace resize width -650']
 
 alt-slash = 'layout tiles horizontal vertical'
 alt-comma = 'layout accordion horizontal vertical'
@@ -85,6 +89,11 @@ alt-j = 'focus down --boundaries all-monitors-outer-frame'
 alt-k = 'focus up --boundaries all-monitors-outer-frame'
 alt-l = 'focus right --boundaries all-monitors-outer-frame'
 
+ctrl-shift-h = ['join-with left']
+ctrl-shift-j = ['join-with down']
+ctrl-shift-k = ['join-with up']
+ctrl-shift-l = ['join-with right']
+
 alt-shift-h = 'move left'
 alt-shift-j = 'move down'
 alt-shift-k = 'move up'
@@ -93,12 +102,21 @@ alt-shift-l = 'move right'
 alt-shift-minus = 'resize smart -100'
 alt-shift-equal = 'resize smart +100'
 
+alt-1 = 'workspace Brow'
+alt-2 = 'workspace Chat'
+alt-3 = 'workspace Dev'
+alt-4 = 'workspace Read'
+alt-5 = 'workspace Wri'
+alt-6 = 'workspace Zen'
+alt-7 = 'workspace Vork'
+
 alt-b = 'workspace Brow'
 alt-c = 'workspace Chat'
 alt-d = 'workspace Dev'
 alt-r = 'workspace Read'
 alt-w = 'workspace Wri'
 alt-z = 'workspace Zen'
+alt-v = 'workspace Vork'
 
 alt-shift-b = 'move-node-to-workspace Brow'
 alt-shift-c = 'move-node-to-workspace Chat'
@@ -106,11 +124,39 @@ alt-shift-d = 'move-node-to-workspace Dev'
 alt-shift-r = 'move-node-to-workspace Read'
 alt-shift-w = 'move-node-to-workspace Wri'
 alt-shift-z = 'move-node-to-workspace Zen'
+alt-shift-v = 'move-node-to-workspace Vork'
 
 alt-tab = 'workspace-back-and-forth'
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 alt-shift-semicolon = 'mode service'
+
+### skhd use too many ram, thus I rather use aerospace to map hotkeys
+# reload aerospace config
+cmd-shift-r = [
+	'exec-and-forget /opt/homebrew/bin/sketchybar --reload',
+	'exec-and-forget brew services restart sketchybar',
+	'exec-and-forget brew services restart borders'
+]
+# system control
+cmd-shift-s = ['''exec-and-forget osascript -e 'tell application "System Events" to sleep'''']
+
+cmd-enter = 'exec-and-forget /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~'
+
+#cmd + shift - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~ joshuto
+
+cmd-shift-l = 'exec-and-forget aerospace layout floating tiling; sketchybar --trigger windows_focus'
+cmd-shift-f = 'exec-and-forget aerospace fullscreen; sketchybar --trigger windows_focus'
+cmd-shift-m = 'exec-and-forget aerospace macos-native-minimize'
+cmd-shift-b = 'exec-and-forget aerospace balance-sizes'
+cmd-shift-e = '''exec-and-forget open -a 'Sublime Text' /Users/acid/.aerospace.toml /Users/acid/.config/sketchybar/sketchybarrc'''
+
+# open qutebrowser
+cmd-shift-o = '''exec-and-forget open -a 'qutebrowser''''
+cmd-shift-v = '''exec-and-forget open -a 'Arc' 'https://www.bilibili.com/''''
+cmd-shift-a = ['''exec-and-forget open -a 'Pearcleaner'''',
+'''exec-and-forget open -a 'Latest''''
+]
 
 
 [mode.service.binding]
@@ -132,8 +178,6 @@ alt-shift-j = ['join-with down', 'mode main']
 alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
-alt-shift-r = ['exec-and-forget /opt/homebrew/bin/sketchybar --reload']
-
 # Event listeners
 
 ## Chat
@@ -147,6 +191,7 @@ check-further-callbacks = true
 [[on-window-detected]]
 if.app-id = 'com.tencent.xinWeChat'
 run = 'move-node-to-workspace Chat'
+check-further-callbacks = true
 
 [[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
@@ -221,17 +266,16 @@ run = 'move-node-to-workspace Dev'
 if.app-id = 'com.haystack.software.editor'
 run = 'move-node-to-workspace Dev'
 
-
-[[on-window-detected]]
-if.app-id = 'net.kovidgoyal.kitty'
-run = 'move-node-to-workspace Dev'
-
 [[on-window-detected]]
 if.app-id = 'app.responsively'
 run = 'move-node-to-workspace Dev'
 
 [[on-window-detected]]
 if.app-id = 'com.todesktop.230313mzl4w4u92'
+run = 'move-node-to-workspace Dev'
+
+[[on-window-detected]]
+if.app-id = 'app.codeedit.CodeEdit'
 run = 'move-node-to-workspace Dev'
 
 ## Read
@@ -247,6 +291,16 @@ run = 'move-node-to-workspace Read'
 [[on-window-detected]]
 if.app-id = 'com.apple.iBooksX'
 run = 'move-node-to-workspace Read'
+
+## Vorks
+
+[[on-window-detected]]
+if.app-id = 'asc.onlyoffice.ONLYOFFICE'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'com.mimestream.Mimestream'
+run = 'move-node-to-workspace Vork'
 
 ## Floaters
 
@@ -341,3 +395,64 @@ run = 'layout floating'
 [[on-window-detected]]
 if.app-id = 'com.apple.iCal'
 run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'cc.ffitch.shottr'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.alienator88.Pearcleaner'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.barebones.bbedit'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'net.kovidgoyal.kitty'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.onmyway133.Almighty'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.max-langer.Latest'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.davidbures.cork'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'cx.c3.theunarchiver'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.memoryvault.MemoryVault'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.itone.ProcessSpy'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.philipyoungg.session'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.sublimetext.4'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.apptorium.SideNotes-paddle'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.spotify.client'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'cn.better365.iRightMouseLite'
+run = 'layout floating'
+
