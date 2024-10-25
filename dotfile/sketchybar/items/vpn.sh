@@ -4,5 +4,5 @@ sketchybar -m --add item vpn right \
 			  			label.font="$FONT:Black:12.0" \
                         script="$PLUGIN_DIR/vpn.sh" \
                         update_freq=5 \
-                        icon.padding_left=10 \
-                        label.padding_right=0
+                        icon.padding_left=0 \
+                        label.padding_right=-5

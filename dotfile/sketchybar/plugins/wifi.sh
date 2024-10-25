@@ -19,9 +19,10 @@ fi
 COLOR=$WHITE
 if networksetup -getairportpower en0 | grep " On" >>/dev/null; then
     ICON=$WIFI_ON
+    COLOR=$YELLOW
 else
     ICON=$WIFI_OFF
     COLOR=$RED
 fi
 
-sketchybar --set $NAME icon=$ICON icon.color=$COLOR label="${SPEED} ${UNIT}"
+sketchybar --set $NAME icon=$ICON icon.color=$COLOR label="${SPEED} ${UNIT}" label.font="SF Pro:Bold:11.0"

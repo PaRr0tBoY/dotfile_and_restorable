@@ -123,7 +123,7 @@ fi
 
 #重排菜单栏项目顺序
 sketchybar --reorder apple.logo space_creator front_app calendar placeholder4 volume volume_icon \
-battery wifi vpn "控制中心,Bluetooth" placeholder5 \
+battery vpn wifi "控制中心,Bluetooth" placeholder5 \
 "iStat Menus Menubar,com.bjango.istatmenus.memory" \
 "iStat Menus Menubar,com.bjango.istatmenus.cpu" \
 placeholder1 wechat github.bell brew "Session,Item-0" \

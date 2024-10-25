@@ -116,6 +116,15 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+#########################
+#缩小菜单栏项目间隔
+ defaults -currentHost write -globalDomain NSStatusItemSpacing -int 7
+ defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 7
+#控制台执行后登出，再登入
+#如果要还原
+ defaults -currentHost delete -globalDomain NSStatusItemSpacing
+ defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
+#########################
 # Set a custom wallpaper image. `DefaultDesktop.jpg` is already a symlink, and
 # all wallpapers are in `/Library/Desktop Pictures/`. The default is `Wave.jpg`.
 #rm -rf ~/Library/Application Support/Dock/desktoppicture.db

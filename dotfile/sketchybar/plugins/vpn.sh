@@ -9,7 +9,7 @@ PORT=$(networksetup -getwebproxy "Wi-Fi" | awk '/Port:/{print $2}')
 
 if [[ $VPN = "Yes" ]]; then
   sketchybar -m --set vpn icon=$VPN_ON \
-                          icon.color=$BLUE \
+                          icon.color=$MAGENTA \
                           drawing=on
 else
   sketchybar -m --set vpn icon=$VPN_OFF \

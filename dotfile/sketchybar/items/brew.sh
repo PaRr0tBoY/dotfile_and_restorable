@@ -5,8 +5,9 @@
 
 brew=(
 	icon=􀐛
-	label=0
+	label=?
 	label.font="$FONT:Bold:13.0"
+	icon.color=$MAGENTA
 	script="$PLUGIN_DIR/brew.sh"
 	click_script="$PLUGIN_DIR/brew_update.sh"
 	padding_left=10
