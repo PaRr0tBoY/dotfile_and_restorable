@@ -8,8 +8,8 @@ brew=(
 	label=?
 	label.font="$FONT:Bold:13.0"
 	icon.color=$MAGENTA
-	script="$PLUGIN_DIR/brew.sh"
-	click_script="$PLUGIN_DIR/brew_update.sh"
+	#script="$PLUGIN_DIR/brew.sh"
+	#click_script="$PLUGIN_DIR/brew_update.sh"
 	padding_left=10
 	update_freq=60
 )

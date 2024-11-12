@@ -107,6 +107,7 @@ source "$ITEM_DIR/session.sh"
 source "$ITEM_DIR/placeholder2.sh"
 
 if [ "$desktop" -eq 0 ]; then
+  source "$ITEM_DIR/LyricsX.sh"
   source "$ITEM_DIR/istat.sh"
   sketchybar --set "iStat Menus Menubar,com.bjango.istatmenus.memory" padding_left=-15
   sketchybar --set space_creator icon.drawing=on
@@ -126,12 +127,12 @@ sketchybar --reorder apple.logo space_creator front_app calendar placeholder4 vo
 battery vpn wifi "控制中心,Bluetooth" placeholder5 \
 "iStat Menus Menubar,com.bjango.istatmenus.memory" \
 "iStat Menus Menubar,com.bjango.istatmenus.cpu" \
-placeholder1 wechat github.bell brew "Session,Item-0" \
+placeholder1 wechat github.bell brew "LyricsX,Item-1" "Session,Item-0" \
 placeholder2 music placeholder3 weather
 
 brackets=(
   background.color=$BACKGROUND_1 \
-  background.corner_radius=8  \
+  background.corner_radius=8  \s
   background.height=28 \
   background.border_color=$GREY \
   icon.highlight_color=$GREEN

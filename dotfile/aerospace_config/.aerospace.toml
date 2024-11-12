@@ -1,7 +1,7 @@
 after-login-command = []
 
 after-startup-command = [
-    'exec-and-forget /opt/homebrew/opt/sketchybar/bin/sketchybar',
+    #'exec-and-forget /opt/homebrew/opt/sketchybar/bin/sketchybar',
     # 'exec-and-forget /opt/homebrew/opt/borders/bin/borders active_color="glow(0xd943ff64)" inactive_color=0x20494d64 width=8.0'
     'exec-and-forget borders active_color="glow(0xff40e0d0)" inactive_color=0xff008080 width=3.0 hidpi=on ax_focus=true',
     'exec-and-forget brew services restart sketchybar'
@@ -145,6 +145,8 @@ cmd-enter = 'exec-and-forget /Applications/kitty.app/Contents/MacOS/kitty --sing
 
 #cmd + shift - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~ joshuto
 
+ctrl-cmd-left = 'exec-and-forget aerospace workspace "$(aerospace list-workspaces --monitor mouse --visible)" && aerospace workspace prev'
+ctrl-cmd-right = 'exec-and-forget aerospace workspace "$(aerospace list-workspaces --monitor mouse --visible)" && aerospace workspace next'
 cmd-shift-l = 'exec-and-forget aerospace layout floating tiling; sketchybar --trigger windows_focus'
 cmd-shift-f = 'exec-and-forget aerospace fullscreen; sketchybar --trigger windows_focus'
 cmd-shift-m = 'exec-and-forget aerospace macos-native-minimize'
@@ -153,7 +155,7 @@ cmd-shift-e = '''exec-and-forget open -a 'Sublime Text' /Users/acid/.aerospace.t
 
 # open qutebrowser
 cmd-shift-o = '''exec-and-forget open -a 'qutebrowser''''
-cmd-shift-v = '''exec-and-forget open -a 'Arc' 'https://www.bilibili.com/''''
+cmd-shift-v = '''exec-and-forget open -a 'Vivaldi' 'https://www.bilibili.com/''''
 cmd-shift-a = ['''exec-and-forget open -a 'Pearcleaner'''',
 '''exec-and-forget open -a 'Latest''''
 ]
@@ -456,3 +458,6 @@ run = 'layout floating'
 if.app-id = 'cn.better365.iRightMouseLite'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.window-title-regex-substring = '(stardrew)'
+run = 'layout floating'

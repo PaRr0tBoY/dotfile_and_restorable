@@ -385,4 +385,9 @@
 	/*"gnc_h15": true,*/
 	/*"gnc_m02": true,*/
 	/*"gnc_w0m11": true,*/
+	/*"gnc_h10": true,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_w2m13": true,*/
+	"index_files": true,
+	/*"gnc_m09": true,*/
 }
