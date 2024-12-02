@@ -1,0 +1,34 @@
+{
+    "global": { "check_for_updates_on_startup": false },
+    "profiles": [
+        {
+            "name": "Default profile",
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        },
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Print Screen to Command+Shift+3",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "print_screen",
+                                    "modifiers": { "optional": ["caps_lock"] }
+                                },
+                                "to": {
+                                    "key_code": "3",
+                                    "modifiers": ["left_command", "left_shift"]
+                                },
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "name": "NoLifeRyan",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}

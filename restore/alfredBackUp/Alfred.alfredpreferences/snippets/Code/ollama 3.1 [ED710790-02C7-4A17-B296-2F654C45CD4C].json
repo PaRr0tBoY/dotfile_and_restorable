@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "ollama run llama3.1",
-    "uid" : "ED710790-02C7-4A17-B296-2F654C45CD4C",
-    "name" : "ollama 3.1",
-    "keyword" : "o3"
-  }
-}

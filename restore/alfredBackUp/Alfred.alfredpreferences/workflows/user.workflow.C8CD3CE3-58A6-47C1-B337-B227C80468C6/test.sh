@@ -1,1 +1,0 @@
-networksetup -getwebproxy Wi-Fi 

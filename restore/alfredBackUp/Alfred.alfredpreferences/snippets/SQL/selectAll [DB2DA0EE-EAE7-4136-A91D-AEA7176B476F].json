@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "SELECT * FROM ",
-    "uid" : "DB2DA0EE-EAE7-4136-A91D-AEA7176B476F",
-    "name" : "selectAll",
-    "keyword" : "sa"
-  }
-}

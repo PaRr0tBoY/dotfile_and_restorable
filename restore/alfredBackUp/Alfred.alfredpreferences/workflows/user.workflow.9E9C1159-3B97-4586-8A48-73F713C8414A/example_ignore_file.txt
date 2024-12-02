@@ -1,8 +1,0 @@
-Library
-Icon?
-~*
-*.history
-*.indexes
-*.photoslibrary
-*.musiclibrary
-*.tvlibrary
