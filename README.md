@@ -33,20 +33,24 @@ I have also screenshot my login items, which are my most-used apps and they are 
 dotfile under these paths mostly or completely come from others' repo, I just simply copy them and made some slight modification.
 
 By executing /macos_default_executive/.macos you can apply some useful settings,either visible or not in macos settings app.
-*Before trying to execute .macos, remember to back up you mac and check its content and maybe modify it to fit your needs*
 
-To use .macos, give it Execution authority with:
+**Before trying to execute .macos, remember to back up you mac and check its content and maybe modify it to fit your needs**
+
+
+To use .macos, give it execution authority with:
 
 ```
 cd /macos_default_executive
 chmod +x .macos
 ```
 
-and then execute it. It might ask you for password. Wait a few seconds until it is done. It's as simple as that.
+and then execute it. It might ask you for password. Wait a few seconds until it is done. 
 
 ```
 ./.macos
 ```
+
+Done. It's as simple as that.
 
 The instructions above also apply to /brew/brew.sh
 
