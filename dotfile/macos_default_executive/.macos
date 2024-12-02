@@ -4,7 +4,7 @@
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
-#osascript -e 'tell application "System Preferences" to quit'
+osascript -e 'tell application "System Preferences" to quit'
 
 # Ask for the administrator password upfront
 sudo -v
@@ -122,8 +122,8 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
  defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 7
 #控制台执行后登出，再登入
 #如果要还原
- defaults -currentHost delete -globalDomain NSStatusItemSpacing
- defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
+ #defaults -currentHost delete -globalDomain NSStatusItemSpacing
+ #defaults -currentHost delete -globalDomain NSStatusItemSelectionPadding
 #########################
 # Set a custom wallpaper image. `DefaultDesktop.jpg` is already a symlink, and
 # all wallpapers are in `/Library/Desktop Pictures/`. The default is `Wave.jpg`.

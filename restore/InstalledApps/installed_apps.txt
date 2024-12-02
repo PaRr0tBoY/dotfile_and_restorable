@@ -1,0 +1,281 @@
+[1m[36m1Piece.app[39;49m[0m
+[1m[36m2Do.app[39;49m[0m
+[1m[36mAdobe After Effects 2024[39;49m[0m
+[1m[36mAdobe Creative Cloud[39;49m[0m
+[1m[36mAdobe Photoshop 2024[39;49m[0m
+[1m[36mAeroSpace.app[39;49m[0m
+[1m[36mAirBattery.app[39;49m[0m
+[1m[36mAlDente.app[39;49m[0m
+[1m[36mAlacritty.app[39;49m[0m
+[1m[36mAlcove.app[39;49m[0m
+[1m[36mAlfred 5.app[39;49m[0m
+[1m[36mAlmighty.app[39;49m[0m
+[1m[36mAmphetamine.app[39;49m[0m
+[1m[36mAnki.app[39;49m[0m
+[1m[36mAnyGo.app[39;49m[0m
+[1m[36mAnytype.app[39;49m[0m
+[1m[36mAppLocker.app[39;49m[0m
+[1m[36mApplite.app[39;49m[0m
+[1m[36mArc.app[39;49m[0m
+[1m[36mAtomic.app[39;49m[0m
+[1m[36mAudio Hijack.app[39;49m[0m
+[1m[36mAudirvana Origin.app[39;49m[0m
+[1m[36mAutoCode.app[39;49m[0m
+[1m[36mAzure Data Studio.app[39;49m[0m
+[1m[36mBaiduNetdisk.app[39;49m[0m
+[1m[36mBalance.app[39;49m[0m
+[1m[36mBartender 5.app[39;49m[0m
+[1m[36mBetterDisplay.app[39;49m[0m
+[1m[36mBeyond Compare.app[39;49m[0m
+[1m[36mBob.app[39;49m[0m
+[1m[36mBoltAI.app[39;49m[0m
+[1m[36mBoop.app[39;49m[0m
+[1m[36mBusyCal.app[39;49m[0m
+[1m[36mCLion.app[39;49m[0m
+[1m[36mCashFlow.app[39;49m[0m
+[1m[36mChatGPT.app[39;49m[0m
+[1m[36mChatTCP.app[39;49m[0m
+[1m[36mCheatSheet.app[39;49m[0m
+[1m[36mChronicle.app[39;49m[0m
+[1m[36mCisco Packet Tracer[39;49m[0m
+[1m[36mClash Verge.app[39;49m[0m
+[1m[36mClashX Pro.app[39;49m[0m
+[1m[36mClave.app[39;49m[0m
+[1m[36mCleanMyMac X.app[39;49m[0m
+[1m[36mCleanShot X.app[39;49m[0m
+[1m[36mClop.app[39;49m[0m
+[1m[36mCodeEdit.app[39;49m[0m
+[1m[36mCommand X.app[39;49m[0m
+[1m[36mCork.app[39;49m[0m
+[1m[36mCraft.app[39;49m[0m
+[1m[36mCursor.app[39;49m[0m
+[1m[36mDEVONthink 3.app[39;49m[0m
+[1m[36mDaisyDisk.app[39;49m[0m
+[1m[36mDash.app[39;49m[0m
+[1m[36mDato.app[39;49m[0m
+[1m[36mDeathStranding.app[39;49m[0m
+[1m[36mDesktop Goose.app[39;49m[0m
+[1m[36mDevCleaner.app[39;49m[0m
+[1m[36mDevToys.app[39;49m[0m
+[1m[36mDevUtils.app[39;49m[0m
+[1m[36mDeveloper.app[39;49m[0m
+[1m[36mDiscord.app[39;49m[0m
+[1m[36mDisplaperture.app[39;49m[0m
+[1m[36mDocker.app[39;49m[0m
+[1m[36mDownie 4.app[39;49m[0m
+[1m[36mDropover.app[39;49m[0m
+[1m[36mEagle.app[39;49m[0m
+[1m[36mEncrypto.app[39;49m[0m
+[1m[36mEndurance.app[39;49m[0m
+[1m[36mEnvPane.prefPane[39;49m[0m
+[1m[36mEudic.app[39;49m[0m
+[1m[36mFantastical.app[39;49m[0m
+[1m[36mFinal Cut Pro Trial.app[39;49m[0m
+[1m[36mFlomo.app[39;49m[0m
+[1m[36mFluor.app[39;49m[0m
+[1m[36mFolder Icons.app[39;49m[0m
+[1m[36mFollow.app[39;49m[0m
+[1m[36mFork.app[39;49m[0m
+[1m[36mForkLift.app[39;49m[0m
+[1m[36mFreeCAD.app[39;49m[0m
+[1m[36mGitButler.app[39;49m[0m
+[1m[36mGoldenDict-ng.app[39;49m[0m
+[1m[36mGoodnotes.app[39;49m[0m
+[1m[36mGoogle Chrome.app[39;49m[0m
+HMCL 3.5.8.jar
+HMCL v3.5.8.250.jar
+[1m[36mHaystack Editor.app[39;49m[0m
+[1m[36mHazel.app[39;49m[0m
+[1m[36mHomerow.app[39;49m[0m
+[1m[36mHookmark.app[39;49m[0m
+[1m[36mHosts.prefpane-1.4.5[39;49m[0m
+[1m[36mHoudahSpot.app[39;49m[0m
+[1m[36mHyperSwitch.app[39;49m[0m
+[1m[36mIINA.app[39;49m[0m
+[1m[36mInfuse.app[39;49m[0m
+[1m[36mIntelliJ IDEA.app[39;49m[0m
+[1m[36mJettison.app[39;49m[0m
+[1m[36mKaleidoscope.app[39;49m[0m
+[1m[36mKando.app[39;49m[0m
+[1m[36mKarabiner-Elements.app[39;49m[0m
+[1m[36mKarabiner-EventViewer.app[39;49m[0m
+[1m[36mKeyCastr.app[39;49m[0m
+[1m[36mKeyCue.app[39;49m[0m
+[1m[36mKeyboard Maestro.app[39;49m[0m
+[1m[36mKeyboardHolder.app[39;49m[0m
+[1m[36mKeynote.app[39;49m[0m
+[1m[36mKlack.app[39;49m[0m
+[1m[36mLICEcap.app[39;49m[0m
+[1m[36mLater.app[39;49m[0m
+[1m[36mLatest.app[39;49m[0m
+[1m[36mLibreWolf.app[39;49m[0m
+[1m[36mLinear.app[39;49m[0m
+[1m[36mLingon X.app[39;49m[0m
+[1m[36mLittle Snitch.app[39;49m[0m
+[1m[36mLogseq.app[39;49m[0m
+[1m[36mLookAway.app[39;49m[0m
+[1m[36mLunar.app[39;49m[0m
+[1m[36mLyricsX.app[39;49m[0m
+[1m[36mMacCleaner 3 Pro[39;49m[0m
+[1m[36mMacPilot.app[39;49m[0m
+[1m[36mMacWhisper.app[39;49m[0m
+[1m[36mMarkText.app[39;49m[0m
+[1m[36mMenuwhere.app[39;49m[0m
+[1m[36mMiaoYan.app[39;49m[0m
+[1m[36mMicrosoft Excel.app[39;49m[0m
+[1m[36mMicrosoft OneNote.app[39;49m[0m
+[1m[36mMicrosoft Outlook.app[39;49m[0m
+[1m[36mMicrosoft PowerPoint.app[39;49m[0m
+[1m[36mMicrosoft Word.app[39;49m[0m
+[1m[36mMiddleClick.app[39;49m[0m
+[1m[36mMihomo Party.app[39;49m[0m
+[1m[36mMinecraft.app[39;49m[0m
+[1m[36mMission Control Plus.app[39;49m[0m
+[1m[36mMotrix.app[39;49m[0m
+[1m[36mMountain Duck.app[39;49m[0m
+[1m[36mMovist Pro.app[39;49m[0m
+[1m[36mMySQLWorkbench.app[39;49m[0m
+[1m[36mName Mangler.app[39;49m[0m
+[1m[36mNavicat Premium.app[39;49m[0m
+[1m[36mNetNewsWire.app[39;49m[0m
+[1m[36mNotchNook.app[39;49m[0m
+[1m[36mNotion.app[39;49m[0m
+[1m[36mNova.app[39;49m[0m
+[1m[36mNumbers.app[39;49m[0m
+[1m[36mNumi.app[39;49m[0m
+[1m[36mOBS.app[39;49m[0m
+[1m[36mONLYOFFICE.app[39;49m[0m
+[1m[36mObsidian.app[39;49m[0m
+[1m[36mOllama.app[39;49m[0m
+[1m[36mOmniFocus.app[39;49m[0m
+[1m[36mOmniFocus.workflow[39;49m[0m
+[1m[36mOne Switch.app[39;49m[0m
+[1m[36mOnyX.app[39;49m[0m
+[1m[36mOpenEmu.app[39;49m[0m
+[1m[36mOpenIn Helper.app[39;49m[0m
+[1m[36mOpenIn.app[39;49m[0m
+[1m[36mOrbStack.app[39;49m[0m
+[1m[36mPDF Expert.app[39;49m[0m
+[1m[36mPages.app[39;49m[0m
+[1m[36mPanostory Pro.app[39;49m[0m
+[1m[36mParallels Desktop.app[39;49m[0m
+[1m[36mPaste.app[39;49m[0m
+[1m[36mPath Finder.app[39;49m[0m
+[1m[36mPearcleaner.app[39;49m[0m
+[1m[36mPeek.app[39;49m[0m
+[1m[36mPermute 3.app[39;49m[0m
+[1m[36mPicGo.app[39;49m[0m
+[1m[36mPicview.app[39;49m[0m
+[1m[36mPixelmator Pro.app[39;49m[0m
+[1m[36mPlaygrounds.app[39;49m[0m
+[1m[36mPopClip.app[39;49m[0m
+[1m[36mPrefEdit.app[39;49m[0m
+[1m[36mProFind.app[39;49m[0m
+[1m[36mProNotes.app[39;49m[0m
+[1m[36mProgramMusic.app[39;49m[0m
+[1m[36mProxyman.app[39;49m[0m
+[1m[36mPython 3.12[39;49m[0m
+[1m[36mQQ.app[39;49m[0m
+[1m[36mQSpace Pro.app[39;49m[0m
+[1m[36mQbserve.app[39;49m[0m
+[1m[36mQuickRecorder.app[39;49m[0m
+[1m[36mQuitAll.app[39;49m[0m
+[1m[36mQuiver.app[39;49m[0m
+[1m[36mQwerty.app[39;49m[0m
+[1m[36mRapidAPI.app[39;49m[0m
+[1m[36mRaycast.app[39;49m[0m
+[1m[36mReader.app[39;49m[0m
+[1m[36mRed Canary Mac Monitor.app[39;49m[0m
+[1m[36mReeder.app[39;49m[0m
+[1m[36mReminders MenuBar.app[39;49m[0m
+[1m[36mResponsivelyApp.app[39;49m[0m
+[1m[36mRiffo.app[39;49m[0m
+[1m[36mRocket Typist.app[39;49m[0m
+[1m[36mRuijie Supplicant.app[39;49m[0m
+[1m[36mRunJS.app[39;49m[0m
+[1m[36mSF Symbols.app[39;49m[0m
+[1m[36mSQLPro Studio.app[39;49m[0m
+[35mSafari.app[39;49m[0m
+[1m[36mScholaread.app[39;49m[0m
+[1m[36mScreen Studio.app[39;49m[0m
+[1m[36mSensei.app[39;49m[0m
+[1m[36mSession.app[39;49m[0m
+[1m[36mShareful.app[39;49m[0m
+[1m[36mShottr.app[39;49m[0m
+[1m[36mSideNotes.app[39;49m[0m
+[35mSimulator (Watch).app[39;49m[0m
+[35mSimulator.app[39;49m[0m
+[1m[36mSip.app[39;49m[0m
+[1m[36mSiteSucker Pro.app[39;49m[0m
+[1m[36mSketch.app[39;49m[0m
+[1m[36mSlidepad.app[39;49m[0m
+[1m[36mSnippetsLab.app[39;49m[0m
+[1m[36mSoundSource.app[39;49m[0m
+[1m[36mSpark Desktop.app[39;49m[0m
+[1m[36mSpeediness.app[39;49m[0m
+[1m[36mSpotify.app[39;49m[0m
+[1m[36mStay.app[39;49m[0m
+[1m[36mSteam.app[39;49m[0m
+[1m[36mSteerMouse.app[39;49m[0m
+[1m[36mSublime Text.app[39;49m[0m
+[1m[36mSunloginClient.app[39;49m[0m
+[1m[36mSwift Quit.app[39;49m[0m
+[1m[36mSwish.app[39;49m[0m
+[1m[36mSwitchHosts.app[39;49m[0m
+[1m[36mSwitchKey.app[39;49m[0m
+[1m[36mTabTab.app[39;49m[0m
+[1m[36mTelegram.app[39;49m[0m
+[1m[36mTestFlight.app[39;49m[0m
+[1m[36mThe Unarchiver.app[39;49m[0m
+[1m[36mThings3.app[39;49m[0m
+[1m[36mTinkerTool.app[39;49m[0m
+[1m[36mToDesk.app[39;49m[0m
+[1m[36mTopit.app[39;49m[0m
+[1m[36mTower.app[39;49m[0m
+[1m[36mTransnomino.app[39;49m[0m
+[1m[36mTypora.app[39;49m[0m
+[1m[36mUlyssesMac.app[39;49m[0m
+[1m[36mUpscayl.app[39;49m[0m
+[1m[36mUtilities[39;49m[0m
+[1m[36mVisual Studio Code.app[39;49m[0m
+[1m[36mVivaldi.app[39;49m[0m
+[1m[36mWarp.app[39;49m[0m
+[1m[36mWeChat.app[39;49m[0m
+[1m[36mWebStorm.app[39;49m[0m
+[1m[36mWins.app[39;49m[0m
+[1m[36mWireshark.app[39;49m[0m
+[1m[36mWorkspaces.app[39;49m[0m
+[1m[36mXLD.app[39;49m[0m
+[1m[36mXcode.app[39;49m[0m
+[1m[36mXiaoHongShu.app[39;49m[0m
+[1m[36mXmind.app[39;49m[0m
+[1m[36mYoink.app[39;49m[0m
+[1m[36mYouTube.app[39;49m[0m
+[1m[36mZed.app[39;49m[0m
+[1m[36mZen Browser.app[39;49m[0m
+[1m[36mZotero.app[39;49m[0m
+[1m[36maDrive.app[39;49m[0m
+[1m[36mbeams.app[39;49m[0m
+[1m[36mboringNotch.app[39;49m[0m
+[1m[36mcalibre.app[39;49m[0m
+[1m[36mhoi4.app[39;49m[0m
+[1m[36miMazing.app[39;49m[0m
+[1m[36miRightMouse Lite.app[39;49m[0m
+[1m[36miStat Menus.app[39;49m[0m
+[1m[36miTerm.app[39;49m[0m
+[1m[36miTermAI.app[39;49m[0m
+[1m[36mjetbrains-crack.app[39;49m[0m
+[1m[36mkazumi.app[39;49m[0m
+[1m[36mkindaVim.app[39;49m[0m
+[1m[36mkitty.app[39;49m[0m
+[1m[36mmacOS Assistant.app[39;49m[0m
+[1m[36mqbittorrent.app[39;49m[0m
+[1m[36mqutebrowser.app[39;49m[0m
+[1m[36mrcmd.app[39;49m[0m
+[1m[36mtextsoap9.app[39;49m[0m
+[1m[36m东方财富.app[39;49m[0m
+[1m[36m双子星行情交易系统.app[39;49m[0m
+[1m[36m同花顺.app[39;49m[0m
+[1m[36m哔哩哔哩.app[39;49m[0m
+[1m[36m抖音.app[39;49m[0m
+[1m[36m文颜.app[39;49m[0m

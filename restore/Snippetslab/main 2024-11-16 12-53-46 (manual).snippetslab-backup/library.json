@@ -1,0 +1,51 @@
+{
+  "schema" : "2.4",
+  "app" : "2.5.1",
+  "snippets" : 1,
+  "name" : "main.snippetslablibrary",
+  "date" : "2024-11-16T04:53:46Z",
+  "modified" : "2024-11-16T04:49:42Z",
+  "contents" : {
+    "folders" : [
+      {
+        "uuid" : "A1DA3859-C9AE-45FD-A435-BC9410F448B8",
+        "title" : "SQL"
+      }
+    ],
+    "smartGroups" : [
+
+    ],
+    "shortcuts" : [
+
+    ],
+    "snippets" : [
+      {
+        "dateModified" : "2024-11-16T04:49:42Z",
+        "dateCreated" : "2024-11-16T04:49:37Z",
+        "uuid" : "7CADEBB3-BB5B-40E7-82DE-20B4C9E580D2",
+        "fragments" : [
+          {
+            "content" : "SELECT *\nFROM ${1}\nWHERE ${2} IN (\n    SELECT ${3}\n    FROM ${4}\n    WHERE ${5} = ${6}\n);",
+            "title" : "标签页",
+            "attachments" : [
+
+            ],
+            "uuid" : "7452F697-7CD3-46AF-A1FF-4208E7BE6D8F",
+            "language" : "SqlLexer",
+            "dateCreated" : "2024-11-16T04:49:37Z",
+            "dateModified" : "2024-11-16T04:49:59Z",
+            "note" : ""
+          }
+        ],
+        "title" : "SubQuery",
+        "folder" : "A1DA3859-C9AE-45FD-A435-BC9410F448B8"
+      }
+    ],
+    "attachments" : [
+
+    ],
+    "tags" : [
+
+    ]
+  }
+}
