@@ -152,8 +152,7 @@ alt-enter = 'exec-and-forget /Applications/kitty.app/Contents/MacOS/kitty --sing
 ctrl-cmd-left = 'exec-and-forget aerospace list-workspaces --monitor focused --empty no | aerospace workspace prev'
 ctrl-cmd-right = 'exec-and-forget aerospace list-workspaces --monitor focused --empty no | aerospace workspace next'
 
-#cmd-shift-l = 'exec-and-forget aerospace layout floating tiling; sketchybar --trigger windows_focus'
-cmd-shift-l = 'exec-and-forget aerospace layout floating tiling'
+cmd-shift-l = 'exec-and-forget aerospace layout floating tiling; sketchybar --trigger windows_focus'
 cmd-shift-f = 'exec-and-forget aerospace fullscreen; sketchybar --trigger windows_focus'
 cmd-shift-m = 'exec-and-forget aerospace macos-native-minimize'
 cmd-shift-b = 'exec-and-forget aerospace balance-sizes'
@@ -567,6 +566,10 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'myclipboardhistory.ClipboardHistory'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.chitaner.Picview'
 run = 'layout floating'
 
 [[on-window-detected]]
