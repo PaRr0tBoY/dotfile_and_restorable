@@ -17,6 +17,12 @@ hexoPublish.sh
 
 These three are for blog management if yours is also built with hexo.You should edit `hexodir` before using these scripts.
 
+`IsItRetina` is used when system wake. To determine whether I am using built-in retina display or an external display and execute different scripts.
+
+`kindaVim` use libfaketime to trick kindaVim into thinking that the current time is available. So you're not annoying by its donation reminder after 1pm.
+
+`openTmodLoader` help you open tmodloader without crashing on macos. 
+
 ### restore/MacApps
 
 Under this folder,there is a list of all apps that's currently installed on my mac. Some of them could really raise your life quality.
