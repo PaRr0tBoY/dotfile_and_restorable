@@ -415,7 +415,11 @@ if.app-id = 'com.apple.reminders'
 run = 'move-node-to-workspace Vork'
 
 [[on-window-detected]]
-if.app-id = ''
+if.app-id = 'com.mimestream.Mimestream'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'com.indiegoodies.HabitTracker'
 run = 'move-node-to-workspace Vork'
 
 ## Floaters
@@ -578,4 +582,8 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'com.chitaner.Picview'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'dev.kdrag0n.MacVirt'
 run = 'layout floating'
