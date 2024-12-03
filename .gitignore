@@ -3,4 +3,5 @@ dotfile/.DS_Store
 restore/.DS_Store
 restore/Alist_Backup
 restore/Raycast_Config
-Restore/Alfred_Backup
+restore/Alfred_Backup
+restore/Preferences
