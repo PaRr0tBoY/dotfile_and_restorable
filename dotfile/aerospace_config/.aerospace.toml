@@ -410,6 +410,14 @@ run = 'move-node-to-workspace Vork'
 if.app-id = 'tw.ogdesign.eagle'
 run = 'move-node-to-workspace Vork'
 
+[[on-window-detected]]
+if.app-id = 'com.apple.reminders'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = ''
+run = 'move-node-to-workspace Vork'
+
 ## Floaters
 
 [[on-window-detected]]
@@ -566,10 +574,6 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'myclipboardhistory.ClipboardHistory'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-id = 'com.chitaner.Picview'
 run = 'layout floating'
 
 [[on-window-detected]]
