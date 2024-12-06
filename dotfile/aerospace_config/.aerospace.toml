@@ -591,3 +591,7 @@ run = 'layout floating'
 [[on-window-detected]]
 if.app-id = 'com.zenangst.Keyboard-Cowboy'
 run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'Celve.Peninsula'
+run = 'layout floating'
