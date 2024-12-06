@@ -587,3 +587,7 @@ run = 'layout floating'
 [[on-window-detected]]
 if.app-id = 'dev.kdrag0n.MacVirt'
 run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.zenangst.Keyboard-Cowboy'
+run = 'layout floating'
