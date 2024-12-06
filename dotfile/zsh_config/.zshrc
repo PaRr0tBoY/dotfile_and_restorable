@@ -61,6 +61,7 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 #export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/upx:$PATH"
 export PATH=~/npm/bin:$PATH
+export PATH=/Applications/Alist/:$PATH
 alias python=/usr/local/bin/python3
 alias pip=/usr/local/bin/pip3
 alias cls=clear
