@@ -156,7 +156,7 @@ cmd-shift-l = 'exec-and-forget aerospace layout floating tiling; sketchybar --tr
 cmd-shift-f = 'exec-and-forget aerospace fullscreen; sketchybar --trigger windows_focus'
 cmd-shift-m = 'exec-and-forget aerospace macos-native-minimize'
 cmd-shift-b = 'exec-and-forget aerospace balance-sizes'
-cmd-shift-e = '''exec-and-forget open -a 'Sublime Text' /Users/acid/.aerospace.toml /Users/acid/.config/sketchybar/sketchybarrc /Users/acid/.config/borders/bordersrc'''
+cmd-shift-e = '''exec-and-forget open -a 'Sublime Text' /Users/acid/.aerospace.toml /Users/acid/.hammerspoon /Users/acid/.config/sketchybar/sketchybarrc /Users/acid/.config/borders/bordersrc'''
 
 cmd-shift-v = '''exec-and-forget open -a 'Vivaldi' 'https://www.bilibili.com/''''
 cmd-shift-a = ['''exec-and-forget open -a 'Pearcleaner'''',

@@ -10,4 +10,3 @@ require('./scripts/AutoReload')
 require('./scripts/launcher')
 require('./scripts/Wake')
 require('./scripts/GitPush')
-
