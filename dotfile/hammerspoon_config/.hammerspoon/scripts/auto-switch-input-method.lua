@@ -17,7 +17,7 @@ local APP_TO_IME = {
   ['/Applications/Spotify.app'] = ABC,
   ['/Applications/Zed.app'] = ABC,
   ['/Applications/kitty.app'] = ABC,
-  ['Finder.app'] = ABC,
+  ['/Applications/Sublime Text.app'] = ABC,
 
   ['/Applications/QQ.app'] = Pinyin,
   ['/Applications/WeChat.app'] = Pinyin,

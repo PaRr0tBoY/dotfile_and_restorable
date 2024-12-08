@@ -142,7 +142,7 @@ cmd-shift-r = [
 # system control
 cmd-shift-s = ['''exec-and-forget osascript -e 'tell application "System Events" to sleep'''']
 
-alt-enter = 'exec-and-forget /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~'
+#alt-enter = 'exec-and-forget /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~'
 
 #cmd + shift - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~ joshuto
 
