@@ -595,3 +595,7 @@ run = 'layout floating'
 [[on-window-detected]]
 if.app-id = 'Celve.Peninsula'
 run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'Celve.Peninsula'
+run = 'layout floating'
