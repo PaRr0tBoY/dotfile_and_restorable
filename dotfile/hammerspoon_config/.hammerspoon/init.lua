@@ -11,3 +11,14 @@ require('./scripts/AutoReload')
 require('./scripts/Wake')
 require('./scripts/GitPush')
 require('./scripts/OpenInKitty')
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- github contributions
+hs.loadSpoon("github-contributions")
+spoon['github-contributions']:setup({
+  usernames = {'PaRr0tBoY'}, -- use one or multiple accounts
+  theme = 'classic',
+  char = '★'
+})
+spoon['github-contributions']:start()

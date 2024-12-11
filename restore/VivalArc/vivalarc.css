@@ -1,14 +1,14 @@
 /* 
-version:1.0.3
-update: 2024.06.29
-vivaldi version: v6.8
+version: 1.0.5
+update: 2024.11.03
+vivaldi version: v6.6 - v7.0
 */
 
 :root{
-    --window-border:10px; /* window border, recommend 4px~16px */
-    --mac-header:calc(var(--window-border) + 18px); /* title bar extra height */
-    --win-header:calc(var(--window-border) + 4px); /* title bar extra height */
-    --linux-header:calc(var(--window-border) + 6px); /* title bar extra height */
+    --window-border:4px; /* window border, recommend 4px~16px */
+    --mac-header:calc(var(--window-border) + 22px); /* title bar extra height */
+    --win-header:calc(var(--window-border) + 20px); /* title bar extra height */
+    --linux-header:calc(var(--window-border) + 20px); /* title bar extra height */
     --addressbar-height:36px;
     --window-button-scale:0.8;
     --window-button-opacity:0.3;
@@ -16,6 +16,11 @@ vivaldi version: v6.8
     --colorToviTransparent:transparent;
     --webview-shadow-light:0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 0px var(--window-border) 0px rgba(0, 0, 0, 0.10);
     --webview-shadow-dark:0px 2px 2px 0px rgba(0, 0, 0, 0.05), 0px 2px 8px 0px rgba(0, 0, 0, 0.05), 0px 0px 0px 1.2px #ffffff18;
+}
+
+/*breakmode*/
+#browser.break-mode #main{
+    opacity:0;
 }
 
 /*tabbarButton*/
@@ -33,9 +38,11 @@ vivaldi version: v6.8
 } */
 
 /*footerDisplay*/
-:not(.tabs-bottom):not(.tabs-top)#browser > footer{
-    display:none;
-    background:var(--colorBgAlphaHeavier);
+#browser:not(.tabs-bottom):not(.tabs-top) footer#footer,
+:not(.tabs-bottom)#browser > footer,
+#browser > footer > .toolbar-statusbar{
+    background:transparent;
+    border:none;
 }
 
 /*defaultBrowserModal*/
@@ -62,7 +69,7 @@ vivaldi version: v6.8
 #browser.mac:not(.is-settingspage):not(.address-top).tabs-left.tabs-right > #header,
 #browser.mac:not(.is-settingspage):not(.tabs-top):not(.tabs-bottom) #header,
 #browser.mac.color-behind-tabs-off:not(.is-settingspage)#browser.tabs-left.tabs-right #header{
-    background:var(--colorTabBar);
+    background: transparent;
     min-height:var(--mac-header) !important;
     height:var(--mac-header) !important;
 }
@@ -71,7 +78,7 @@ vivaldi version: v6.8
     height:var(--mac-header) !important;
     font-size:11px;
     color:var(--colorFg);
-    color:transparent;
+    color: white !important;
 }
 
 /*topHeader-Linux*/
@@ -108,7 +115,7 @@ vivaldi version: v6.8
 #browser.mac #titlebar #pagetitle{
     font-size:11px;
     color:var(--colorFg);
-    opacity:0;
+    opacity:0.5;
 }
 
 .win #titlebar #pagetitle > span, 
@@ -129,9 +136,9 @@ vivaldi version: v6.8
 #browser.linux:not(.tabs-top) #titlebar .vivaldi,
 #browser.win:not(.is-settingspage):not(.tabs-top) #titlebar .vivaldi{
     color:var(--colorFgAlpha);
-    scale: calc(0.7 / var(--uiZoomLevel));
-    margin-left: -6px;
-    margin-top: -4px;
+    scale: calc(0.8 / var(--uiZoomLevel));
+    margin-left: -2px;
+    margin-top: 0px;
 }
 
 #browser.linux:not(.tabs-top) #titlebar .vivaldi:hover,
@@ -153,6 +160,7 @@ vivaldi version: v6.8
     display:flex;
     margin-top: 2px;
     margin-left: calc(var(--window-border) + 2px);
+    /* height:var(--mac-header); */
 }
 
 #browser.mac:not(.is-settingspage):not(.tabs-top):not(.tabs-bottom)  #header .window-buttongroup{
@@ -210,7 +218,7 @@ vivaldi version: v6.8
     opacity:1;
 }
 
-/*addressbar*/
+/*addressbar_legacy*/
 #browser.win:not(.tabs-top):not(.tabs-bottom).address-top .toolbar:has(.window-buttongroup.on-mainbar),
 #browser.linux:not(.tabs-top):not(.tabs-bottom).address-top .toolbar:has(.window-buttongroup.on-mainbar){
     min-height:calc((var(--addressbar-height)) / var(--uiZoomLevel));
@@ -221,10 +229,6 @@ vivaldi version: v6.8
 }
 
 /*mainbar*/
-.button-toolbar > button{
-    border-radius:var(--radiusHalf);
-}
-
 .color-behind-tabs-off.address-top#browser:not(.tabs-top):not(.tabs-bottom) .mainbar,
 .color-behind-tabs-on.address-top#browser:not(.tabs-top):not(.tabs-bottom) .mainbar{
     border:none;
@@ -232,13 +236,9 @@ vivaldi version: v6.8
 }
 
 .color-behind-tabs-off.address-top#browser:not(.tabs-top):not(.tabs-bottom) .mainbar{
-    background:var(--colorTabBar);
-    color: var(--colorFg);
-}
-
-
-#browser.mac.address-top .toolbar:has(.window-buttongroup.on-mainbar){
-    padding: 0 calc(8px / var(--uiZoomLevel));
+    /* background:var(--colorTabBar);
+    color: var(--colorFg); */
+    -webkit-app-region: drag;
 }
 
 #browser:not(.tabs-top):not(.tabs-bottom).address-top .UrlBar-SearchField,
@@ -257,6 +257,10 @@ vivaldi version: v6.8
 .UrlFragment-Wrapper--ShouldHighlight{
     --HighlightColor: var(--colorFgIntense);
     --LowlightColor: var(--colorFgFadedMore);
+}
+
+.button-toolbar > button{
+    border-radius:var(--radiusHalf);
 }
 
 #browser:not(.tabs-top):not(.tabs-bottom) .ExtensionIcon--Hidden{
@@ -287,6 +291,10 @@ vivaldi version: v6.8
     background-color: var(--colorFgAlpha);
 }
 
+.color-behind-tabs-off .ExtensionToggleIcon.ExtensionToggleIcon--extensionsExpanded{
+    background-color:transparent;
+}
+
 /*bookmark-bar*/
 #browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off.bookmark-bar-top .bookmark-bar,
 #browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off .bookmark-bar button{
@@ -297,11 +305,6 @@ vivaldi version: v6.8
 }
 
 /*workspace button*/
-#browser #tabs-tabbar-container.left  ::-webkit-scrollbar, 
-#browser #tabs-tabbar-container.right  ::-webkit-scrollbar{
-    display: none;
-}
-
 #browser.transparent-tabbar .button-toolbar.workspace-popup.tabbar-workspace-button,
 #browser.transparent-tabbar.tabs-left .button-toolbar.workspace-popup.tabbar-workspace-button,
 #browser.transparent-tabbar.tabs-right .button-toolbar.workspace-popup.tabbar-workspace-button,
@@ -326,35 +329,48 @@ vivaldi version: v6.8
 }
 
 /*tabbar left & tabbar right*/
-.tabs-left .inner > .tabbar-wrapper:not(:has(.tab-small)), 
+
+/* #browser #tabs-tabbar-container.left  ::-webkit-scrollbar, 
+#browser #tabs-tabbar-container.right  ::-webkit-scrollbar{
+    display: none; 
+} */
+
+.tabs-left .tabbar-wrapper,
+.tabs-right .tabbar-wrapper{
+    background-color:transparent;
+}
+
+/*tabbar_left_and_right_padding*/
+/* .tabs-left .inner > .tabbar-wrapper:not(:has(.tab-small)), 
 .tabs-right .inner > .tabbar-wrapper:not(:has(.tab-small)){
     margin:0 var(--tab-padding);
-}
+} */
 
-.tabs-left .accordion-toggle-arrow, 
+/* .tabs-left .accordion-toggle-arrow, 
 .tabs-right .accordion-toggle-arrow{
     max-width:calc(var(--Width) - 16px + (var(--tab-padding) * 2));
-}
+} */
 
-#browser:not(.tabs-top):not(.tabs-bottom) .tab-position .tab{
+/* #browser:not(.tabs-top):not(.tabs-bottom) .tab-position .tab{
     color:var(--colorFg);
-}
+} */
 
-.tabs-left .tab-position:not(:has(.tab-mini)) .tab > .tab-header, 
+/* .tabs-left .tab-position:not(:has(.tab-mini)) .tab > .tab-header, 
 .tabs-right .tab-position:not(:has(.tab-mini)) .tab > .tab-header
 {
     margin-left:0px;
 }
+ */
 
 /* .tabbar-workspace-button + #tabs-tabbar-container.left, 
 .tabbar-workspace-button + #tabs-tabbar-container.right{
     padding-top:4px;
 } */
 
-#browser:not(.theme-dark) #tabs-tabbar-container.left,
+/* #browser:not(.theme-dark) #tabs-tabbar-container.left,
 #browser:not(.theme-dark) #tabs-tabbar-container.right{
     box-shadow:none;
-}
+} */
 
 #browser.transparent-tabbar #tabs-tabbar-container.left, 
 #browser.transparent-tabbar #tabs-tabbar-container.right,
@@ -363,16 +379,75 @@ vivaldi version: v6.8
     background: var(--colorToviTransparent);
     border: none;
     box-shadow:none;
+    /* min-width: 36px; */
+    /* width: 36px; */
 }
 
 #browser.tabs-left .inner>.tabbar-wrapper, 
 #browser.tabs-right .inner>.tabbar-wrapper{
-    padding-bottom:8px;
+    padding-bottom:var(--window-border);
 }
 
-#browser.mac.address-top-off.tabs-left .inner>.tabbar-wrapper, 
+/* #browser.mac.address-top-off.tabs-left .inner>.tabbar-wrapper, 
 #browser.mac.address-top-off.tabs-right .inner>.tabbar-wrapper{
     padding-top:8px;
+} */
+
+/* tab stack frame */
+/* .dim-blurred:not(.hasfocus) .svg-tab-stack, .dim-blurred:not(.hasfocus) .stack-frame {
+    stroke: var(--colorBorder);
+}
+.svg-tab-stack, .stack-frame {
+    stroke: var(--colorBgIntense);
+}
+.svg-tab-stack line, .svg-tab-selection line, .svg-tab-stack rect, .svg-tab-selection rect {
+    fill: none;
+    stroke-width: 3px;
+}
+ */
+/*tab-stack minimal*/
+/* .tab-indicator{
+    border-top:4px solid transparent;
+    border-bottom:10px solid tranparent;
+    transition-duration: 0.1s;
+    transition:0.1s;
+} */
+
+/* .tab-indicator:hover{
+    border-top:0px solid transparent;
+    border-bottom:10px solid tranparent;
+    transition-duration: 0.1s;
+    transition:0.1s;
+}
+ */
+/* .tab-group-indicator{
+    padding:0;
+} */
+
+.color-behind-tabs-off .tab-indicator{
+    background-color:var(--colorAccentBgAlpha);
+}
+.color-behind-tabs-off .tab-indicator:hover{
+    background-color:var(--colorAccentBg);
+}
+
+.color-behind-tabs-off .tab-indicator.active{
+    background-color:var(--colorAccentBg);
+}
+
+.color-behind-tabs-off .tab.active + .tab-group-indicator .tab-indicator.active{
+    background-color:var(--colorAccentBg)
+}
+
+/*tabs-stack.tabs-subcontainer*/
+#browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off #tabs-subcontainer.left, 
+#browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off #tabs-subcontainer.right{
+    box-shadow:none;
+}
+
+#browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off #tabs-subcontainer, 
+#browser:not(.tabs-top):not(.tabs-bottom).transparent-tabbar #tabs-subcontainer{
+    background-color:transparent;
 }
 
 /*panel*/
@@ -453,10 +528,10 @@ vivaldi version: v6.8
     overflow:visible;
 }
 
-#main > .inner{
+/* #main > .inner{
     background:var(--colorTabBar);
-    /* background:red; */
-}
+    background:red;
+} */
 
 #browser:not(.tabs-top):not(.tabs-bottom):not(.fullscreen) #webpage-stack{
     border-radius:var(--radiusCap);
@@ -490,63 +565,6 @@ vivaldi version: v6.8
     box-shadow:none;
 }
 
-/* tab stack frame */
-.dim-blurred:not(.hasfocus) .svg-tab-stack, .dim-blurred:not(.hasfocus) .stack-frame {
-    stroke: var(--colorBorder);
-}
-.svg-tab-stack, .stack-frame {
-    stroke: var(--colorBgIntense);
-}
-.svg-tab-stack line, .svg-tab-selection line, .svg-tab-stack rect, .svg-tab-selection rect {
-    fill: none;
-    stroke-width: 3px;
-}
-
-/*tab-stack minimal*/
-.tab-indicator{
-    border-top:4px solid transparent;
-    border-bottom:10px solid tranparent;
-    transition-duration: 0.1s;
-    transition:0.1s;
-}
-
-.tab-indicator:hover{
-    border-top:0px solid transparent;
-    border-bottom:10px solid tranparent;
-    transition-duration: 0.1s;
-    transition:0.1s;
-}
-
-.tab-group-indicator{
-    padding:0;
-}
-
-.color-behind-tabs-off .tab-indicator{
-    background-color:var(--colorAccentBgAlpha);
-}
-.color-behind-tabs-off .tab-indicator:hover{
-    background-color:var(--colorAccentBg);
-}
-
-.color-behind-tabs-off .tab-indicator.active{
-    background-color:var(--colorAccentBg);
-}
-
-.color-behind-tabs-off .tab.active + .tab-group-indicator .tab-indicator.active{
-    background-color:var(--colorAccentBg)
-}
-
-/*tabs-stack.tabs-subcontainer*/
-#browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off #tabs-subcontainer.left, 
-#browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off #tabs-subcontainer.right{
-    box-shadow:none;
-}
-
-#browser:not(.tabs-top):not(.tabs-bottom).color-behind-tabs-off #tabs-subcontainer, 
-#browser:not(.tabs-top):not(.tabs-bottom).transparent-tabbar #tabs-subcontainer{
-    background-color:transparent;
-}
-
 /* Transparent Start Page Navigation*/
 .startpage .startpage-navigation { box-shadow: none !important; }
 .startpage .startpage-navigation { background: transparent !important; }
@@ -556,435 +574,4 @@ vivaldi version: v6.8
 button.button-startpage { box-shadow: none !important; }
 button.button-startpage:after { background-image: none !important; }
 button.button-startpage:active { background: none !important; }
-
-/*.tab .tab-header {
-    display: none;
-}
-
-.tab .thumbnail-image {
-    border-radius: inherit;
-    margin: 2px;
-}
-*/
-.tab {
-    position: relative; /* 确保子元素可以使用绝对定位 */
-}
-
-.tab .tab-header {
-    position: absolute; /* 绝对定位以覆盖其他内容 */
-    top: 5px;             /* 对齐到顶部 */
-    left: 5px;            /* 对齐到左侧 */
-    width: 96%;        /* 与父元素等宽 */
-    height: 10%;       /* 与父元素等高 */
-    border-radius: inherit;
-    background-color: rgba(0, 0, 0, 0.5); /* 半透明白色背景 */
-    z-index: 1;         /* 位于 .thumbnail-image 之上 */
-}
-
-.tab .thumbnail-image {
-    position: relative; /* 保持正常布局或视需要调整 */
-    z-index: 0;         /* 确保在 .tab-header 下方 */
-    border-radius: inherit;
-    margin: 2px;
-}
-
-div.tab-strip {
-    position: relative; /* 确保父容器可以用相对定位 */
-}
-
-button[name="WorkspaceButton"] {
-    position: absolute; /* 固定在容器底部 */
-    bottom: -10000px;
-    left: 0;
-    width: 100%; /* 占满容器宽度 */
-    background-color: transparent; /* 透明背景 */
-    color: white; /* 字体颜色设置为白色 */
-    text-align: center; /* 居中对齐文本 */
-    font-size: 14px; /* 可选：调整字体大小 */
-}
-
-.UrlBar-UrlObfuscationWarning {
-    display: none !important;
-}
-
-.ToolbarButton-Button[title="网页提供订阅"] {
-    display: none !important;
-    float: left;
-}
-
-.ToolbarButton-Button[title="翻译页面"] {
-    display: none !important;
-    float: left;
-}
-
-.ToolbarButton-Button[title*="内容拦截器"] {
-    display: none !important;
-}
-
-.SiteInfoButton-SecurityBadge {
-    display: none !important;
-}
-
-.BookmarkButton {
-    display: none !important;
-}
-
-button[title="显示输入记录"] {
-    display: none !important;
-}
-
-/* 或者如果只想给按钮设置右边距 */
-.button-addressfield {
-    margin-right: 30px;
-}
-
-#urlFieldInput {
-    text-align: center;
-}
-
-/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*
- * Multiple Row Tabs v2 - Created by @hababr
- * Version 2024.10.07
- */
-
-/*******************
- *  Configuration  *
- *******************/
-  :root {
-    /* That will be the minimum and maximum width of a tab */
-    --mrt-min-width: 100px;
-    --mrt-max-width: 200px;
-
-    /* Change to 'true' to enable scrollbars for tabs */
-    --mrt-scrollbars: false;
-    /* Maximum row count after which scrollbars appear if enabled on the previous line */
-    --mrt-max-rows: 2.5;
-
-    /* Change to 'true' to hide window control buttons and stretch tabs to full window width */
-    --mrt-full-width: false;
-
-    /* Width of a pinned tab/stack, remove or comment out to use same size as for normal tabs */
-    --mrt-pinned-stack-width: 60px;
-    --mrt-pinned-width: 30px;
-
-    /* Width of the drag area next to the plus button, you may use your mouse there to control the window */
-    --mrt-drag-area-width: 30px;
-    /* If set to 'false' all empty area of the tab bar can be used to drag the window
-       Better to keep 'true' if you use tab popup thumbnails */
-    --mrt-use-drag-area: true;
-
-    /* Height of a tab, probably there is no reason to change that */
-    --mrt-tab-height: 30px;
-
-    /* Display tab close buttons. 0 - active tab on hover, 1 - any tab on hover, 2 - permanently. Must be enabled in setting also.*/
-    --mrt-tab-close: 0;
-  }
-  #tabs-subcontainer {
-    /* Width of tabs inside a tab stack */
-    --mrt-min-width: 150px;
-    --mrt-max-width: 300px;
-  }
-/******************/
-
-#browser:is(.tabs-top, .tabs-bottom) {
-  --mrt-first-tab-margin: 0px;
-  --mrt-workspace-button-width: 52px;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-tabbar-container {
-  height: auto !important;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container:has(.tabbar-workspace-button) {
-  --mrt-first-tab-margin: var(--mrt-workspace-button-width);
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-subcontainer {
-  flex-basis: unset !important;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-strip {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 1px;
-  row-gap: 1px;
-  padding-bottom: 1px;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container,
-#browser:is(.tabs-top, .tabs-bottom) #tabs-subcontainer {
-  padding-bottom: 0 !important;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-strip > span {
-  min-width: var(--mrt-min-width);
-  width: auto;
-  display: inline-block;
-  position: relative;
-  height: fit-content;
-  max-width: var(--mrt-max-width);
-  flex-grow: 10;
-  flex-basis: 0;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-strip > span:last-of-type {
-  margin-right: 130px;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .stack-counter {
-  display: block !important;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) span > .tab-position {
-  position: relative;
-  height: fit-content;
-  width: 100%;
-  transform: none;
-  will-change: unset;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-position.tab-yield-space {
-  position: relative;
-  transform: none;
-  height: var(--mrt-tab-height);
-  min-width: var(--mrt-min-width);
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-position:not(.is-substack) .tab.active {
-  height: calc(var(--mrt-tab-height) + 1px) !important;
-  translate: 0 1px;
-  margin-top: -1px;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-position .tab-wrapper {
-  margin: 0;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-position .tab {
-  width: 100%;
-  max-width: 100% !important;
-  height: var(--mrt-tab-height) !important;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab-position .tab .tab-header {
-  padding-left: 6px;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab:not(.tab-accordion, .tab-in-accordion) .svg-tab-selection,
-#browser:is(.tabs-top, .tabs-bottom) .tab-position .tab .tab-header {
-  width: 100%;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab:not(.tab-accordion, .tab-in-accordion) .svg-tab-stack {
-  max-width: unset;
-  width: 100%;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container .tab-strip > span:has(> .is-pinned:not(.is-substack)) {
-  max-width: var(--mrt-pinned-width, var(--mrt-max-width));
-  min-width: var(--mrt-pinned-width, var(--mrt-min-width));
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container .tab-strip > span:has(> .is-pinned.is-substack) {
-  max-width: var(--mrt-pinned-stack-width, --mrt-max-width);
-  min-width: var(--mrt-pinned-stack-width, --mrt-min-width);
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .toolbar-tabbar {
-  position: relative;
-  transform: none;
-  flex-grow: 1;
-  flex-basis: 0;
-  min-width: fit-content;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-subcontainer .toolbar-tabbar.tab-position {
-  flex-grow: 1;
-  margin-right: 30px;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .button-toolbar {
-  position: relative;
-  left: unset !important;
-  top: unset !important;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container .tab.tab-small.tab-mini .tab-header {
-  justify-content: unset;
-  padding-left: 6px;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) .tab .tab-header .title {
-  display: flex !important;
-}
-
-/* Float toolbars */
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container {
-  position: relative;
-}
-#browser:is(.tabs-top, .tabs-bottom) .tab-strip > .toolbar {
-  margin-right: var(--drag-width);
-  height: var(--mrt-tab-height);
-  margin-left: -130px;
-}
-#browser:is(.tabs-top, .tabs-bottom) .toolbar-tabbar.sync-and-trash-container,
-#browser:is(.tabs-top, .tabs-bottom) .toolbar-tabbar.subcontainer-lock {
-  position: absolute;
-  right: 0;
-  bottom: 1px;
-}
-#browser:is(.tabs-top, .tabs-bottom) .tabbar-workspace-button {
-  position: absolute;
-  top: 0 !important;
-  margin-left: 0;
-  z-index: 1;
-}
-.tabbar-workspace-button .button-title {
-  display: none !important;
-}
-
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container .tab-strip > :first-child {
-  margin-left: var(--mrt-first-tab-margin);
-}
-
-/* To be able to drag the window need to add a margin to the right from the plus button. Its width depends on other buttons presence */
-#browser:is(.tabs-bottom) {
-  --mrt-drag-area-width: 0px;
-}
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container .resize {
-  --drag-width: var(--mrt-drag-area-width);
-}
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container .resize:has(.button-toolbar.toggle-trash:not(.hidden), .button-toolbar.synced-tabs-button) {
-  --drag-width: calc(var(--mrt-drag-area-width) + 30px);
-}
-#browser:is(.tabs-top, .tabs-bottom) #tabs-container .resize:has(.button-toolbar.toggle-trash:not(.hidden)):has(.button-toolbar.synced-tabs-button) {
-  --drag-width: calc(var(--mrt-drag-area-width) + 2 * 30px);
-}
-#browser:is(.tabs-top) #tabs-container .tab-strip > .toolbar:after {
-    content: '⇵';
-    width: var(--mrt-drag-area-width);
-    height: calc(100% - 2px);
-    right: calc(-1 * var(--mrt-drag-area-width));
-    font-size: 16px;
-    opacity: .5;
-    text-overflow: ellipsis;
-    position: absolute;
-    background-color: var(--colorAccentBgAlphaHeavy);
-    border-radius: var(--currentRadius);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Scrollbars enabled */
-@container style(--mrt-scrollbars: true) {
-  #browser:is(.tabs-top, .tabs-bottom) .toolbar-tabbar.sync-and-trash-container,
-  #browser:is(.tabs-top, .tabs-bottom) .toolbar-tabbar.subcontainer-lock {
-    position: relative;
-    flex-grow: 0;
-    position: relative !important;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) .tab-strip {
-    overflow-x: hidden;
-    overflow-y: auto;
-    max-height: calc((var(--mrt-tab-height) + 1px) * var(--mrt-max-rows));
-    --mrt-first-tab-margin: 0;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-subcontainer .toolbar-tabbar.tab-position {
-    margin-right: 0;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) .tabbar-workspace-button {
-    position: relative;
-    align-self: flex-start;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-container.top {
-    padding-left: calc(var(--menuWidth) + 1px) !important;
-  }
-  #browser:is(.tabs-top) .tabbar-workspace-button {
-    margin-left: 0 !important;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-container .resize {
-    --drag-width: var(--mrt-drag-area-width) !important;
-  }
-}
-
-/* Full width enabled */
-@container style(--mrt-full-width: true) {
-  #browser:is(.tabs-top, .tabs-bottom) .window-buttongroup {
-    display: none !important;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-container,
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-subcontainer {
-    padding-bottom: 0 !important;
-    padding-right: 0 !important;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-container.top {
-    padding-right: 0 !important;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) .toolbar-tabbar.sync-and-trash-container {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-container.top {
-    padding-left: 0;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-container.top {
-    --mrt-first-tab-margin: var(--menuWidth);
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-container:has(.tabbar-workspace-button).top {
-    --mrt-first-tab-margin: calc(var(--menuWidth) + var(--mrt-workspace-button-width));
-  }
-  #browser:is(.tabs-top) .tabbar-workspace-button {
-    margin-left: var(--menuWidth);
-  }
-}
-
-@container style(--mrt-use-drag-area: false) {
-  #browser:is(.tabs-top) #tabs-container .tab-strip > .toolbar:after {
-    visibility: hidden;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) #tabs-subcontainer .toolbar-tabbar.tab-position,
-  #browser:is(.tabs-top, .tabs-bottom) .toolbar-tabbar {
-    flex-grow: 0;
-  }
-}
-
-/* Close tab buttons */
-#browser:is(.tabs-top, .tabs-bottom):not(.alt-tabs) .tab .favicon {
-  display: block;
-}
-#browser:is(.tabs-top, .tabs-bottom):not(.alt-tabs) .tab .close {
-  margin-right: 6px;
-}
-@container style(--mrt-tab-close: 0) {
-  #browser:is(.tabs-top, .tabs-bottom):not(.alt-tabs) .tab.active:hover:not(.button-off, .force-hover) .stack-counter {
-    display: none !important;
-  }
-}
-@container style(--mrt-tab-close: 1) {
-  #browser:is(.tabs-top, .tabs-bottom):not(.alt-tabs) .tab:hover:not(.button-off, .force-hover) .stack-counter {
-    display: none !important;
-  }
-  #browser:is(.tabs-top, .tabs-bottom).alt-tabs .tab:hover .favicon {
-    display: none;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) .tab:hover .close,
-  #browser:is(.tabs-top, .tabs-bottom) .tab.force-hover .close {
-    display: flex !important;
-  }
-}
-@container style(--mrt-tab-close: 2) {
-  #browser:is(.tabs-top, .tabs-bottom) .tab .close {
-    display: flex !important;
-    margin-right: 6px;
-  }
-  #browser:is(.tabs-top, .tabs-bottom) .tab .favicon {
-    display: block;
-  }
-}
 

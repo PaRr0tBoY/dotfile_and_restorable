@@ -100,7 +100,7 @@
 
 	// 这些设置在键入时会自动隐藏 UI 的各个部分。移动鼠标将再次显示它们。
 	"auto_hide_menu": true,
-	"auto_hide_tabs": true,
+	"auto_hide_tabs": false,
 	"auto_hide_status_bar": true,
 
 	// 与 auto_hide_tabs 相关，如果启用此功能，则切换文件时将暂时显示选项卡。选项卡将在恢复键入时或固定时间后自动隐藏。
@@ -395,4 +395,9 @@
 	/*"gnc_m06": true,*/
 	/*"gnc_w5m12": true,*/
 	/*"gnc_m07": true,*/
+	/*"gnc_001": false,*/
+	/*"gnc_h13": true,*/
+	/*"gnc_m02": true,*/
+	/*"gnc_w5m15": true,*/
+	/*"gnc_002": true,*/
 }

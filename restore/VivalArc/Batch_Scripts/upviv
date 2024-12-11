@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Quit Vivaldi
+osascript -e 'quit app "Vivaldi.app"'
+
+# Find path to Framework folder of current version and save it as variable
+findPath="`find /Applications/Vivaldi.app -name Vivaldi\ Framework.framework`"
+
+# Copy custom files to Vivaldi.app
+cp /Users/acid/Desktop/VivalArc/javascripts/color_tabs.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/javascripts/monochrome-icons.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/javascripts/import-export-command-chains.js "$findPath"/Resources/vivaldi/
+
+# Save path to browser.html as variable
+browserHtml="$findPath"/Resources/vivaldi/window.html
+
+# Insert references, if not present, and save to temporary file
+sed '/<\/body>/i\
+<script src="color_tabs.js"></script>\
+<script src="monochrome-icons.js"></script>\
+<script src="import-export-command-chains.js"></script>\
+' "$browserHtml" > "$browserHtml".temp
+
+# Backup original file
+cp "$browserHtml" "$browserHtml".bak
+
+# Overwrite
+mv "$browserHtml".temp "$browserHtml"
+
+# Pause script
+read -rsp $'Press [Enter] to restart Vivaldi...\n'
+
+# Open custom files in text editor
+# open "$findPath"/Resources/vivaldi/style/custom.css
+# open "$findPath"/Resources/vivaldi/custom.js
+
+# Open Vivaldi
+open /Applications/Vivaldi.app --args --debug-packed-apps --silent-debugger-extension-api
+
