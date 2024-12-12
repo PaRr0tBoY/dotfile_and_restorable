@@ -227,3 +227,4 @@ export PATH="$PATH:$HOME/.local/bin"
 
 export PATH=$PATH:/Users/acid/.spicetify
 source '/opt/homebrew/opt/autoenv/activate.sh'
+export PATH=/Users/acid/.meteor:$PATH
