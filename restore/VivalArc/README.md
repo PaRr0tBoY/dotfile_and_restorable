@@ -19,5 +19,5 @@ To install Javascript moddings:
 <script src="ribbon_theme.js"></script>
 <script src="yb_address_bar.js"></script>
 </body>
-```
+
 	3. Or else you can patch vivaldi with batch scripts. To learn more check [Patching Vivaldi with batch scripts | Vivaldi Forum] (https://forum.vivaldi.net/topic/10592/patching-vivaldi-with-batch-scripts/21?page=2) 
