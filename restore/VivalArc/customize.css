@@ -172,7 +172,12 @@ button[title="显示输入记录"] {
   text-overflow: ellipsis;
 }
 .button-toolbar > button > .button-badge {
-top: auto; right: 10px;
+  top: auto;
+  right: 10px;
+}
+
+.toolbar.toolbar-small.toolbar-insideinput {
+    display: none;
 }
 
 /* Tab tooltip hide thumbnail */

@@ -16,5 +16,5 @@ function runAutoScripts()
     end
 end
 
-myTimer = hs.timer.doEvery(21600, runAutoScripts)
+myTimer = hs.timer.doEvery(10800, runAutoScripts)
 myTimer:start()
