@@ -22,4 +22,4 @@ To install Javascript moddings:
 </body>
 ```
 
-  3. Or else you can patch vivaldi with batch scripts. To learn more check [Patching Vivaldi with batch scripts | Vivaldi Forum] (https://forum.vivaldi.net/topic/10592/patching-vivaldi-with-batch-scripts/21?page=2) 
+  3. Or else you can patch vivaldi with batch scripts. To learn more check [Patching Vivaldi with batch scripts | Vivaldi Forum](https://forum.vivaldi.net/topic/10592/patching-vivaldi-with-batch-scripts/21?page=2) 

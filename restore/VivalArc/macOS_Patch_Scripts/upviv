@@ -7,25 +7,48 @@ osascript -e 'quit app "Vivaldi.app"'
 findPath="`find /Applications/Vivaldi.app -name Vivaldi\ Framework.framework`"
 
 # Copy custom files to Vivaldi.app
-cp /Users/acid/Desktop/VivalArc/javascripts/color_tabs.js "$findPath"/Resources/vivaldi/
-cp /Users/acid/Desktop/VivalArc/javascripts/monochrome-icons.js "$findPath"/Resources/vivaldi/
-cp /Users/acid/Desktop/VivalArc/javascripts/import-export-command-chains.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/color_tabs.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/monochrome-icons.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/import-export-command-chains.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/chroma.min.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/easy-files.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/element-capture.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/global-media-controls.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/widgets.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/yb_address_bar.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/ClickAddBlockList.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/AdaptiveWebPanelHeaders.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/vivaldi-dashboard-camo.js "$findPath"/Resources/vivaldi/
+cp /Users/acid/Desktop/VivalArc/moddings/autoHidePanel.js "$findPath"/Resources/vivaldi/
 
 # Save path to browser.html as variable
 browserHtml="$findPath"/Resources/vivaldi/window.html
 
-# Insert references, if not present, and save to temporary file
-sed '/<\/body>/i\
-<script src="color_tabs.js"></script>\
-<script src="monochrome-icons.js"></script>\
-<script src="import-export-command-chains.js"></script>\
-' "$browserHtml" > "$browserHtml".temp
-
 # Backup original file
 cp "$browserHtml" "$browserHtml".bak
 
-# Overwrite
-mv "$browserHtml".temp "$browserHtml"
+# Insert references, if not present, and save to temporary file
+sed -i '' -e '/<body>/,/<\/body>/ {
+    /<body>/!{
+        /<\/body>/!d
+    }
+}' "$browserHtml"
+
+sed -i '' -e '/<\/body>/i\
+<script src="color_tabs.js"></script>\
+<script src="monochrome-icons.js"></script>\
+<script src="import-export-command-chains.js"></script>\
+<script src="chroma.min.js"></script>\
+<script src="easy-files.js"></script>\
+<script src="element-capture.js"></script>\
+<script src="global-media-controls.js"></script>\
+<script src="widgets.js"></script>\
+<script src="yb_address_bar.js"></script>\
+<script src="ClickAddBlockList.js"></script>\
+<script src="AdaptiveWebPanelHeaders.js"></script>\
+<script src="vivaldi-dashboard-camo.js"></script>\
+<script src="autoHidePanel.js"></script>\
+' "$browserHtml"
 
 # Pause script
 read -rsp $'Press [Enter] to restart Vivaldi...\n'
