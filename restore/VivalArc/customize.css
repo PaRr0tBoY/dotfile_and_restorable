@@ -54,7 +54,7 @@
     text-align: center !important;
     color: var(--colorFg) !important;
     background-color: var(--colorBgDarker) !important;
-    z-index: 1 !important;
+    z-index: 3 !important;
 }
 
 /* Hold cmd and hover to show Bookmarks bar */
