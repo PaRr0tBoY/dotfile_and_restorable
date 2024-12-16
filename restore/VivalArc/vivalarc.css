@@ -6,7 +6,7 @@ vivaldi version: v6.6 - v7.0
 
 :root{
     --window-border:4px; /* window border, recommend 4px~16px */
-    --mac-header:calc(var(--window-border) + 22px); /* title bar extra height */
+    --mac-header:calc(var(--window-border) + 0px); /* title bar extra height */
     --win-header:calc(var(--window-border) + 20px); /* title bar extra height */
     --linux-header:calc(var(--window-border) + 20px); /* title bar extra height */
     --addressbar-height:36px;
@@ -79,6 +79,7 @@ vivaldi version: v6.6 - v7.0
     font-size:11px;
     color:var(--colorFg);
     color: white !important;
+    display: none;
 }
 
 /*topHeader-Linux*/
@@ -330,48 +331,54 @@ vivaldi version: v6.6 - v7.0
 
 /*tabbar left & tabbar right*/
 
-/* #browser #tabs-tabbar-container.left  ::-webkit-scrollbar, 
+#browser #tabs-tabbar-container.left  ::-webkit-scrollbar,
 #browser #tabs-tabbar-container.right  ::-webkit-scrollbar{
     display: none; 
-} */
+}
 
 .tabs-left .tabbar-wrapper,
 .tabs-right .tabbar-wrapper{
     background-color:transparent;
 }
 
-/*tabbar_left_and_right_padding*/
-/* .tabs-left .inner > .tabbar-wrapper:not(:has(.tab-small)), 
-.tabs-right .inner > .tabbar-wrapper:not(:has(.tab-small)){
-    margin:0 var(--tab-padding);
-} */
+/* ------------------------------------------------------------------------ */
 
-/* .tabs-left .accordion-toggle-arrow, 
-.tabs-right .accordion-toggle-arrow{
-    max-width:calc(var(--Width) - 16px + (var(--tab-padding) * 2));
-} */
-
-/* #browser:not(.tabs-top):not(.tabs-bottom) .tab-position .tab{
-    color:var(--colorFg);
-} */
-
-/* .tabs-left .tab-position:not(:has(.tab-mini)) .tab > .tab-header, 
-.tabs-right .tab-position:not(:has(.tab-mini)) .tab > .tab-header
-{
-    margin-left:0px;
+/* 为没有 `.tab-small` 子元素的 `.tabbar-wrapper` 元素设置左右内边距 */
+.tabs-left .inner > .tabbar-wrapper:not(:has(.tab-small)),
+.tabs-right .inner > .tabbar-wrapper:not(:has(.tab-small)) {
+    margin: 0 var(--tab-padding); /* 设置左右内边距为 --tab-padding 的值 */
 }
- */
 
-/* .tabbar-workspace-button + #tabs-tabbar-container.left, 
-.tabbar-workspace-button + #tabs-tabbar-container.right{
-    padding-top:4px;
-} */
+/* 设置左右折叠箭头的最大宽度，考虑到容器宽度和 tab 的内边距 */
+.tabs-left .accordion-toggle-arrow,
+.tabs-right .accordion-toggle-arrow {
+    max-width: calc(var(--Width) - 16px + (var(--tab-padding) * 2)); /* 宽度计算：减去 16px 并加上 tab 内边距的两倍 */
+}
 
-/* #browser:not(.theme-dark) #tabs-tabbar-container.left,
-#browser:not(.theme-dark) #tabs-tabbar-container.right{
-    box-shadow:none;
-} */
+/* 设置 tab 位置为顶部或底部时，tab 的字体颜色 */
+#browser:not(.tabs-top):not(.tabs-bottom) .tab-position .tab {
+    color: var(--colorFg); /* 设置字体颜色为 --colorFg 变量的值 */
+}
 
+/* 移除 `.tab-mini` 类名的 tab 的左外边距，使其紧贴容器 */
+/*.tabs-left .tab-position:not(:has(.tab-mini)) .tab > .tab-header,
+.tabs-right .tab-position:not(:has(.tab-mini)) .tab > .tab-header {
+    margin-left: 0px;
+}*/
+
+/* 为左右 tab 容器设置顶部内边距，确保它与其他元素之间有足够的空间 */
+.tabbar-workspace-button + #tabs-tabbar-container.left,
+.tabbar-workspace-button + #tabs-tabbar-container.right {
+    padding-top: 4px; /* 设置顶部内边距为 4px */
+}
+
+/* 移除左右 tab 容器的阴影效果，适用于非深色主题 */
+/*#browser:not(.theme-dark) #tabs-tabbar-container.left,
+#browser:not(.theme-dark) #tabs-tabbar-container.right {
+    box-shadow: none;
+}*/
+
+/* ------------------------------------------------------------------------ */
 #browser.transparent-tabbar #tabs-tabbar-container.left, 
 #browser.transparent-tabbar #tabs-tabbar-container.right,
 #browser:not(.transparent-tabbar) #tabs-tabbar-container
