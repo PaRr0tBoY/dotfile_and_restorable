@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/open-settings.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://open-settings\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,+BAA+B,EACnC,IACT",
+  "names": ["open_settings_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

@@ -5,7 +5,7 @@
 local utils = require('./utils')
 
 -- --------------------------------------------------
-local Pinyin = 'com.tencent.inputmethod.wetype.pinyin'
+local Pinyin = 'im.rime.inputmethod.Squirrel.Hans'
 local ABC = 'com.apple.keylayout.ABC'
 
 -- 定义你自己想要自动切换输入法的 app
@@ -28,16 +28,20 @@ local APP_TO_IME = {
   ['/System/Applications/Reminders.app'] = Pinyin,
   ['/System/Library/CoreServices/Finder.app'] = Pinyin,
   ['/Applications/ChatGPT.app'] = Pinyin,
+  ['/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app'] = Pinyin,
+  ['/System/Applications/Notes.app'] = Pinyin,
 }
 -- --------------------------------------------------
 
 local function updateFocusedAppInputMethod(appObject)
   local focusedAppPath = appObject:path()
   local ime = APP_TO_IME[focusedAppPath]
+  local imeName = nil
 
   if ime then
     hs.keycodes.currentSourceID(ime)
   end
+  
 end
 local debouncedUpdateFn = utils.debounce(updateFocusedAppInputMethod, 0.1)
 
@@ -49,3 +53,4 @@ asim_appWatcher = hs.application.watcher.new(
   end
 )
 asim_appWatcher:start()
+

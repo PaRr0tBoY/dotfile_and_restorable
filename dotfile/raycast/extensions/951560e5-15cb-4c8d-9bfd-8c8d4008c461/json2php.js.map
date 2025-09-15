@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/json2php.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://json2php?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,+BACJ,CACV",
+  "names": ["json2php_exports", "__export", "json2php_default", "__toCommonJS", "import_api"]
+}

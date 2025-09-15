@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/record-display.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://record-display\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,gCAAgC,EACpC,IACT",
+  "names": ["record_display_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

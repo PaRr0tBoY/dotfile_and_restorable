@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/open-projects-folder.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://open-projects-folder\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,sCAAsC,EAC1C,IACT",
+  "names": ["open_projects_folder_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

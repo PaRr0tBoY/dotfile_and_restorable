@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/restart-recording.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://restart-recording\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,mCAAmC,EACvC,IACT",
+  "names": ["restart_recording_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

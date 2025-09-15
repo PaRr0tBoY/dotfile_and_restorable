@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/phpserializer.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://phpserializer?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,oCACJ,CACV",
+  "names": ["phpserializer_exports", "__export", "phpserializer_default", "__toCommonJS", "import_api"]
+}

@@ -1,7 +1,7 @@
 {
 	// "color_scheme": "auto",
 	"font_size": 18,
-	"font_face": "JetBrains Mono",
+	"font_face": "Maple Mono",
 	"font_options": ["gray_antialias","no_calt","dlig","no_round"],
 	"theme_font_options": ["gray_antialias","no_calt","dlig","no_round"],
 	
@@ -254,17 +254,17 @@
 	//sublime 忽略的包
 	"ignored_packages": [
 	],
-	"color_scheme": "Packages/Agila Theme/Agila Neon Monocyanide.tmTheme",
-	"theme": "Theme - Kronuz.sublime-theme",
+	"color_scheme": "Packages/Guna/themes/Guna.sublime-color-scheme",
+	"theme": "Guna.sublime-theme",
 	/*"gnc_h12": true,*/
 	/*"gnc_m06": true,*/
 	/*"gnc_w6m13": true,*/
-	"gn_hide_tab_dropdown": true,
-	"gn_overlay_scroll_bars": true,
-	"gn_sidebar_box": true,
-	"gn_title_bar": true,
-	"gnwidg1": true,
-	"gnwidgo": true,
+	/*"gn_hide_tab_dropdown": true,*/
+	/*"gn_overlay_scroll_bars": true,*/
+	/*"gn_sidebar_box": true,*/
+	/*"gn_title_bar": true,*/
+	/*"gnwidg1": true,*/
+	/*"gnwidgo": true,*/
 	"gpu_window_buffer": false,
 	/*"gnc_m08": true,*/
 	/*"gnc_m09": true,*/
@@ -400,4 +400,79 @@
 	/*"gnc_m02": true,*/
 	/*"gnc_w5m15": true,*/
 	/*"gnc_002": true,*/
+	/*"gnc_h16": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w3m11": true,*/
+	/*"gnc_h16": true,*/
+	/*"gnc_m05": true,*/
+	/*"gnc_w3m11": true,*/
+	/*"gnc_h15": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_w2m15": true,*/
+	"update_check": false,
+	/*"gn_hide_tab_dropdown": true,*/
+	/*"gn_overlay_scroll_bars": true,*/
+	/*"gn_sidebar_box": true,*/
+	/*"gn_title_bar": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h10": true,*/
+	/*"gnwidg1": true,*/
+	/*"gnwidgo": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w3m11": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h19": true,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_w0m12": true,*/
+	/*"gnc_h21": true,*/
+	/*"gnc_m05": true,*/
+	/*"gnc_w4m15": true,*/
+	/*"gnc_h10": true,*/
+	/*"gnc_m00": true,*/
+	/*"gnc_w3m13": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_h23": true,*/
+	/*"gnc_m00": true,*/
+	/*"gnc_w0m12": true,*/
+	/*"gnc_m01": true,*/
+	/*"gnc_h18": true,*/
+	/*"gnc_m03": true,*/
+	/*"gnc_w4m12": true,*/
+	/*"gnc_h21": true,*/
+	/*"gnc_m07": true,*/
+	/*"gnc_w0m14": true,*/
+	/*"gnc_h14": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w6m13": true,*/
+	"gn_hide_tab_dropdown": true,
+	"gn_overlay_scroll_bars": true,
+	"gn_sidebar_box": true,
+	"gn_title_bar": true,
+	/*"gnc_h14": true,*/
+	"gnwidg1": true,
+	"gnwidgo": true,
+	/*"gnc_m05": true,*/
+	/*"gnc_w6m13": true,*/
+	/*"gnc_001": true,*/
+	/*"gnc_h13": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w0m11": true,*/
+	/*"gnc_h12": true,*/
+	/*"gnc_m03": true,*/
+	/*"gnc_w6m11": true,*/
+	/*"gnc_h00": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w0m12": true,*/
+	/*"gnc_m05": true,*/
+	/*"gnc_h17": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w2m12": true,*/
+	/*"gnc_h11": true,*/
+	/*"gnc_m08": true,*/
+	/*"gnc_w3m12": true,*/
+	/*"gnc_m09": true,*/
+	/*"gnc_h08": true,*/
+	/*"gnc_m04": true,*/
+	/*"gnc_w1m14": true,*/
+	/*"gnc_m05": true,*/
 }

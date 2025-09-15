@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/record-area.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://record-area\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,6BAA6B,EACjC,IACT",
+  "names": ["record_area_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/qrcode.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://qrcode?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,6BACJ,CACV",
+  "names": ["qrcode_exports", "__export", "qrcode_default", "__toCommonJS", "import_api"]
+}

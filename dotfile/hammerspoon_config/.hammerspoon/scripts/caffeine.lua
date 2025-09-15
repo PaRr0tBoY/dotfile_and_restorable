@@ -1,7 +1,17 @@
--- **************************************************
--- 防止屏幕进入睡眠
--- **************************************************
+caffeine = hs.menubar.new()
+function setCaffeineDisplay(state)
+    if state then
+        caffeine:setTitle("AWAKE")
+    else
+        caffeine:setTitle("SLEEPY")
+    end
+end
 
-hs.loadSpoon('Caffeine')
+function caffeineClicked()
+    setCaffeineDisplay(hs.caffeinate.toggle("displayIdle"))
+end
 
-spoon.Caffeine:start()
+if caffeine then
+    caffeine:setClickCallback(caffeineClicked)
+    setCaffeineDisplay(hs.caffeinate.get("displayIdle"))
+end

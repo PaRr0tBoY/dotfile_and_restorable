@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/toggle-recording-controls.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://toggle-recording-controls\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,2CAA2C,EAC/C,IACT",
+  "names": ["toggle_recording_controls_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

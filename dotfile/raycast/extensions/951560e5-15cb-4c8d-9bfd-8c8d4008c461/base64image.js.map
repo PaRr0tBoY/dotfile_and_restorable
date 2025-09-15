@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/base64image.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://base64image?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,kCACJ,CACV",
+  "names": ["base64image_exports", "__export", "base64image_default", "__toCommonJS", "import_api"]
+}

@@ -29,7 +29,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git zsh-autosuggestions F-Sy-H zsh-history-substring-search autoenv zsh-vi-mode colored-man-pages zsh-navigation-tools fzf)
+plugins=(git zsh-autosuggestions F-Sy-H zsh-history-substring-search autoenv zsh-vi-mode colored-man-pages zsh-navigation-tools)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
@@ -222,7 +222,10 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+alias zed='open -a "zed" .'
 
+alias proxy='export all_proxy=http://127.0.0.1:7897'
+alias unproxy='unset all_proxy'
 export PATH="$PATH:$HOME/.local/bin"
 
 export PATH=$PATH:/Users/acid/.spicetify
@@ -230,3 +233,26 @@ source '/opt/homebrew/opt/autoenv/activate.sh'
 export PATH=/Users/acid/.meteor:$PATH
 
 eval $(thefuck --alias)
+
+cdf() {
+  local target
+  target=$(fzf) || return
+
+  if [ -d "$target" ]; then
+    cd "$target" || return
+  else
+    cd "$(dirname "$target")" || return
+  fi
+}
+#echo 'export http_proxy="http://127.0.0.1:7897"' >> ~/.zshrc
+#echo 'export https_proxy="http://127.0.0.1:7897"' >> ~/.zshrc
+#echo 'export no_proxy="localhost,127.0.0.1"' >> ~/.zshrc
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
+export HOMEBREW_NO_ENV_HINTS="1"
+export HOMEBREW_API_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles/api"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

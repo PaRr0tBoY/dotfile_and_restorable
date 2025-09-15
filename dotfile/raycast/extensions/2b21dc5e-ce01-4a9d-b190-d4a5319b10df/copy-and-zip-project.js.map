@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/copy-and-zip-project.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://copy-and-zip-project\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,sCAAsC,EAC1C,IACT",
+  "names": ["copy_and_zip_project_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

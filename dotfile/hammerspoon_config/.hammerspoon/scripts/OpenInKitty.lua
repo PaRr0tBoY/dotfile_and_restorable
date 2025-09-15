@@ -10,14 +10,21 @@ hs.hotkey.bind({"alt"}, "return", function()
         end tell
     ]])
 
+    local command
     if success and folder ~= "error" then
-        local kittyCommand = string.format(
+        command = string.format(
             '/Applications/kitty.app/Contents/MacOS/kitty --single-instance -d "%s"',
             folder
         )
-        hs.execute(kittyCommand)
     else
-        local defaultCommand = '/Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~'
-        hs.execute(defaultCommand)
+        command = '/Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~'
     end
+
+    -- 使用 hs.task 异步运行命令
+    hs.task.new("/bin/bash", nil, function(_, stdErr)
+        if stdErr ~= "" then
+            hs.alert("Error: " .. stdErr)
+        end
+        return false -- 任务完成后停止
+    end, {"-c", command}):start()
 end)

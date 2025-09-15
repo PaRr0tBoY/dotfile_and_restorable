@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/cancel-recording.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://cancel-recording\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,kCAAkC,EACtC,IACT",
+  "names": ["cancel_recording_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}

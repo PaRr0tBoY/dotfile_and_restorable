@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/jsformatter.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://jsformatter?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,kCACJ,CACV",
+  "names": ["jsformatter_exports", "__export", "jsformatter_default", "__toCommonJS", "import_api"]
+}

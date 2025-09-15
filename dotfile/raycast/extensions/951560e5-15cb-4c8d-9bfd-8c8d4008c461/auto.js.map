@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/auto.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://auto?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,2BACJ,CACV",
+  "names": ["auto_exports", "__export", "auto_default", "__toCommonJS", "import_api"]
+}

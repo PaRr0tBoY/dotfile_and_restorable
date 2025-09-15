@@ -1,0 +1,284 @@
+// Zed settings
+// documentation: https://zed.dev/docs/configuring-zed
+{
+  "proxy": "http://127.0.0.1:7890",
+  "base_keymap": "VSCode",
+  "theme": "Base16 Gruvbox light, soft",
+  "ui_font_size": 16,
+  "buffer_font_size": 18,
+  // NOTE: Change the font family to your preference
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  // Vim mode settings
+  "vim_mode": true,
+  // use relative line numbers
+  "relative_line_numbers": true,
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+  // Indentation, rainbow indentation
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  // NOTE: Zen mode, refer https://github.com/zed-industries/zed/issues/4382 when it's resolved
+  "centered_layout": {
+    "left_padding": 0.15,
+    "right_padding": 0.15
+  },
+
+  "language_models": {
+    "openai": {
+      "version": "1",
+      "available_models": [
+        {
+          "name": "deepseek-coder",
+          "max_tokens": 128000
+        },
+        {
+          "name": "deepseek-chat",
+          "max_tokens": 128000
+        }
+      ],
+      "api_url": "https://api.deepseek.com/beta"
+    }
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "openai",
+      "model": "deepseek-coder"
+    },
+    "version": "2"
+  },
+
+  // Inlay hints preconfigured by Zed: Go, Rust, Typescript and Svelte
+  "inlay_hints": {
+    "enabled": true,
+    "font_family": "Consolas"
+  },
+  "languages": {
+    // Refer https://zed.dev/docs/languages/javascript and https://zed.dev/docs/languages/typescript for more info
+    "TypeScript": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}", "--tab-width", "2"]
+        }
+      },
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true
+      }
+    }
+  },
+  "Python": {
+    "format_on_save": { "language_server": { "name": "ruff" } },
+    "formatter": { "language_server": { "name": "ruff" } },
+    "language_servers": ["pyright", "ruff"]
+  },
+  "C++": {
+    "format_on_save": "off",
+    "formatter": {
+      "external": {
+        "command": "clang-format",
+        "arguments": ["-style={BasedOnStyle: Microsoft, IndentWidth: 4}"]
+      }
+    }
+  },
+  "C": {
+    "format_on_save": "off",
+    "tab_size": 2,
+    "formatter": {
+      "external": {
+        "command": "clang-format",
+        "arguments": ["-style={BasedOnStyle: Microsoft, IndentWidth: 4}"]
+      }
+    }
+  },
+  "Go": {
+    "code_actions_on_format": {
+      "source.organizeImports": true
+    }
+  },
+  "Rust": {
+    "tab_size": 2
+  },
+  "TSX": {
+    "formatter": {
+      "external": {
+        "command": "prettier",
+        "arguments": ["--stdin-filepath", "{buffer_path}", "--tab-width", "2"]
+      }
+    },
+    "code_actions_on_format": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "JavaScript": {
+    "formatter": {
+      "external": {
+        "command": "prettier",
+        "arguments": ["--stdin-filepath", "{buffer_path}", "--tab-width", "2"]
+      }
+    },
+    "code_actions_on_format": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "checkOnSave": {
+          // rust-analyzer.check.command (default: "check")
+          // "command": "clippy"
+        }
+      }
+    },
+    "eslint": {
+      "settings": {
+        "codeActionOnSave": {
+          "rules": ["import/order"]
+        }
+      }
+    }
+  },
+  // Use zed commit editor
+  "terminal": {
+    "env": {
+      "EDITOR": "zed --wait"
+    },
+    "font_family": "JetBrainsMono Nerd Font",
+    "toolbar": {
+      "title": false
+    },
+    // 启用在终端中选择文本时自动复制到剪贴板的功能
+    "copy_on_select": true
+  },
+  // File syntax highlighting
+  "file_types": {
+    "Dockerfile": ["Dockerfile", "Dockerfile.*"],
+    "JSON": ["json", "jsonc", "*.code-snippets"],
+    "C++": ["c", "h", "cpp", "hpp"],
+    "*.mdx": ["markdown"]
+  },
+  // File scan exclusions, hide on the file explorer and search
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/vendor",
+    "**/.tmp*",
+    // above is default from Zed
+    "**/out",
+    "**/dist",
+    "**/.husky",
+    "**/.turbo",
+    "**/.vscode-test",
+    "**/.vscode",
+    "**/.next",
+    "**/.storybook",
+    "**/.tap",
+    "**/.nyc_output",
+    "**/report",
+    "**/node_modules"
+  ],
+  // Turn off telemetry
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  // Move all panel to the right
+  "project_panel": {
+    "button": true,
+    "dock": "right",
+    "git_status": true
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  // Move some unnecessary panels to the left
+  "notification_panel": {
+    "dock": "left"
+  },
+  "chat_panel": {
+    "dock": "left"
+  },
+  "soft_wrap": "editor_width",
+  //////////////////////
+
+  "tab_size": 2,
+  // 启用文件保存时自动格式化功能
+  "format_on_save": "on",
+  // 设置垂直滚动的边距
+  "vertical_scroll_margin": 6,
+  // 编辑器启动时不会自动恢复上次打开的文件或会话
+  "restore_on_startup": "none",
+  // 禁用在新行继续注释的功能
+  "extend_comment_on_newline": false,
+  // 将特定的文件扩展名与它们对应的文件类型进行关联
+
+  // 搜索时要排除的文件和目录
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true
+  },
+  "git": {
+    // 启用 Git 集成功能
+    "enabled": true,
+    // 定期从远程仓库获取最新的更改
+    "autoFetch": true,
+    // 设置自动获取的时间间隔为 300 秒（5分钟）
+    "autoFetchInterval": 300,
+    // 当编辑器窗口获得焦点时自动获取最新的 Git 更改
+    "autoFetchOnFocus": true,
+    // 当编辑器窗口切换时自动获取最新的 Git 更改
+    "autoFetchOnWindowChange": true,
+    // 在构建项目时自动获取最新的 Git 更改
+    "autoFetchOnBuild": true,
+    // 在编辑器中显示文件的 Git 状态
+    "git_status": true,
+    // 在指定的构建事件（如构建、运行、调试）时自动获取最新的Git更改
+    "autoFetchOnBuildEvents": ["build", "run", "debug"],
+    // 设置在构建事件发生后延迟 1500 毫秒（1.5秒）再进行自动获取
+    "autoFetchOnBuildEventsDelay": 1500,
+    // 设置在构建后延迟 1500 毫秒（1.5秒）再进行自动获取
+    "autoFetchOnBuildDelay": 1500,
+    // 在编辑器的行号栏（gutter）中显示 Git 状态，仅显示已跟踪文件的状态
+    "git_gutter": "tracked_files",
+    // ，在代码行旁边显示最后一次修改该行的提交信息
+    "inline_blame": {
+      "enabled": false,
+      "position": "right"
+    }
+  }
+}

@@ -110,6 +110,7 @@ alt-4 = 'workspace Fun'
 alt-5 = 'workspace Read'
 alt-6 = 'workspace Wri'
 alt-7 = 'workspace Vork'
+alt-8 = 'workspace Audio'
 
 alt-b = 'workspace Brow'
 alt-c = 'workspace Chat'
@@ -118,6 +119,7 @@ alt-f = 'workspace Fun'
 alt-r = 'workspace Read'
 alt-w = 'workspace Wri'
 alt-v = 'workspace Vork'
+alt-a = 'workspace Audio'
 
 alt-shift-b = 'move-node-to-workspace Brow'
 alt-shift-c = 'move-node-to-workspace Chat'
@@ -126,6 +128,7 @@ alt-shift-f = 'move-node-to-workspace Fun'
 alt-shift-r = 'move-node-to-workspace Read'
 alt-shift-w = 'move-node-to-workspace Wri'
 alt-shift-v = 'move-node-to-workspace Vork'
+alt-shift-a = 'move-node-to-workspace Audio'
 
 alt-tab = 'workspace-back-and-forth'
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
@@ -189,13 +192,13 @@ alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'com.tencent.xinWeChat'
-if.window-title-regex-substring = '^(?!WeChat \(Chats\)|微信 \(聊天\)).*$'
-run = 'layout floating'
+run = 'move-node-to-workspace Chat'
 check-further-callbacks = true
 
 [[on-window-detected]]
 if.app-id = 'com.tencent.xinWeChat'
-run = 'move-node-to-workspace Chat'
+if.window-title-regex-substring = '^(?!.*(WeChat|微信)).*$'
+run = 'layout floating'
 check-further-callbacks = true
 
 [[on-window-detected]]
@@ -225,18 +228,27 @@ if.app-id = 'com.apple.Safari'
 run = 'move-node-to-workspace Brow'
 
 [[on-window-detected]]
-if.app-id = 'org.mozilla.com.zen.browser'
+if.app-id = 'app.zen-browser.zen'
+run = 'move-node-to-workspace Brow'
+check-further-callbacks = true
+
+[[on-window-detected]]
+if.window-title-regex-substring = '(浏览器|browser|edge|vivaldi|Zen|firefox|tor|librewolf|waterfox|brave|opera)'
+run = 'move-node-to-workspace Brow'
+check-further-callbacks = true
+
+[[on-window-detected]]
+if.app-id = 'app.zen-browser.zen'
 if.window-title-regex-substring = '(Picture-in-Picture|画中画|扩展)'
 run = 'layout floating'
 check-further-callbacks = true
 
 [[on-window-detected]]
-if.window-title-regex-substring = '(浏览器|browser|edge|chrome|vivaldi|zen|firefox|tor|librewolf|waterfox|brave|opera)'
+if.app-id = 'company.thebrowser.dia'
 run = 'move-node-to-workspace Brow'
-check-further-callbacks = true
 
 [[on-window-detected]]
-if.app-id = 'org.mozilla.com.zen.browser'
+if.app-id = 'org.chromium.Thorium'
 run = 'move-node-to-workspace Brow'
 
 ## Write
@@ -261,6 +273,9 @@ run = 'move-node-to-workspace Wri'
 if.app-id = 'com.hogbaysoftware.Bike'
 run = 'move-node-to-workspace Wri'
 
+[[on-window-detected]]
+if.app-id = 'com.apple.Notes'
+run = 'move-node-to-workspace Wri'
 
 ## Dev
 
@@ -336,6 +351,14 @@ run = 'move-node-to-workspace Dev'
 if.app-id = 'com.panic.Nova'
 run = 'move-node-to-workspace Dev'
 
+[[on-window-detected]]
+if.app-id = 'com.apple.dt.Xcode'
+run = 'move-node-to-workspace Dev'
+
+[[on-window-detected]]
+if.app-id = 'com.bohemiancoding.sketch3'
+run = 'move-node-to-workspace Dev'
+
 ## Fun
 
 [[on-window-detected]]
@@ -351,11 +374,7 @@ if.app-id = 'com.pake.youtube'
 run = 'move-node-to-workspace Fun'
 
 [[on-window-detected]]
-if.app-id = 'com.spotify.client'
-run = 'move-node-to-workspace Fun'
-
-[[on-window-detected]]
-if.app-id = 'com.apple.Music'
+if.app-id = 'com.pake.xiaohongshu'
 run = 'move-node-to-workspace Fun'
 
 ## Read
@@ -365,12 +384,50 @@ if.app-id = 'is.follow'
 run = 'move-node-to-workspace Read'
 
 [[on-window-detected]]
+if.app-id = 'com.pake.weread'
+run = 'move-node-to-workspace Read'
+
+[[on-window-detected]]
+if.app-id = 'app.reeder'
+run = 'move-node-to-workspace Read'
+
+[[on-window-detected]]
 if.app-id = 'net.kovidgoyal.calibre'
 run = 'move-node-to-workspace Read'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.iBooksX'
 run = 'move-node-to-workspace Read'
+
+## Audio
+
+[[on-window-detected]]
+if.app-id = 'com.rogueamoeba.audiohijack'
+run = 'move-node-to-workspace Audio'
+
+[[on-window-detected]]
+if.app-id = 'org.audacityteam.audacity'
+run = 'move-node-to-workspace Audio'
+
+[[on-window-detected]]
+if.app-id = 'com.image-line.flstudio'
+run = 'move-node-to-workspace Audio'
+
+[[on-window-detected]]
+if.app-id = 'com.goodsnooze.MacWhisper'
+run = 'move-node-to-workspace Audio'
+
+[[on-window-detected]]
+if.app-id = 'com.netease.163music'
+run = 'move-node-to-workspace Audio'
+
+[[on-window-detected]]
+if.app-id = 'com.spotify.client'
+run = 'move-node-to-workspace Fun'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Music'
+run = 'move-node-to-workspace Fun'
 
 ## Vork
 
@@ -422,10 +479,50 @@ run = 'move-node-to-workspace Vork'
 if.app-id = 'com.indiegoodies.HabitTracker'
 run = 'move-node-to-workspace Vork'
 
+[[on-window-detected]]
+if.app-id = 'com.readdle.SparkDesktop.appstore'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.Powerpoint'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.Excel'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.Word'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'com.readdle.PDFExpert-Mac'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'kike.Calflow'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'net.cementpla.FocusFlights'
+run = 'move-node-to-workspace Vork'
+
+[[on-window-detected]]
+if.app-id = 'com.openai.chat'
+run = 'layout floating'
+
 ## Floaters
 
 [[on-window-detected]]
+if.app-id = 'com.jinghaoshe.qspace.pro'
+run = 'layout floating'
+
+[[on-window-detected]]
 if.app-id = 'ch.protonvpn.mac'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'org.chromium.Chromium'
 run = 'layout floating'
 
 [[on-window-detected]]
@@ -438,6 +535,10 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.FaceTime'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'io.github.clash-verge-rev.clash-verge-rev'
 run = 'layout floating'
 
 [[on-window-detected]]
@@ -498,10 +599,6 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.finder'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-id = 'com.openai.chat'
 run = 'layout floating'
 
 [[on-window-detected]]
@@ -597,5 +694,29 @@ if.app-id = 'Celve.Peninsula'
 run = 'layout floating'
 
 [[on-window-detected]]
-if.app-id = 'Celve.Peninsula'
+if.app-id = 'com.neohtop.dev'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.AppStore'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Passwords'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.daisydiskapp.DaisyDiskStandAlone'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'net.freemacsoft.AppCleaner'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.tencent.yuanbao'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.jinghaoshe.qspace.pro'
 run = 'layout floating'

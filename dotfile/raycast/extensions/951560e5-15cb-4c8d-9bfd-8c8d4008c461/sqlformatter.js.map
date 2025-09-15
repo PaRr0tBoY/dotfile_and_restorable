@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/sqlformatter.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://sqlformatter?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,mCACJ,CACV",
+  "names": ["sqlformatter_exports", "__export", "sqlformatter_default", "__toCommonJS", "import_api"]
+}

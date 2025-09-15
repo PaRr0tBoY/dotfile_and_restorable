@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/randomstringgenerator.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async () => {\n  const url = \"devutils://randomstringgenerator?clipboard\";\n  open(url);\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAEdF,EAAQ,SAAY,IAEzB,QADY,4CACJ,CACV",
+  "names": ["randomstringgenerator_exports", "__export", "randomstringgenerator_default", "__toCommonJS", "import_api"]
+}

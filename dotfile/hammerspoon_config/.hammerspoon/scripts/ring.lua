@@ -15,12 +15,12 @@ local tween = require('./tween')
 
 -- 菜单项配置
 local APPLICATIONS = {
-  { name = 'QQ', icon = '/Applications/QQ.app/Contents/Resources/icon.icns' },
+  { name = 'Calflow', icon = '/Applications/Calflow.app/Contents/Resources/AppIcon.icns' },
   { name = 'WeChat', icon = '/Applications/WeChat.app/Contents/Resources/AppIcon.icns' },
-  { name = '企业微信', icon = '/Applications/企业微信.app/Contents/Resources/AppIcon.icns' },
-  { name = 'Google Chrome', icon = '/Applications/Google Chrome.app/Contents/Resources/app.icns' },
+  { name = 'Zed', icon = '/Applications/Zed.app/Contents/Resources/Zed.icns' },
+  { name = 'Vivaldi', icon = '/Applications/Vivaldi.app/Contents/Resources/app.icns' },
   { name = 'Visual Studio Code', icon = '/Applications/Visual Studio Code.app/Contents/Resources/Code.icns' },
-  { name = 'WebStorm', icon = '/Applications/WebStorm.app/Contents/Resources/webstorm.icns' }
+  { name = 'NeteaseMusic', icon = '/Applications/NeteaseMusic.app/Contents/Resources/163Music.icns' }
 }
 -- 菜单圆环大小
 local RING_SIZE = 280

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/toggle-recording-area-cover.tsx"],
+  "sourcesContent": ["import { open } from \"@raycast/api\";\n\nexport default async function Command() {\n  await open(\"screen-studio://toggle-recording-area-cover\");\n  return null;\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAqB,wBAErB,eAAOF,GAAiC,CACtC,eAAM,QAAK,6CAA6C,EACjD,IACT",
+  "names": ["toggle_recording_area_cover_exports", "__export", "Command", "__toCommonJS", "import_api"]
+}
