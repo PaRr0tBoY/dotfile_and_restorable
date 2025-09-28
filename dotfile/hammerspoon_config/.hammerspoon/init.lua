@@ -19,6 +19,7 @@ require('./scripts/finderUnion') -- Myfav
 require('./scripts/swiftQuit') -- This scripts implements the app 'swift quit' function
 require('./scripts/PIP')
 require('./scripts/ring')
+-- require('./scripts/ExcluAudio')
 
 -- require("./scripts/NotesCompanion") -- At least I tried, and it works, but not as good as notesCopilot which I vibe-coded
 
@@ -40,7 +41,7 @@ hs.loadSpoon("InputMethodIndicator")
 spoon.InputMethodIndicator:start({
     ABCColor = "#1E88E5",
     LocalLanguageColor = "#62C555",
-    mode = "adaptive",
+    mode = "onChange",
     showOnChangeDuration = 3,
     checkInterval = 0.01,
     dotSize = 6,

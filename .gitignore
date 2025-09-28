@@ -6,3 +6,7 @@ restore/Raycast_Config
 restore/Alfred_Backup
 restore/Preferences
 dotfile/Rime
+dotfile/com.add0n.node/host.js
+dotfile/com.add0n.node/messaging.js
+dotfile/com.add0n.node/run.sh
+dotfile/hammerspoon_config/.hammerspoon/CLAUDE.md

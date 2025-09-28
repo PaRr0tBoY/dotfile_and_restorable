@@ -19,7 +19,7 @@ local APPLICATIONS = {
   { name = 'WeChat', icon = '/Applications/WeChat.app/Contents/Resources/AppIcon.icns' },
   { name = 'Zed', icon = '/Applications/Zed.app/Contents/Resources/Zed.icns' },
   { name = 'Vivaldi', icon = '/Applications/Vivaldi.app/Contents/Resources/app.icns' },
-  { name = 'Visual Studio Code', icon = '/Applications/Visual Studio Code.app/Contents/Resources/Code.icns' },
+  { name = 'Notes', icon = '/Users/acid/Pictures/AppIcon/AppIcon.icns' },
   { name = 'NeteaseMusic', icon = '/Applications/NeteaseMusic.app/Contents/Resources/163Music.icns' }
 }
 -- 菜单圆环大小
@@ -297,13 +297,13 @@ end
 local function handleKeyEvent(event)
   local keyCode = event:getKeyCode()
   local type = event:getType()
-  local isAltDown = event:getFlags().alt
+  local isCmdDown = event:getFlags().cmd
 
   -- 按下了 alt + tab 后显示菜单
   if
     type == hs.eventtap.event.types.keyDown and
     keyCode == hs.keycodes.map.tab and
-    isAltDown
+    isCmdDown
   then
     handleShowMenu()
     -- 阻止事件传递，否则可能会导致 UI 焦点切换，因为按下了 tab 键
@@ -313,8 +313,8 @@ local function handleKeyEvent(event)
   -- 松开了 alt 后隐藏菜单
   if
     type == hs.eventtap.event.types.flagsChanged and
-    keyCode == hs.keycodes.map.alt and
-    not isAltDown
+    keyCode == hs.keycodes.map.cmd and
+    not isCmdDown
   then
     handleHideMenu()
   end

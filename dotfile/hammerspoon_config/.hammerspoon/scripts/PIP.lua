@@ -2,8 +2,15 @@ local utils = require('./utils')
 
 local CONFIG = {
     BUNDLE_ID = "com.vivaldi.Vivaldi",
-    PIP_WINDOW_NAME = "画中画",
     DEBOUNCE_TIME = 0.1
+}
+
+-- 匹配画中画窗口的关键词
+local PIP_KEYWORDS = {
+    "画中画",
+    "Picture in Picture",
+    "pip",
+    "PIP"
 }
 
 local function executeCommand(cmd)
@@ -14,6 +21,18 @@ end
 local function getCurrentWorkspaceName()
     local output = executeCommand("aerospace list-workspaces --focused")
     return output and output:match("^%s*([^\r\n]-)%s*$") or nil
+end
+
+local function isPIPWindow(windowTitle)
+    if not windowTitle then return false end
+
+    local lowerTitle = windowTitle:lower()
+    for _, keyword in ipairs(PIP_KEYWORDS) do
+        if lowerTitle:find(keyword:lower()) then
+            return true
+        end
+    end
+    return false
 end
 
 local function moveWindowToCurrentWorkspace(window)
@@ -30,13 +49,20 @@ local function PIPFollow(appObject)
         local apps = hs.application.applicationsForBundleID(CONFIG.BUNDLE_ID)
         if not apps or #apps == 0 then return false end
 
+        local movedAny = false
         for _, app in ipairs(apps) do
-            local window = app:findWindow(CONFIG.PIP_WINDOW_NAME)
-            if window then
-                return moveWindowToCurrentWorkspace(window)
+            local windows = app:allWindows()
+            for _, window in ipairs(windows) do
+                local title = window:title()
+                if isPIPWindow(title) then
+                    if moveWindowToCurrentWorkspace(window) then
+                        movedAny = true
+                        print("移动 PIP 窗口: " .. (title or "未知"))
+                    end
+                end
             end
         end
-        return false
+        return movedAny
     end)
 
     if not success then

@@ -52,10 +52,10 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 inner.horizontal = [{ monitor."built-in" = 9 }, 9]
 inner.vertical = [{ monitor."built-in" = 9 }, 9]
 outer.top = [{ monitor."built-in" = 22 }, 54]
-outer.bottom = [{ monitor."built-in" = 7 }, 9]
+outer.bottom = [{ monitor."built-in" = 7 }, 0]
 #outer.bottom = [{ monitor."built-in" = 33 }, 35]
-outer.left = [{ monitor."built-in" = 7 }, 9]
-outer.right = [{ monitor."built-in" = 7 }, 6]
+outer.left = [{ monitor."built-in" = 1 }, 0] #9
+outer.right = [{ monitor."built-in" = 1 }, 0] #6
 
 [exec]
 inherit-env-vars = true
